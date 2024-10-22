@@ -58,6 +58,7 @@ def process_winner():
 
 
 def run_gbd(is_priority):
+    gbd.current_player = None
     player = Player(
         name="Player",
         color=PlayerColor.WHITE,
@@ -110,7 +111,7 @@ def Button_1_onCommand(uiName, widgetName, threadings=0):
     if gbd is not None:
         gbd.clear_board()
         is_priority_work = is_priority
-        gbd.current_player = None
+        
         threading.Thread(target=run_gbd, args=(is_priority_work,)).start()
     Fun.SetVisible(uiName, "Button_1", False)
 
@@ -122,6 +123,5 @@ def SwitchButton_1_onSwitch(uiName, widgetName, value, threadings=0):
     if gbd is not None:
         gbd.clear_board()
         is_priority_work = is_priority
-        gbd.current_player = None
         threading.Thread(target=run_gbd, args=(is_priority_work,)).start()
     Fun.SetVisible(uiName, "Button_1", False)
