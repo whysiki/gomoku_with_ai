@@ -78,8 +78,8 @@ class FoolishGomokuAI:
                     board[y, x] = 0 
         return best_move
 
-if __name__ == "__main__":
-    pass
+# if __name__ == "__main__":
+    # pass
     # from game_object import PlayerColor
     # test_status_matrix = np.zeros((15, 15), dtype=int)
     # test_ai = FoolishGomokuAI("black", PlayerColor)
