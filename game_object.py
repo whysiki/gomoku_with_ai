@@ -2,6 +2,7 @@ from dataclasses import dataclass
 import numpy as np
 from loguru import logger
 import random
+from ai_actions import BaseGomokuAI
 
 
 @dataclass
@@ -33,8 +34,13 @@ class Player:
         self.type = type
 
     def test_ai_get_action(self, status_matrix: np.ndarray) -> tuple[int, int]:
-        if self.type == PlayerType.AI:
-            return random.choice(np.argwhere(status_matrix == 0))
+        # default ai color is black
+        color = self.color
+        value = PlayerColor.COLOR_NUM_DICT[color]
+        # if self.type == PlayerType.AI:
+        #     return random.choice(np.argwhere(status_matrix == 0))
+        baseai = BaseGomokuAI(color)
+        return baseai.get_best_action(status_matrix)
 
 
 class GomokuBoard:
