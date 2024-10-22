@@ -36,8 +36,6 @@ class  gomoku_with_ai:
         Fun.RunForm1_CallBack(uiName,"Load",gomoku_with_ai_cmd.Form_1_onLoad)
         #Add Some Logic Code Here: (Keep This Line of comments)
 
-
-
         #Exit Application: (Keep This Line of comments)
         if self.isTKroot == True and Fun.GetElement(self.uiName,"root"):
             self.root.protocol('WM_DELETE_WINDOW', self.Exit)
