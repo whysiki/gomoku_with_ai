@@ -29,7 +29,7 @@ logger.add(
 )
 
 gbd = None
-is_priority = True
+is_priority = False
 
 
 # Form 'Form_1's Load Event :
@@ -39,15 +39,9 @@ def Form_1_onLoad(uiName, threadings=0):
     gbd = GomokuBoard(canvas)
     width = canvas.winfo_width()
     height = canvas.winfo_height()
+    # hide restart button
+    Fun.SetVisible(uiName, "Button_1", False)
     print(f"GomokuBoard , width: {width}, height: {height}")  # 640, 640
-
-
-# Button 'Button_1' 's Command Event :
-# Restart Game
-def Button_1_onCommand(uiName, widgetName, threadings=0):
-    if gbd is not None:
-        gbd.clear_board()
-        threading.Thread(target=run_gbd, args=(is_priority,)).start()
 
 
 def run_gbd(is_priority):
@@ -64,6 +58,7 @@ def run_gbd(is_priority):
 
     def player_turn():
         if gbd.winner:
+            Fun.SetVisible(uiName, "Button_1", True)
             return
 
         gbd.set_current_player(player)
@@ -74,6 +69,7 @@ def run_gbd(is_priority):
 
     def ai_turn():
         if gbd.winner:
+            Fun.SetVisible(uiName, "Button_1", True)
             return
         gbd.set_current_player(ai_player)
         if not gbd.action_done:
@@ -88,19 +84,23 @@ def run_gbd(is_priority):
         ai_turn()
 
 
-# Button 'Button_2' 's Command Event :
+# restart
+def Button_1_onCommand(uiName, widgetName, threadings=0):
+    if gbd is not None:
+        gbd.clear_board()
+        is_priority_work = is_priority
+        threading.Thread(target=run_gbd, args=(is_priority_work,)).start()
+    Fun.SetVisible(uiName, "Button_1", False)
+
+
 # Start Game
 def Button_2_onCommand(uiName, widgetName, threadings=0):
-    if gbd is not None:
-        # 选择先手
-        response = messagebox.askquestion(
-            "选择先手",
-            "是否选择先手？\n是 (Yes) 代表先手\n否 (No) 代表后手",
-            icon="question",
-            type="yesno",
-            default="yes",
-        )
-        is_priority = response == "yes"
-
+    if gbd is not None and gbd.current_player is None:
         # 开启线程
-        threading.Thread(target=run_gbd, args=(is_priority,)).start()
+        is_priority_work = is_priority
+        threading.Thread(target=run_gbd, args=(is_priority_work,)).start()
+
+
+def SwitchButton_1_onSwitch(uiName, widgetName, value, threadings=0):
+    global is_priority
+    is_priority = value

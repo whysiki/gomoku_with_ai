@@ -636,3 +636,1800 @@
 2024-10-22 19:12:13 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
 2024-10-22 19:12:13 - INFO - 棋盘已清空
 2024-10-22 19:12:13 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:16:54 - INFO - 初始化棋盘完成, 接下来请设置当前玩家
+2024-10-22 19:21:59 - INFO - 初始化棋盘完成, 接下来请设置当前玩家
+2024-10-22 19:22:49 - INFO - 初始化棋盘完成, 接下来请设置当前玩家
+2024-10-22 19:22:52 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:22:54 - DEBUG - 当前位置: (9, 3)=('J', '4') 绘制棋子完成, 颜色: white
+2024-10-22 19:22:54 - INFO - 当前玩家: Player(name='AI', color='black', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:22:54 - DEBUG - 当前位置: (3, 6)=('D', '7') 绘制棋子完成, 颜色: black
+2024-10-22 19:22:54 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:22:55 - DEBUG - 当前位置: (9, 4)=('J', '5') 绘制棋子完成, 颜色: white
+2024-10-22 19:22:55 - INFO - 当前玩家: Player(name='AI', color='black', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:22:55 - DEBUG - 当前位置: (1, 1)=('B', '2') 绘制棋子完成, 颜色: black
+2024-10-22 19:22:55 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:22:55 - DEBUG - 当前位置: (9, 5)=('J', '6') 绘制棋子完成, 颜色: white
+2024-10-22 19:22:55 - INFO - 当前玩家: Player(name='AI', color='black', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:22:55 - DEBUG - 当前位置: (10, 13)=('K', '14') 绘制棋子完成, 颜色: black
+2024-10-22 19:22:55 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:22:56 - INFO - 棋盘已清空
+2024-10-22 19:22:56 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:22:57 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:22:57 - DEBUG - 当前位置: (3, 0)=('D', '1') 绘制棋子完成, 颜色: white
+2024-10-22 19:22:57 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:22:57 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:22:57 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:22:57 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:22:57 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:22:57 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:22:57 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:22:57 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:22:58 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:22:58 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:22:58 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:22:58 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:22:58 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:22:58 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:22:58 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:22:58 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:22:58 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:22:58 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:22:58 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:22:58 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:22:58 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:22:58 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:22:58 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:22:58 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:22:58 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:22:58 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:22:59 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:22:59 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:22:59 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:22:59 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:22:59 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:22:59 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:22:59 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:22:59 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:22:59 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:22:59 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:22:59 - DEBUG - 当前位置: (6, 2)=('G', '3') 绘制棋子完成, 颜色: black
+2024-10-22 19:22:59 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:22:59 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:22:59 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:22:59 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:22:59 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:22:59 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:22:59 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:22:59 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:00 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:00 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:00 - DEBUG - 当前位置: (6, 3)=('G', '4') 绘制棋子完成, 颜色: black
+2024-10-22 19:23:00 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:00 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:00 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:00 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:00 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:00 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:00 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:00 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:00 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:00 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:00 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:00 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:00 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:00 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:00 - DEBUG - 当前位置: (6, 4)=('G', '5') 绘制棋子完成, 颜色: black
+2024-10-22 19:23:00 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:00 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:00 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:00 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:01 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:01 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:01 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:01 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:01 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:01 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:01 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:01 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:01 - DEBUG - 当前位置: (6, 5)=('G', '6') 绘制棋子完成, 颜色: black
+2024-10-22 19:23:01 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:01 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:01 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:01 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:01 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:01 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:01 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:01 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:01 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:01 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:01 - DEBUG - 当前位置: (5, 5)=('F', '6') 绘制棋子完成, 颜色: black
+2024-10-22 19:23:02 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:02 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:02 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:02 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:02 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:02 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:02 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:02 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:02 - DEBUG - 当前位置: (4, 4)=('E', '5') 绘制棋子完成, 颜色: black
+2024-10-22 19:23:02 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:02 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:02 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:02 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:02 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:02 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:02 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:02 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:02 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:02 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:03 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:03 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:03 - DEBUG - 当前位置: (7, 6)=('H', '7') 绘制棋子完成, 颜色: black
+2024-10-22 19:23:03 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:03 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:03 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:03 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:03 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:03 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:03 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:03 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:03 - DEBUG - 当前位置: (6, 7)=('G', '8') 绘制棋子完成, 颜色: black
+2024-10-22 19:23:03 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:03 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:03 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:03 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:03 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:03 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:03 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:03 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:03 - DEBUG - 当前位置: (4, 7)=('E', '8') 绘制棋子完成, 颜色: black
+2024-10-22 19:23:03 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:03 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:04 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:04 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:04 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:04 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:04 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:04 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:04 - DEBUG - 当前位置: (4, 9)=('E', '10') 绘制棋子完成, 颜色: black
+2024-10-22 19:23:04 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:04 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:04 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:04 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:04 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:04 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:04 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:04 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:04 - DEBUG - 当前位置: (5, 9)=('F', '10') 绘制棋子完成, 颜色: black
+2024-10-22 19:23:04 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:04 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:04 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:04 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:04 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:04 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:05 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:05 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:05 - DEBUG - 当前位置: (7, 9)=('H', '10') 绘制棋子完成, 颜色: black
+2024-10-22 19:23:05 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:05 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:05 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:05 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:05 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:05 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:05 - DEBUG - 当前位置: (8, 7)=('I', '8') 绘制棋子完成, 颜色: black
+2024-10-22 19:23:05 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:05 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:05 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:05 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:05 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:05 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:05 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:05 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:05 - DEBUG - 当前位置: (8, 6)=('I', '7') 绘制棋子完成, 颜色: black
+2024-10-22 19:23:05 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:05 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:06 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:06 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:06 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:06 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:06 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:06 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:06 - DEBUG - 当前位置: (9, 4)=('J', '5') 绘制棋子完成, 颜色: black
+2024-10-22 19:23:06 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:06 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:06 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:06 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:06 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:06 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:06 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:06 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:06 - DEBUG - 当前位置: (9, 2)=('J', '3') 绘制棋子完成, 颜色: black
+2024-10-22 19:23:06 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:06 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:06 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:06 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:06 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:07 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:07 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:07 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:07 - DEBUG - 当前位置: (8, 2)=('I', '3') 绘制棋子完成, 颜色: black
+2024-10-22 19:23:07 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:07 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:07 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:07 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:07 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:07 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:07 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:07 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:07 - DEBUG - 当前位置: (8, 5)=('I', '6') 绘制棋子完成, 颜色: black
+2024-10-22 19:23:07 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:07 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:07 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:07 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:07 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:07 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:07 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:07 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:08 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:08 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:08 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:08 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:08 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:08 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:08 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:08 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:08 - DEBUG - 当前位置: (9, 6)=('J', '7') 绘制棋子完成, 颜色: black
+2024-10-22 19:23:08 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:08 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:08 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:08 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:08 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:08 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:08 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:08 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:08 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:08 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:09 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:09 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:09 - DEBUG - 当前位置: (10, 7)=('K', '8') 绘制棋子完成, 颜色: black
+2024-10-22 19:23:09 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:09 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:09 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:09 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:09 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:09 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:09 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:09 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:09 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:09 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:09 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:09 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:09 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:09 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:09 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:09 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:09 - DEBUG - 当前位置: (9, 9)=('J', '10') 绘制棋子完成, 颜色: black
+2024-10-22 19:23:10 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:10 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:10 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:10 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:10 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:10 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:10 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:10 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:10 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:10 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:10 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:10 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:10 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:10 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:10 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:10 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:10 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:10 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:10 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:10 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:11 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:11 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:11 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:11 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:11 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:11 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:11 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:11 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:11 - DEBUG - 当前位置: (8, 10)=('I', '11') 绘制棋子完成, 颜色: black
+2024-10-22 19:23:11 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:11 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:11 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:11 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:11 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:11 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:11 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:11 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:11 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:11 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:12 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:12 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:12 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:12 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:12 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:12 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:12 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:12 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:12 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:12 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:12 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:12 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:12 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:12 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:12 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:12 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:12 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:12 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:12 - DEBUG - 当前位置: (4, 10)=('E', '11') 绘制棋子完成, 颜色: black
+2024-10-22 19:23:13 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:13 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:13 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:13 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:13 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:13 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:13 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:13 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:13 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:13 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:13 - DEBUG - 当前位置: (3, 8)=('D', '9') 绘制棋子完成, 颜色: black
+2024-10-22 19:23:13 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:13 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:13 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:13 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:13 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:13 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:13 - DEBUG - 当前位置: (3, 5)=('D', '6') 绘制棋子完成, 颜色: black
+2024-10-22 19:23:13 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:13 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:13 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:13 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:14 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:14 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:14 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:14 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:14 - DEBUG - 当前位置: (3, 3)=('D', '4') 绘制棋子完成, 颜色: black
+2024-10-22 19:23:14 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:14 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:14 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:14 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:14 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:14 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:14 - DEBUG - 当前位置: (4, 2)=('E', '3') 绘制棋子完成, 颜色: black
+2024-10-22 19:23:14 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:14 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:14 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:14 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:14 - DEBUG - 当前位置: (5, 2)=('F', '3') 绘制棋子完成, 颜色: black
+2024-10-22 19:23:14 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:14 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:14 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:14 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:14 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:14 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:15 - DEBUG - 当前位置: (5, 3)=('F', '4') 绘制棋子完成, 颜色: black
+2024-10-22 19:23:15 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:15 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:15 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:15 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:15 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:15 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:15 - DEBUG - 当前位置: (9, 3)=('J', '4') 绘制棋子完成, 颜色: black
+2024-10-22 19:23:15 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:15 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:15 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:15 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:15 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:15 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:15 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:15 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:15 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:15 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:15 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:15 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:16 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:16 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:16 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:16 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:16 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:16 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:16 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:16 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:16 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:16 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:16 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:16 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:16 - INFO - 棋盘已清空
+2024-10-22 19:23:16 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:16 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:16 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:16 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:16 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:16 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:16 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:16 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:17 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:17 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:17 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:17 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:17 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:17 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:17 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:17 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:17 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:17 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:17 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:17 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:17 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:17 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:17 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:17 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:17 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:17 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:18 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:18 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:18 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:18 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:18 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:18 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:18 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:18 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:18 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:18 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:18 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:18 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:18 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:18 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:18 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:18 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:18 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:18 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:18 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:18 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:19 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:19 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:19 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:19 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:19 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:19 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:19 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:19 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:19 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:19 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:19 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:19 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:19 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:19 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:19 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:19 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:19 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:19 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:20 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:20 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:20 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:20 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:20 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:20 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:20 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:20 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:20 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:20 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:20 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:20 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:20 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:20 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:20 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:20 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:20 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:23:20 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:25:00 - INFO - 初始化棋盘完成, 接下来请设置当前玩家
+2024-10-22 19:25:05 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:25:06 - DEBUG - 当前位置: (10, 2)=('K', '3') 绘制棋子完成, 颜色: white
+2024-10-22 19:25:06 - INFO - 当前玩家: Player(name='AI', color='black', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:25:06 - DEBUG - 当前位置: (1, 8)=('B', '9') 绘制棋子完成, 颜色: black
+2024-10-22 19:25:06 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:25:06 - DEBUG - 当前位置: (11, 3)=('L', '4') 绘制棋子完成, 颜色: white
+2024-10-22 19:25:06 - INFO - 当前玩家: Player(name='AI', color='black', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:25:06 - DEBUG - 当前位置: (10, 12)=('K', '13') 绘制棋子完成, 颜色: black
+2024-10-22 19:25:06 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:25:07 - DEBUG - 当前位置: (11, 4)=('L', '5') 绘制棋子完成, 颜色: white
+2024-10-22 19:25:07 - INFO - 当前玩家: Player(name='AI', color='black', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:25:07 - DEBUG - 当前位置: (6, 2)=('G', '3') 绘制棋子完成, 颜色: black
+2024-10-22 19:25:07 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:25:08 - DEBUG - 当前位置: (11, 5)=('L', '6') 绘制棋子完成, 颜色: white
+2024-10-22 19:25:08 - INFO - 当前玩家: Player(name='AI', color='black', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:25:08 - DEBUG - 当前位置: (1, 11)=('B', '12') 绘制棋子完成, 颜色: black
+2024-10-22 19:25:08 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:25:08 - DEBUG - 当前位置: (11, 6)=('L', '7') 绘制棋子完成, 颜色: white
+2024-10-22 19:25:08 - INFO - 当前玩家: Player(name='AI', color='black', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:25:08 - DEBUG - 当前位置: (11, 10)=('L', '11') 绘制棋子完成, 颜色: black
+2024-10-22 19:25:08 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:25:08 - DEBUG - 当前位置: (11, 6)=('L', '7') 已经有棋子, 颜色: white
+2024-10-22 19:25:08 - INFO - 当前玩家: Player(name='AI', color='black', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:25:08 - DEBUG - 当前位置: (11, 7)=('L', '8') 绘制棋子完成, 颜色: black
+2024-10-22 19:25:08 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:25:11 - DEBUG - 当前位置: (11, 2)=('L', '3') 绘制棋子完成, 颜色: white
+2024-10-22 19:25:11 - INFO - Player(name='Player', color='white', type='human') 胜利
+2024-10-22 19:25:12 - INFO - Player(name='Player', color='white', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:25:13 - INFO - Player(name='Player', color='white', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:25:14 - INFO - Player(name='Player', color='white', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:25:16 - INFO - 棋盘已清空
+2024-10-22 19:25:18 - WARNING - 请先设置当前玩家
+2024-10-22 19:25:21 - WARNING - 请先设置当前玩家
+2024-10-22 19:25:22 - WARNING - 请先设置当前玩家
+2024-10-22 19:25:24 - INFO - 棋盘已清空
+2024-10-22 19:25:25 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:25:26 - DEBUG - 当前位置: (12, 3)=('M', '4') 绘制棋子完成, 颜色: white
+2024-10-22 19:25:26 - INFO - 当前玩家: Player(name='AI', color='black', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:25:26 - DEBUG - 当前位置: (0, 1)=('A', '2') 绘制棋子完成, 颜色: black
+2024-10-22 19:25:26 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:25:26 - DEBUG - 当前位置: (11, 4)=('L', '5') 绘制棋子完成, 颜色: white
+2024-10-22 19:25:26 - INFO - 当前玩家: Player(name='AI', color='black', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:25:26 - DEBUG - 当前位置: (0, 4)=('A', '5') 绘制棋子完成, 颜色: black
+2024-10-22 19:25:26 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:25:27 - DEBUG - 当前位置: (10, 5)=('K', '6') 绘制棋子完成, 颜色: white
+2024-10-22 19:25:27 - INFO - 当前玩家: Player(name='AI', color='black', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:25:27 - DEBUG - 当前位置: (8, 6)=('I', '7') 绘制棋子完成, 颜色: black
+2024-10-22 19:25:27 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:25:27 - DEBUG - 当前位置: (9, 6)=('J', '7') 绘制棋子完成, 颜色: white
+2024-10-22 19:25:28 - INFO - 当前玩家: Player(name='AI', color='black', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:25:28 - DEBUG - 当前位置: (1, 3)=('B', '4') 绘制棋子完成, 颜色: black
+2024-10-22 19:25:28 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:25:28 - DEBUG - 当前位置: (8, 7)=('I', '8') 绘制棋子完成, 颜色: white
+2024-10-22 19:25:28 - INFO - Player(name='Player', color='white', type='human') 胜利
+2024-10-22 19:25:29 - INFO - Player(name='Player', color='white', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:25:29 - INFO - Player(name='Player', color='white', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:25:31 - INFO - 棋盘已清空
+2024-10-22 19:26:12 - INFO - 初始化棋盘完成, 接下来请设置当前玩家
+2024-10-22 19:26:16 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:26:16 - DEBUG - 当前位置: (8, 5)=('I', '6') 绘制棋子完成, 颜色: white
+2024-10-22 19:26:16 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:26:17 - DEBUG - 当前位置: (9, 4)=('J', '5') 绘制棋子完成, 颜色: black
+2024-10-22 19:26:17 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:26:17 - DEBUG - 当前位置: (7, 11)=('H', '12') 绘制棋子完成, 颜色: white
+2024-10-22 19:26:17 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:26:18 - DEBUG - 当前位置: (9, 3)=('J', '4') 绘制棋子完成, 颜色: black
+2024-10-22 19:26:18 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:26:18 - DEBUG - 当前位置: (12, 0)=('M', '1') 绘制棋子完成, 颜色: white
+2024-10-22 19:26:18 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:26:19 - DEBUG - 当前位置: (8, 3)=('I', '4') 绘制棋子完成, 颜色: black
+2024-10-22 19:26:19 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:26:19 - DEBUG - 当前位置: (8, 8)=('I', '9') 绘制棋子完成, 颜色: white
+2024-10-22 19:26:19 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:26:20 - DEBUG - 当前位置: (7, 3)=('H', '4') 绘制棋子完成, 颜色: black
+2024-10-22 19:26:20 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:26:20 - DEBUG - 当前位置: (13, 2)=('N', '3') 绘制棋子完成, 颜色: white
+2024-10-22 19:26:20 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:26:20 - DEBUG - 当前位置: (6, 3)=('G', '4') 绘制棋子完成, 颜色: black
+2024-10-22 19:26:20 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:26:20 - DEBUG - 当前位置: (6, 3)=('G', '4') 已经有棋子, 颜色: white
+2024-10-22 19:26:21 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:26:21 - DEBUG - 当前位置: (5, 3)=('F', '4') 绘制棋子完成, 颜色: black
+2024-10-22 19:26:21 - INFO - Player(name='Player', color='black', type='human') 胜利
+2024-10-22 19:26:22 - INFO - Player(name='Player', color='black', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:26:23 - INFO - Player(name='Player', color='black', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:26:23 - INFO - Player(name='Player', color='black', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:26:23 - INFO - Player(name='Player', color='black', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:26:24 - INFO - Player(name='Player', color='black', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:26:24 - INFO - Player(name='Player', color='black', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:26:26 - INFO - 棋盘已清空
+2024-10-22 19:26:26 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:26:26 - DEBUG - 当前位置: (2, 0)=('C', '1') 绘制棋子完成, 颜色: white
+2024-10-22 19:26:26 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:26:27 - DEBUG - 当前位置: (3, 1)=('D', '2') 绘制棋子完成, 颜色: black
+2024-10-22 19:26:27 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:26:27 - DEBUG - 当前位置: (11, 7)=('L', '8') 绘制棋子完成, 颜色: white
+2024-10-22 19:26:27 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:26:28 - DEBUG - 当前位置: (4, 2)=('E', '3') 绘制棋子完成, 颜色: black
+2024-10-22 19:26:28 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:26:28 - DEBUG - 当前位置: (11, 4)=('L', '5') 绘制棋子完成, 颜色: white
+2024-10-22 19:26:28 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:26:28 - DEBUG - 当前位置: (5, 3)=('F', '4') 绘制棋子完成, 颜色: black
+2024-10-22 19:26:28 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:26:28 - DEBUG - 当前位置: (9, 12)=('J', '13') 绘制棋子完成, 颜色: white
+2024-10-22 19:26:28 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:26:29 - DEBUG - 当前位置: (6, 4)=('G', '5') 绘制棋子完成, 颜色: black
+2024-10-22 19:26:29 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:26:29 - DEBUG - 当前位置: (8, 11)=('I', '12') 绘制棋子完成, 颜色: white
+2024-10-22 19:26:29 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:26:29 - DEBUG - 当前位置: (7, 5)=('H', '6') 绘制棋子完成, 颜色: black
+2024-10-22 19:26:29 - INFO - Player(name='Player', color='black', type='human') 胜利
+2024-10-22 19:26:30 - INFO - Player(name='Player', color='black', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:26:31 - INFO - Player(name='Player', color='black', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:26:31 - INFO - Player(name='Player', color='black', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:26:32 - INFO - 棋盘已清空
+2024-10-22 19:26:32 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:26:32 - DEBUG - 当前位置: (13, 7)=('N', '8') 绘制棋子完成, 颜色: white
+2024-10-22 19:26:32 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:26:34 - DEBUG - 当前位置: (13, 6)=('N', '7') 绘制棋子完成, 颜色: black
+2024-10-22 19:26:34 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:26:34 - DEBUG - 当前位置: (1, 7)=('B', '8') 绘制棋子完成, 颜色: white
+2024-10-22 19:26:34 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:26:34 - DEBUG - 当前位置: (13, 5)=('N', '6') 绘制棋子完成, 颜色: black
+2024-10-22 19:26:34 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:26:34 - DEBUG - 当前位置: (5, 7)=('F', '8') 绘制棋子完成, 颜色: white
+2024-10-22 19:26:34 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:26:34 - DEBUG - 当前位置: (13, 4)=('N', '5') 绘制棋子完成, 颜色: black
+2024-10-22 19:26:34 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:26:34 - DEBUG - 当前位置: (3, 3)=('D', '4') 绘制棋子完成, 颜色: white
+2024-10-22 19:26:34 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:26:35 - DEBUG - 当前位置: (13, 3)=('N', '4') 绘制棋子完成, 颜色: black
+2024-10-22 19:26:35 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:26:35 - DEBUG - 当前位置: (0, 13)=('A', '14') 绘制棋子完成, 颜色: white
+2024-10-22 19:26:35 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:26:35 - DEBUG - 当前位置: (13, 2)=('N', '3') 绘制棋子完成, 颜色: black
+2024-10-22 19:26:35 - INFO - Player(name='Player', color='black', type='human') 胜利
+2024-10-22 19:26:36 - INFO - Player(name='Player', color='black', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:26:37 - INFO - Player(name='Player', color='black', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:26:38 - INFO - 棋盘已清空
+2024-10-22 19:26:38 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:26:38 - DEBUG - 当前位置: (14, 4)=('O', '5') 绘制棋子完成, 颜色: white
+2024-10-22 19:26:38 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:26:39 - DEBUG - 当前位置: (14, 3)=('O', '4') 绘制棋子完成, 颜色: black
+2024-10-22 19:26:39 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:26:39 - DEBUG - 当前位置: (11, 14)=('L', '15') 绘制棋子完成, 颜色: white
+2024-10-22 19:26:39 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:26:39 - DEBUG - 当前位置: (14, 2)=('O', '3') 绘制棋子完成, 颜色: black
+2024-10-22 19:26:39 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:26:39 - DEBUG - 当前位置: (4, 3)=('E', '4') 绘制棋子完成, 颜色: white
+2024-10-22 19:26:39 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:26:40 - DEBUG - 当前位置: (14, 1)=('O', '2') 绘制棋子完成, 颜色: black
+2024-10-22 19:26:40 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:26:40 - DEBUG - 当前位置: (2, 6)=('C', '7') 绘制棋子完成, 颜色: white
+2024-10-22 19:26:40 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:26:40 - DEBUG - 当前位置: (14, 0)=('O', '1') 绘制棋子完成, 颜色: black
+2024-10-22 19:26:40 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:26:40 - DEBUG - 当前位置: (10, 3)=('K', '4') 绘制棋子完成, 颜色: white
+2024-10-22 19:26:40 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:26:41 - DEBUG - 当前位置: (13, 0)=('N', '1') 绘制棋子完成, 颜色: black
+2024-10-22 19:26:41 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:26:41 - DEBUG - 当前位置: (14, 2)=('O', '3') 已经有棋子, 颜色: white
+2024-10-22 19:26:41 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:26:41 - DEBUG - 当前位置: (12, 0)=('M', '1') 绘制棋子完成, 颜色: black
+2024-10-22 19:26:41 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:26:41 - DEBUG - 当前位置: (11, 7)=('L', '8') 绘制棋子完成, 颜色: white
+2024-10-22 19:26:41 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:26:42 - DEBUG - 当前位置: (11, 0)=('L', '1') 绘制棋子完成, 颜色: black
+2024-10-22 19:26:42 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:26:42 - DEBUG - 当前位置: (12, 1)=('M', '2') 绘制棋子完成, 颜色: white
+2024-10-22 19:26:42 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:26:42 - DEBUG - 当前位置: (10, 0)=('K', '1') 绘制棋子完成, 颜色: black
+2024-10-22 19:26:42 - INFO - Player(name='Player', color='black', type='human') 胜利
+2024-10-22 19:26:43 - INFO - Player(name='Player', color='black', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:26:43 - INFO - Player(name='Player', color='black', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:26:44 - INFO - Player(name='Player', color='black', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:26:44 - INFO - Player(name='Player', color='black', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:26:49 - INFO - Player(name='Player', color='black', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:26:51 - INFO - Player(name='Player', color='black', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:26:51 - INFO - Player(name='Player', color='black', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:26:52 - INFO - Player(name='Player', color='black', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:26:53 - INFO - 棋盘已清空
+2024-10-22 19:26:53 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:26:54 - DEBUG - 当前位置: (11, 3)=('L', '4') 绘制棋子完成, 颜色: white
+2024-10-22 19:26:54 - INFO - 当前玩家: Player(name='AI', color='black', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:26:54 - DEBUG - 当前位置: (11, 12)=('L', '13') 绘制棋子完成, 颜色: black
+2024-10-22 19:26:54 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:26:55 - DEBUG - 当前位置: (11, 4)=('L', '5') 绘制棋子完成, 颜色: white
+2024-10-22 19:26:55 - INFO - 当前玩家: Player(name='AI', color='black', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:26:55 - DEBUG - 当前位置: (2, 11)=('C', '12') 绘制棋子完成, 颜色: black
+2024-10-22 19:26:55 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:26:55 - DEBUG - 当前位置: (10, 4)=('K', '5') 绘制棋子完成, 颜色: white
+2024-10-22 19:26:55 - INFO - 当前玩家: Player(name='AI', color='black', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:26:55 - DEBUG - 当前位置: (2, 4)=('C', '5') 绘制棋子完成, 颜色: black
+2024-10-22 19:26:55 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:26:55 - DEBUG - 当前位置: (9, 4)=('J', '5') 绘制棋子完成, 颜色: white
+2024-10-22 19:26:55 - INFO - 当前玩家: Player(name='AI', color='black', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:26:55 - DEBUG - 当前位置: (12, 13)=('M', '14') 绘制棋子完成, 颜色: black
+2024-10-22 19:26:55 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:26:56 - DEBUG - 当前位置: (9, 3)=('J', '4') 绘制棋子完成, 颜色: white
+2024-10-22 19:26:56 - INFO - 当前玩家: Player(name='AI', color='black', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:26:56 - DEBUG - 当前位置: (14, 11)=('O', '12') 绘制棋子完成, 颜色: black
+2024-10-22 19:26:56 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:26:56 - DEBUG - 当前位置: (8, 3)=('I', '4') 绘制棋子完成, 颜色: white
+2024-10-22 19:26:56 - INFO - 当前玩家: Player(name='AI', color='black', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:26:56 - DEBUG - 当前位置: (4, 13)=('E', '14') 绘制棋子完成, 颜色: black
+2024-10-22 19:26:56 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:26:56 - DEBUG - 当前位置: (7, 3)=('H', '4') 绘制棋子完成, 颜色: white
+2024-10-22 19:26:56 - INFO - 当前玩家: Player(name='AI', color='black', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:26:56 - DEBUG - 当前位置: (6, 14)=('G', '15') 绘制棋子完成, 颜色: black
+2024-10-22 19:26:56 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:26:57 - INFO - 棋盘已清空
+2024-10-22 19:26:57 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:26:59 - DEBUG - 当前位置: (12, 3)=('M', '4') 绘制棋子完成, 颜色: white
+2024-10-22 19:26:59 - INFO - 当前玩家: Player(name='AI', color='black', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:26:59 - DEBUG - 当前位置: (2, 7)=('C', '8') 绘制棋子完成, 颜色: black
+2024-10-22 19:26:59 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:27:00 - DEBUG - 当前位置: (12, 4)=('M', '5') 绘制棋子完成, 颜色: white
+2024-10-22 19:27:00 - INFO - 当前玩家: Player(name='AI', color='black', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:27:00 - DEBUG - 当前位置: (1, 14)=('B', '15') 绘制棋子完成, 颜色: black
+2024-10-22 19:27:00 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:27:00 - DEBUG - 当前位置: (12, 5)=('M', '6') 绘制棋子完成, 颜色: white
+2024-10-22 19:27:00 - INFO - 当前玩家: Player(name='AI', color='black', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:27:00 - DEBUG - 当前位置: (8, 11)=('I', '12') 绘制棋子完成, 颜色: black
+2024-10-22 19:27:00 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:27:00 - DEBUG - 当前位置: (12, 6)=('M', '7') 绘制棋子完成, 颜色: white
+2024-10-22 19:27:00 - INFO - 当前玩家: Player(name='AI', color='black', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:27:00 - DEBUG - 当前位置: (4, 1)=('E', '2') 绘制棋子完成, 颜色: black
+2024-10-22 19:27:00 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:27:01 - DEBUG - 当前位置: (12, 7)=('M', '8') 绘制棋子完成, 颜色: white
+2024-10-22 19:27:01 - INFO - Player(name='Player', color='white', type='human') 胜利
+2024-10-22 19:27:02 - INFO - Player(name='Player', color='white', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:27:02 - INFO - Player(name='Player', color='white', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:27:03 - INFO - Player(name='Player', color='white', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:27:03 - INFO - Player(name='Player', color='white', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:27:06 - INFO - 棋盘已清空
+2024-10-22 19:27:06 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:27:12 - DEBUG - 当前位置: (13, 3)=('N', '4') 绘制棋子完成, 颜色: white
+2024-10-22 19:27:12 - INFO - 当前玩家: Player(name='AI', color='black', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:27:12 - DEBUG - 当前位置: (4, 11)=('E', '12') 绘制棋子完成, 颜色: black
+2024-10-22 19:27:13 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:27:13 - DEBUG - 当前位置: (13, 4)=('N', '5') 绘制棋子完成, 颜色: white
+2024-10-22 19:27:13 - INFO - 当前玩家: Player(name='AI', color='black', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:27:13 - DEBUG - 当前位置: (2, 8)=('C', '9') 绘制棋子完成, 颜色: black
+2024-10-22 19:27:13 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:27:13 - DEBUG - 当前位置: (13, 5)=('N', '6') 绘制棋子完成, 颜色: white
+2024-10-22 19:27:13 - INFO - 当前玩家: Player(name='AI', color='black', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:27:13 - DEBUG - 当前位置: (13, 7)=('N', '8') 绘制棋子完成, 颜色: black
+2024-10-22 19:27:13 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:27:14 - DEBUG - 当前位置: (13, 6)=('N', '7') 绘制棋子完成, 颜色: white
+2024-10-22 19:27:14 - INFO - 当前玩家: Player(name='AI', color='black', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:27:14 - DEBUG - 当前位置: (0, 11)=('A', '12') 绘制棋子完成, 颜色: black
+2024-10-22 19:27:14 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:27:14 - DEBUG - 当前位置: (12, 6)=('M', '7') 绘制棋子完成, 颜色: white
+2024-10-22 19:27:14 - INFO - 当前玩家: Player(name='AI', color='black', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:27:14 - DEBUG - 当前位置: (14, 1)=('O', '2') 绘制棋子完成, 颜色: black
+2024-10-22 19:27:14 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:27:15 - DEBUG - 当前位置: (11, 6)=('L', '7') 绘制棋子完成, 颜色: white
+2024-10-22 19:27:15 - INFO - 当前玩家: Player(name='AI', color='black', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:27:15 - DEBUG - 当前位置: (10, 4)=('K', '5') 绘制棋子完成, 颜色: black
+2024-10-22 19:27:15 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:27:15 - DEBUG - 当前位置: (10, 6)=('K', '7') 绘制棋子完成, 颜色: white
+2024-10-22 19:27:15 - INFO - 当前玩家: Player(name='AI', color='black', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:27:15 - DEBUG - 当前位置: (2, 10)=('C', '11') 绘制棋子完成, 颜色: black
+2024-10-22 19:27:15 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:27:16 - DEBUG - 当前位置: (9, 6)=('J', '7') 绘制棋子完成, 颜色: white
+2024-10-22 19:27:16 - INFO - Player(name='Player', color='white', type='human') 胜利
+2024-10-22 19:27:16 - INFO - Player(name='Player', color='white', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:27:17 - INFO - Player(name='Player', color='white', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:27:17 - INFO - Player(name='Player', color='white', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:27:17 - INFO - 棋盘已清空
+2024-10-22 19:27:17 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:27:18 - DEBUG - 当前位置: (14, 4)=('O', '5') 绘制棋子完成, 颜色: white
+2024-10-22 19:27:18 - INFO - 当前玩家: Player(name='AI', color='black', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:27:18 - DEBUG - 当前位置: (3, 13)=('D', '14') 绘制棋子完成, 颜色: black
+2024-10-22 19:27:18 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:27:19 - DEBUG - 当前位置: (13, 4)=('N', '5') 绘制棋子完成, 颜色: white
+2024-10-22 19:27:19 - INFO - 当前玩家: Player(name='AI', color='black', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:27:19 - DEBUG - 当前位置: (6, 11)=('G', '12') 绘制棋子完成, 颜色: black
+2024-10-22 19:27:19 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:27:19 - DEBUG - 当前位置: (12, 4)=('M', '5') 绘制棋子完成, 颜色: white
+2024-10-22 19:27:19 - INFO - 当前玩家: Player(name='AI', color='black', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:27:19 - DEBUG - 当前位置: (14, 11)=('O', '12') 绘制棋子完成, 颜色: black
+2024-10-22 19:27:20 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:27:20 - DEBUG - 当前位置: (11, 4)=('L', '5') 绘制棋子完成, 颜色: white
+2024-10-22 19:27:20 - INFO - 当前玩家: Player(name='AI', color='black', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:27:20 - DEBUG - 当前位置: (2, 10)=('C', '11') 绘制棋子完成, 颜色: black
+2024-10-22 19:27:20 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:27:20 - DEBUG - 当前位置: (10, 4)=('K', '5') 绘制棋子完成, 颜色: white
+2024-10-22 19:27:20 - INFO - Player(name='Player', color='white', type='human') 胜利
+2024-10-22 19:27:20 - INFO - Player(name='Player', color='white', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:27:21 - INFO - Player(name='Player', color='white', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:27:22 - INFO - 棋盘已清空
+2024-10-22 19:27:22 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:27:22 - DEBUG - 当前位置: (14, 5)=('O', '6') 绘制棋子完成, 颜色: white
+2024-10-22 19:27:22 - INFO - 当前玩家: Player(name='AI', color='black', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:27:22 - DEBUG - 当前位置: (11, 10)=('L', '11') 绘制棋子完成, 颜色: black
+2024-10-22 19:27:22 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:27:23 - DEBUG - 当前位置: (14, 6)=('O', '7') 绘制棋子完成, 颜色: white
+2024-10-22 19:27:23 - INFO - 当前玩家: Player(name='AI', color='black', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:27:23 - DEBUG - 当前位置: (2, 1)=('C', '2') 绘制棋子完成, 颜色: black
+2024-10-22 19:27:23 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:27:23 - DEBUG - 当前位置: (14, 7)=('O', '8') 绘制棋子完成, 颜色: white
+2024-10-22 19:27:23 - INFO - 当前玩家: Player(name='AI', color='black', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:27:23 - DEBUG - 当前位置: (1, 14)=('B', '15') 绘制棋子完成, 颜色: black
+2024-10-22 19:27:23 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:27:23 - DEBUG - 当前位置: (14, 8)=('O', '9') 绘制棋子完成, 颜色: white
+2024-10-22 19:27:23 - INFO - 当前玩家: Player(name='AI', color='black', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:27:23 - DEBUG - 当前位置: (10, 0)=('K', '1') 绘制棋子完成, 颜色: black
+2024-10-22 19:27:23 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:27:24 - DEBUG - 当前位置: (14, 9)=('O', '10') 绘制棋子完成, 颜色: white
+2024-10-22 19:27:24 - INFO - Player(name='Player', color='white', type='human') 胜利
+2024-10-22 19:27:24 - INFO - Player(name='Player', color='white', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:27:24 - INFO - Player(name='Player', color='white', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:27:25 - INFO - 棋盘已清空
+2024-10-22 19:27:25 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:27:28 - DEBUG - 当前位置: (14, 3)=('O', '4') 绘制棋子完成, 颜色: white
+2024-10-22 19:27:28 - INFO - 当前玩家: Player(name='AI', color='black', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:27:28 - DEBUG - 当前位置: (5, 3)=('F', '4') 绘制棋子完成, 颜色: black
+2024-10-22 19:27:28 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:27:29 - DEBUG - 当前位置: (14, 4)=('O', '5') 绘制棋子完成, 颜色: white
+2024-10-22 19:27:29 - INFO - 当前玩家: Player(name='AI', color='black', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:27:29 - DEBUG - 当前位置: (4, 4)=('E', '5') 绘制棋子完成, 颜色: black
+2024-10-22 19:27:29 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:27:29 - DEBUG - 当前位置: (14, 5)=('O', '6') 绘制棋子完成, 颜色: white
+2024-10-22 19:27:30 - INFO - 当前玩家: Player(name='AI', color='black', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:27:30 - DEBUG - 当前位置: (7, 1)=('H', '2') 绘制棋子完成, 颜色: black
+2024-10-22 19:27:30 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:27:30 - DEBUG - 当前位置: (14, 6)=('O', '7') 绘制棋子完成, 颜色: white
+2024-10-22 19:27:30 - INFO - 当前玩家: Player(name='AI', color='black', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:27:30 - DEBUG - 当前位置: (11, 13)=('L', '14') 绘制棋子完成, 颜色: black
+2024-10-22 19:27:30 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:27:30 - DEBUG - 当前位置: (14, 7)=('O', '8') 绘制棋子完成, 颜色: white
+2024-10-22 19:27:30 - INFO - Player(name='Player', color='white', type='human') 胜利
+2024-10-22 19:27:31 - INFO - Player(name='Player', color='white', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:27:31 - INFO - Player(name='Player', color='white', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:27:32 - INFO - 棋盘已清空
+2024-10-22 19:27:32 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:27:32 - DEBUG - 当前位置: (7, 7)=('H', '8') 绘制棋子完成, 颜色: white
+2024-10-22 19:27:33 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:27:35 - DEBUG - 当前位置: (8, 7)=('I', '8') 绘制棋子完成, 颜色: black
+2024-10-22 19:27:35 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:27:35 - DEBUG - 当前位置: (1, 14)=('B', '15') 绘制棋子完成, 颜色: white
+2024-10-22 19:27:35 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:27:35 - DEBUG - 当前位置: (9, 7)=('J', '8') 绘制棋子完成, 颜色: black
+2024-10-22 19:27:35 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:27:35 - DEBUG - 当前位置: (8, 1)=('I', '2') 绘制棋子完成, 颜色: white
+2024-10-22 19:27:35 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:27:35 - DEBUG - 当前位置: (10, 7)=('K', '8') 绘制棋子完成, 颜色: black
+2024-10-22 19:27:35 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:27:35 - DEBUG - 当前位置: (0, 8)=('A', '9') 绘制棋子完成, 颜色: white
+2024-10-22 19:27:36 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:27:36 - DEBUG - 当前位置: (11, 7)=('L', '8') 绘制棋子完成, 颜色: black
+2024-10-22 19:27:36 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:27:36 - DEBUG - 当前位置: (2, 7)=('C', '8') 绘制棋子完成, 颜色: white
+2024-10-22 19:27:36 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:27:36 - DEBUG - 当前位置: (12, 7)=('M', '8') 绘制棋子完成, 颜色: black
+2024-10-22 19:27:36 - INFO - Player(name='Player', color='black', type='human') 胜利
+2024-10-22 19:27:37 - INFO - Player(name='Player', color='black', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:27:38 - INFO - 棋盘已清空
+2024-10-22 19:27:38 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:27:38 - DEBUG - 当前位置: (11, 4)=('L', '5') 绘制棋子完成, 颜色: white
+2024-10-22 19:27:38 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:27:41 - DEBUG - 当前位置: (14, 4)=('O', '5') 绘制棋子完成, 颜色: black
+2024-10-22 19:27:41 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:27:41 - DEBUG - 当前位置: (12, 2)=('M', '3') 绘制棋子完成, 颜色: white
+2024-10-22 19:27:41 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:27:42 - DEBUG - 当前位置: (13, 5)=('N', '6') 绘制棋子完成, 颜色: black
+2024-10-22 19:27:42 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:27:42 - DEBUG - 当前位置: (5, 6)=('F', '7') 绘制棋子完成, 颜色: white
+2024-10-22 19:27:42 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:27:42 - DEBUG - 当前位置: (12, 6)=('M', '7') 绘制棋子完成, 颜色: black
+2024-10-22 19:27:42 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:27:42 - DEBUG - 当前位置: (5, 8)=('F', '9') 绘制棋子完成, 颜色: white
+2024-10-22 19:27:42 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:27:43 - DEBUG - 当前位置: (11, 7)=('L', '8') 绘制棋子完成, 颜色: black
+2024-10-22 19:27:43 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:27:43 - DEBUG - 当前位置: (4, 12)=('E', '13') 绘制棋子完成, 颜色: white
+2024-10-22 19:27:43 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:27:43 - DEBUG - 当前位置: (10, 8)=('K', '9') 绘制棋子完成, 颜色: black
+2024-10-22 19:27:43 - INFO - Player(name='Player', color='black', type='human') 胜利
+2024-10-22 19:27:44 - INFO - Player(name='Player', color='black', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:27:45 - INFO - Player(name='Player', color='black', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:27:46 - INFO - 棋盘已清空
+2024-10-22 19:27:46 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:27:46 - DEBUG - 当前位置: (12, 13)=('M', '14') 绘制棋子完成, 颜色: white
+2024-10-22 19:27:46 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:27:47 - DEBUG - 当前位置: (14, 4)=('O', '5') 绘制棋子完成, 颜色: black
+2024-10-22 19:27:47 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:27:47 - DEBUG - 当前位置: (10, 0)=('K', '1') 绘制棋子完成, 颜色: white
+2024-10-22 19:27:47 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:27:47 - DEBUG - 当前位置: (14, 5)=('O', '6') 绘制棋子完成, 颜色: black
+2024-10-22 19:27:47 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:27:47 - DEBUG - 当前位置: (8, 13)=('I', '14') 绘制棋子完成, 颜色: white
+2024-10-22 19:27:47 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:27:47 - DEBUG - 当前位置: (14, 6)=('O', '7') 绘制棋子完成, 颜色: black
+2024-10-22 19:27:47 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:27:47 - DEBUG - 当前位置: (12, 0)=('M', '1') 绘制棋子完成, 颜色: white
+2024-10-22 19:27:47 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:27:47 - DEBUG - 当前位置: (14, 7)=('O', '8') 绘制棋子完成, 颜色: black
+2024-10-22 19:27:48 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:27:48 - DEBUG - 当前位置: (0, 4)=('A', '5') 绘制棋子完成, 颜色: white
+2024-10-22 19:27:48 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:27:48 - DEBUG - 当前位置: (14, 8)=('O', '9') 绘制棋子完成, 颜色: black
+2024-10-22 19:27:48 - INFO - Player(name='Player', color='black', type='human') 胜利
+2024-10-22 19:27:48 - INFO - Player(name='Player', color='black', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:27:49 - INFO - Player(name='Player', color='black', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:27:49 - INFO - Player(name='Player', color='black', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:27:50 - INFO - 棋盘已清空
+2024-10-22 19:27:50 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:27:50 - DEBUG - 当前位置: (2, 4)=('C', '5') 绘制棋子完成, 颜色: white
+2024-10-22 19:27:50 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:27:51 - DEBUG - 当前位置: (14, 4)=('O', '5') 绘制棋子完成, 颜色: black
+2024-10-22 19:27:51 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:27:51 - DEBUG - 当前位置: (12, 4)=('M', '5') 绘制棋子完成, 颜色: white
+2024-10-22 19:27:51 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:27:51 - DEBUG - 当前位置: (14, 5)=('O', '6') 绘制棋子完成, 颜色: black
+2024-10-22 19:27:51 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:27:51 - DEBUG - 当前位置: (7, 12)=('H', '13') 绘制棋子完成, 颜色: white
+2024-10-22 19:27:51 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:27:51 - DEBUG - 当前位置: (14, 6)=('O', '7') 绘制棋子完成, 颜色: black
+2024-10-22 19:27:51 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:27:51 - DEBUG - 当前位置: (14, 13)=('O', '14') 绘制棋子完成, 颜色: white
+2024-10-22 19:27:52 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:27:52 - DEBUG - 当前位置: (14, 7)=('O', '8') 绘制棋子完成, 颜色: black
+2024-10-22 19:27:52 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:27:52 - DEBUG - 当前位置: (11, 9)=('L', '10') 绘制棋子完成, 颜色: white
+2024-10-22 19:27:52 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:27:52 - DEBUG - 当前位置: (14, 8)=('O', '9') 绘制棋子完成, 颜色: black
+2024-10-22 19:27:52 - INFO - Player(name='Player', color='black', type='human') 胜利
+2024-10-22 19:27:52 - INFO - Player(name='Player', color='black', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:27:53 - INFO - Player(name='Player', color='black', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:27:54 - INFO - 棋盘已清空
+2024-10-22 19:27:54 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:27:54 - DEBUG - 当前位置: (2, 1)=('C', '2') 绘制棋子完成, 颜色: white
+2024-10-22 19:27:54 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:27:55 - DEBUG - 当前位置: (14, 4)=('O', '5') 绘制棋子完成, 颜色: black
+2024-10-22 19:27:55 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:27:55 - DEBUG - 当前位置: (10, 4)=('K', '5') 绘制棋子完成, 颜色: white
+2024-10-22 19:27:55 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:27:55 - DEBUG - 当前位置: (13, 4)=('N', '5') 绘制棋子完成, 颜色: black
+2024-10-22 19:27:55 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:27:55 - DEBUG - 当前位置: (8, 12)=('I', '13') 绘制棋子完成, 颜色: white
+2024-10-22 19:27:55 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:27:56 - DEBUG - 当前位置: (12, 4)=('M', '5') 绘制棋子完成, 颜色: black
+2024-10-22 19:27:56 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:27:56 - DEBUG - 当前位置: (9, 4)=('J', '5') 绘制棋子完成, 颜色: white
+2024-10-22 19:27:56 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:27:56 - DEBUG - 当前位置: (11, 3)=('L', '4') 绘制棋子完成, 颜色: black
+2024-10-22 19:27:56 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:27:56 - DEBUG - 当前位置: (9, 10)=('J', '11') 绘制棋子完成, 颜色: white
+2024-10-22 19:27:57 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:27:57 - DEBUG - 当前位置: (10, 2)=('K', '3') 绘制棋子完成, 颜色: black
+2024-10-22 19:27:57 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:27:57 - DEBUG - 当前位置: (13, 9)=('N', '10') 绘制棋子完成, 颜色: white
+2024-10-22 19:27:57 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:27:57 - DEBUG - 当前位置: (9, 1)=('J', '2') 绘制棋子完成, 颜色: black
+2024-10-22 19:27:58 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:27:58 - DEBUG - 当前位置: (6, 13)=('G', '14') 绘制棋子完成, 颜色: white
+2024-10-22 19:27:58 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:27:58 - DEBUG - 当前位置: (8, 0)=('I', '1') 绘制棋子完成, 颜色: black
+2024-10-22 19:27:58 - INFO - Player(name='Player', color='black', type='human') 胜利
+2024-10-22 19:27:59 - INFO - Player(name='Player', color='black', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:27:59 - INFO - Player(name='Player', color='black', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:28:00 - INFO - Player(name='Player', color='black', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:28:00 - INFO - Player(name='Player', color='black', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:28:01 - INFO - Player(name='Player', color='black', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:28:07 - INFO - Player(name='Player', color='black', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:28:07 - INFO - Player(name='Player', color='black', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:28:08 - INFO - Player(name='Player', color='black', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:28:09 - INFO - Player(name='Player', color='black', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:28:09 - INFO - 棋盘已清空
+2024-10-22 19:28:09 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:28:09 - DEBUG - 当前位置: (1, 8)=('B', '9') 绘制棋子完成, 颜色: white
+2024-10-22 19:28:09 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:28:12 - INFO - 棋盘已清空
+2024-10-22 19:28:12 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:28:12 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:28:12 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:28:12 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:28:12 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:28:12 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:28:12 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:28:12 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:28:12 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:28:12 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:28:12 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:28:12 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:28:13 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:28:13 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:28:13 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:28:13 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:28:13 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:28:13 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:28:13 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:28:13 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:28:13 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:28:13 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:28:13 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:28:13 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:28:13 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:28:13 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:28:13 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:28:13 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:28:13 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:28:13 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:28:13 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:28:14 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:28:14 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:28:14 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:28:14 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:28:14 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:28:14 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:28:14 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:28:14 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:28:14 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:28:14 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:28:14 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:28:14 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:28:14 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:28:14 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:28:14 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:28:14 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:28:14 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:28:14 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:28:14 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:28:15 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:28:15 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:28:15 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:28:15 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:28:15 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:28:15 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:28:15 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:28:15 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:28:15 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:28:15 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:28:15 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:28:15 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:28:15 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:28:15 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:28:15 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:28:15 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:28:15 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:28:15 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:28:15 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:28:16 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:28:16 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:28:16 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:28:16 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:28:16 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:28:16 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:28:16 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:28:16 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:28:16 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:28:16 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:28:16 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:28:16 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:28:16 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:28:16 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:28:16 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:28:16 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:28:16 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:28:16 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:28:17 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:28:17 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:28:17 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:28:17 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:28:17 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:28:17 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:28:17 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:28:17 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:28:17 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:28:17 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:28:17 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:28:17 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:28:17 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:28:17 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:28:17 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:28:17 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:28:17 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:28:17 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:28:18 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:28:18 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:28:18 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:28:18 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:28:18 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:28:18 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:28:18 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:28:18 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:28:18 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:28:18 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:28:18 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:28:18 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:28:18 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:28:18 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:28:18 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:28:18 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:28:18 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:29:32 - INFO - 初始化棋盘完成, 接下来请设置当前玩家
+2024-10-22 19:29:44 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:29:44 - DEBUG - 当前位置: (10, 0)=('K', '1') 绘制棋子完成, 颜色: white
+2024-10-22 19:29:44 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:29:46 - DEBUG - 当前位置: (10, 1)=('K', '2') 绘制棋子完成, 颜色: black
+2024-10-22 19:29:46 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:29:46 - DEBUG - 当前位置: (5, 8)=('F', '9') 绘制棋子完成, 颜色: white
+2024-10-22 19:29:46 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:29:46 - DEBUG - 当前位置: (10, 2)=('K', '3') 绘制棋子完成, 颜色: black
+2024-10-22 19:29:47 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:29:47 - DEBUG - 当前位置: (10, 5)=('K', '6') 绘制棋子完成, 颜色: white
+2024-10-22 19:29:47 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:29:47 - DEBUG - 当前位置: (10, 3)=('K', '4') 绘制棋子完成, 颜色: black
+2024-10-22 19:29:47 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:29:47 - DEBUG - 当前位置: (9, 6)=('J', '7') 绘制棋子完成, 颜色: white
+2024-10-22 19:29:47 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:29:48 - DEBUG - 当前位置: (10, 4)=('K', '5') 绘制棋子完成, 颜色: black
+2024-10-22 19:29:48 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:29:48 - DEBUG - 当前位置: (9, 5)=('J', '6') 绘制棋子完成, 颜色: white
+2024-10-22 19:29:48 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:29:49 - DEBUG - 当前位置: (11, 4)=('L', '5') 绘制棋子完成, 颜色: black
+2024-10-22 19:29:49 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:29:49 - DEBUG - 当前位置: (8, 14)=('I', '15') 绘制棋子完成, 颜色: white
+2024-10-22 19:29:49 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:29:50 - DEBUG - 当前位置: (12, 4)=('M', '5') 绘制棋子完成, 颜色: black
+2024-10-22 19:29:50 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:29:50 - DEBUG - 当前位置: (10, 1)=('K', '2') 已经有棋子, 颜色: white
+2024-10-22 19:29:50 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:29:51 - DEBUG - 当前位置: (13, 4)=('N', '5') 绘制棋子完成, 颜色: black
+2024-10-22 19:29:51 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:29:51 - DEBUG - 当前位置: (4, 2)=('E', '3') 绘制棋子完成, 颜色: white
+2024-10-22 19:29:52 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:29:52 - DEBUG - 当前位置: (13, 5)=('N', '6') 绘制棋子完成, 颜色: black
+2024-10-22 19:29:52 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:29:52 - DEBUG - 当前位置: (9, 0)=('J', '1') 绘制棋子完成, 颜色: white
+2024-10-22 19:29:52 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:29:52 - DEBUG - 当前位置: (12, 5)=('M', '6') 绘制棋子完成, 颜色: black
+2024-10-22 19:29:52 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:29:52 - DEBUG - 当前位置: (13, 8)=('N', '9') 绘制棋子完成, 颜色: white
+2024-10-22 19:29:52 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:29:53 - DEBUG - 当前位置: (12, 6)=('M', '7') 绘制棋子完成, 颜色: black
+2024-10-22 19:29:53 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:29:53 - DEBUG - 当前位置: (12, 14)=('M', '15') 绘制棋子完成, 颜色: white
+2024-10-22 19:29:53 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:29:53 - DEBUG - 当前位置: (12, 7)=('M', '8') 绘制棋子完成, 颜色: black
+2024-10-22 19:29:53 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:29:53 - DEBUG - 当前位置: (13, 12)=('N', '13') 绘制棋子完成, 颜色: white
+2024-10-22 19:29:53 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:29:53 - DEBUG - 当前位置: (12, 8)=('M', '9') 绘制棋子完成, 颜色: black
+2024-10-22 19:29:53 - INFO - Player(name='Player', color='black', type='human') 胜利
+2024-10-22 19:29:54 - INFO - Player(name='Player', color='black', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:29:54 - INFO - Player(name='Player', color='black', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:29:54 - INFO - Player(name='Player', color='black', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:29:55 - INFO - Player(name='Player', color='black', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:29:55 - INFO - Player(name='Player', color='black', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:29:55 - INFO - Player(name='Player', color='black', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:29:55 - INFO - Player(name='Player', color='black', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:29:56 - INFO - Player(name='Player', color='black', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:29:58 - INFO - Player(name='Player', color='black', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:29:59 - INFO - Player(name='Player', color='black', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:29:59 - INFO - Player(name='Player', color='black', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:30:00 - INFO - 棋盘已清空
+2024-10-22 19:30:00 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:30:00 - DEBUG - 当前位置: (13, 4)=('N', '5') 绘制棋子完成, 颜色: white
+2024-10-22 19:30:00 - INFO - 当前玩家: Player(name='AI', color='black', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:30:00 - DEBUG - 当前位置: (0, 12)=('A', '13') 绘制棋子完成, 颜色: black
+2024-10-22 19:30:01 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:30:01 - DEBUG - 当前位置: (13, 5)=('N', '6') 绘制棋子完成, 颜色: white
+2024-10-22 19:30:01 - INFO - 当前玩家: Player(name='AI', color='black', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:30:01 - DEBUG - 当前位置: (8, 1)=('I', '2') 绘制棋子完成, 颜色: black
+2024-10-22 19:30:01 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:30:01 - DEBUG - 当前位置: (13, 6)=('N', '7') 绘制棋子完成, 颜色: white
+2024-10-22 19:30:01 - INFO - 当前玩家: Player(name='AI', color='black', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:30:01 - DEBUG - 当前位置: (4, 5)=('E', '6') 绘制棋子完成, 颜色: black
+2024-10-22 19:30:01 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:30:01 - DEBUG - 当前位置: (13, 7)=('N', '8') 绘制棋子完成, 颜色: white
+2024-10-22 19:30:02 - INFO - 当前玩家: Player(name='AI', color='black', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:30:02 - DEBUG - 当前位置: (5, 11)=('F', '12') 绘制棋子完成, 颜色: black
+2024-10-22 19:30:02 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:30:02 - DEBUG - 当前位置: (13, 8)=('N', '9') 绘制棋子完成, 颜色: white
+2024-10-22 19:30:02 - INFO - Player(name='Player', color='white', type='human') 胜利
+2024-10-22 19:30:02 - INFO - Player(name='Player', color='white', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:30:03 - INFO - Player(name='Player', color='white', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:30:03 - INFO - Player(name='Player', color='white', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:30:03 - INFO - Player(name='Player', color='white', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:30:03 - INFO - Player(name='Player', color='white', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:30:03 - INFO - Player(name='Player', color='white', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:30:06 - INFO - 棋盘已清空
+2024-10-22 19:30:06 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:30:06 - DEBUG - 当前位置: (0, 13)=('A', '14') 绘制棋子完成, 颜色: white
+2024-10-22 19:30:06 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:30:10 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:30:10 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:30:10 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:30:10 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:30:11 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:30:11 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:30:11 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:30:11 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:30:11 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:30:11 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:30:11 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:30:11 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:30:11 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:30:11 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:30:11 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:30:11 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:30:11 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:30:11 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:30:11 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:30:11 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:30:11 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:30:11 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:30:12 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:30:12 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:30:12 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:30:12 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:30:12 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:30:12 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:30:12 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:30:12 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:30:12 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:30:12 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:30:12 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:30:12 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:30:12 - DEBUG - 当前位置: (2, 10)=('C', '11') 绘制棋子完成, 颜色: black
+2024-10-22 19:30:12 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:30:12 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:30:12 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:30:12 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:30:12 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:30:12 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:30:12 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:30:12 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:30:13 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:30:13 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:30:13 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:30:13 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:30:13 - DEBUG - 当前位置: (3, 10)=('D', '11') 绘制棋子完成, 颜色: black
+2024-10-22 19:30:13 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:30:13 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:30:13 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:30:13 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:30:13 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:30:13 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:30:13 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:30:13 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:30:13 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:30:13 - DEBUG - 当前位置: (4, 9)=('E', '10') 绘制棋子完成, 颜色: white
+2024-10-22 19:30:13 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:30:13 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:30:13 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:30:13 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:30:13 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:30:13 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:30:14 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:30:14 - DEBUG - 当前位置: (4, 8)=('E', '9') 绘制棋子完成, 颜色: black
+2024-10-22 19:30:14 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:30:14 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:30:14 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:30:14 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:30:14 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:30:14 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:30:14 - DEBUG - 当前位置: (4, 7)=('E', '8') 绘制棋子完成, 颜色: black
+2024-10-22 19:30:14 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:30:14 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:30:14 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:30:14 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:30:14 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:30:14 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:30:14 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:30:14 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:30:14 - DEBUG - 当前位置: (4, 6)=('E', '7') 绘制棋子完成, 颜色: black
+2024-10-22 19:30:14 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:30:14 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:30:14 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:30:14 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:30:15 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:30:15 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:30:15 - DEBUG - 当前位置: (4, 5)=('E', '6') 绘制棋子完成, 颜色: black
+2024-10-22 19:30:15 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:30:15 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:30:15 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:30:15 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:30:15 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:30:15 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:30:15 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:30:15 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:30:15 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:30:15 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:30:15 - DEBUG - 当前位置: (4, 4)=('E', '5') 绘制棋子完成, 颜色: black
+2024-10-22 19:30:15 - INFO - Player(name='Player', color='black', type='human') 胜利
+2024-10-22 19:30:15 - INFO - Player(name='Player', color='black', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:30:16 - INFO - Player(name='Player', color='black', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:30:17 - INFO - Player(name='Player', color='black', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:30:20 - INFO - Player(name='Player', color='black', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:30:20 - INFO - Player(name='Player', color='black', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:30:21 - INFO - Player(name='Player', color='black', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:30:21 - INFO - Player(name='Player', color='black', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:30:22 - INFO - Player(name='Player', color='black', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:37:14 - INFO - 初始化棋盘完成, 接下来请设置当前玩家
+2024-10-22 19:37:21 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:37:21 - DEBUG - 当前位置: (13, 10)=('N', '11') 绘制棋子完成, 颜色: white
+2024-10-22 19:37:21 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:37:22 - DEBUG - 当前位置: (13, 9)=('N', '10') 绘制棋子完成, 颜色: black
+2024-10-22 19:37:22 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:37:22 - DEBUG - 当前位置: (2, 2)=('C', '3') 绘制棋子完成, 颜色: white
+2024-10-22 19:37:22 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:37:22 - DEBUG - 当前位置: (13, 8)=('N', '9') 绘制棋子完成, 颜色: black
+2024-10-22 19:37:22 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:37:22 - DEBUG - 当前位置: (6, 5)=('G', '6') 绘制棋子完成, 颜色: white
+2024-10-22 19:37:22 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:37:23 - DEBUG - 当前位置: (13, 7)=('N', '8') 绘制棋子完成, 颜色: black
+2024-10-22 19:37:23 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:37:23 - DEBUG - 当前位置: (3, 7)=('D', '8') 绘制棋子完成, 颜色: white
+2024-10-22 19:37:23 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:37:23 - DEBUG - 当前位置: (13, 6)=('N', '7') 绘制棋子完成, 颜色: black
+2024-10-22 19:37:23 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:37:23 - DEBUG - 当前位置: (2, 14)=('C', '15') 绘制棋子完成, 颜色: white
+2024-10-22 19:37:23 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:37:23 - DEBUG - 当前位置: (13, 5)=('N', '6') 绘制棋子完成, 颜色: black
+2024-10-22 19:37:23 - INFO - Player(name='Player', color='black', type='human') 胜利
+2024-10-22 19:37:24 - INFO - Player(name='Player', color='black', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:37:25 - INFO - Player(name='Player', color='black', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:37:25 - INFO - Player(name='Player', color='black', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:37:26 - INFO - Player(name='Player', color='black', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:37:26 - INFO - 棋盘已清空
+2024-10-22 19:37:26 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:37:26 - DEBUG - 当前位置: (4, 6)=('E', '7') 绘制棋子完成, 颜色: white
+2024-10-22 19:37:27 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:37:28 - DEBUG - 当前位置: (5, 6)=('F', '7') 绘制棋子完成, 颜色: black
+2024-10-22 19:37:28 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:37:28 - DEBUG - 当前位置: (4, 1)=('E', '2') 绘制棋子完成, 颜色: white
+2024-10-22 19:37:28 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:37:28 - DEBUG - 当前位置: (6, 6)=('G', '7') 绘制棋子完成, 颜色: black
+2024-10-22 19:37:28 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:37:28 - DEBUG - 当前位置: (14, 1)=('O', '2') 绘制棋子完成, 颜色: white
+2024-10-22 19:37:28 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:37:29 - DEBUG - 当前位置: (7, 6)=('H', '7') 绘制棋子完成, 颜色: black
+2024-10-22 19:37:29 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:37:29 - DEBUG - 当前位置: (14, 5)=('O', '6') 绘制棋子完成, 颜色: white
+2024-10-22 19:37:29 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:37:29 - DEBUG - 当前位置: (8, 6)=('I', '7') 绘制棋子完成, 颜色: black
+2024-10-22 19:37:29 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:37:29 - DEBUG - 当前位置: (1, 13)=('B', '14') 绘制棋子完成, 颜色: white
+2024-10-22 19:37:29 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:37:29 - DEBUG - 当前位置: (9, 6)=('J', '7') 绘制棋子完成, 颜色: black
+2024-10-22 19:37:29 - INFO - Player(name='Player', color='black', type='human') 胜利
+2024-10-22 19:37:30 - INFO - Player(name='Player', color='black', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:37:45 - INFO - 棋盘已清空
+2024-10-22 19:37:45 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:37:45 - DEBUG - 当前位置: (11, 6)=('L', '7') 绘制棋子完成, 颜色: white
+2024-10-22 19:37:46 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:37:53 - DEBUG - 当前位置: (11, 5)=('L', '6') 绘制棋子完成, 颜色: black
+2024-10-22 19:37:53 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:37:53 - DEBUG - 当前位置: (7, 14)=('H', '15') 绘制棋子完成, 颜色: white
+2024-10-22 19:37:53 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:37:53 - DEBUG - 当前位置: (11, 4)=('L', '5') 绘制棋子完成, 颜色: black
+2024-10-22 19:37:53 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:37:53 - DEBUG - 当前位置: (13, 12)=('N', '13') 绘制棋子完成, 颜色: white
+2024-10-22 19:37:53 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:37:53 - DEBUG - 当前位置: (11, 3)=('L', '4') 绘制棋子完成, 颜色: black
+2024-10-22 19:37:53 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:37:53 - DEBUG - 当前位置: (10, 5)=('K', '6') 绘制棋子完成, 颜色: white
+2024-10-22 19:37:54 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:37:54 - DEBUG - 当前位置: (11, 2)=('L', '3') 绘制棋子完成, 颜色: black
+2024-10-22 19:37:54 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:37:54 - DEBUG - 当前位置: (4, 4)=('E', '5') 绘制棋子完成, 颜色: white
+2024-10-22 19:37:54 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:37:54 - DEBUG - 当前位置: (11, 1)=('L', '2') 绘制棋子完成, 颜色: black
+2024-10-22 19:37:54 - INFO - Player(name='Player', color='black', type='human') 胜利
+2024-10-22 19:37:55 - INFO - Player(name='Player', color='black', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:37:56 - INFO - Player(name='Player', color='black', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:37:56 - INFO - 棋盘已清空
+2024-10-22 19:37:56 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:37:56 - DEBUG - 当前位置: (3, 14)=('D', '15') 绘制棋子完成, 颜色: white
+2024-10-22 19:37:56 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:37:58 - DEBUG - 当前位置: (3, 13)=('D', '14') 绘制棋子完成, 颜色: black
+2024-10-22 19:37:58 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:37:58 - DEBUG - 当前位置: (2, 4)=('C', '5') 绘制棋子完成, 颜色: white
+2024-10-22 19:37:58 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:37:58 - DEBUG - 当前位置: (3, 12)=('D', '13') 绘制棋子完成, 颜色: black
+2024-10-22 19:37:58 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:37:58 - DEBUG - 当前位置: (13, 0)=('N', '1') 绘制棋子完成, 颜色: white
+2024-10-22 19:37:59 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:37:59 - DEBUG - 当前位置: (3, 11)=('D', '12') 绘制棋子完成, 颜色: black
+2024-10-22 19:37:59 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:37:59 - DEBUG - 当前位置: (7, 4)=('H', '5') 绘制棋子完成, 颜色: white
+2024-10-22 19:37:59 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:37:59 - DEBUG - 当前位置: (3, 10)=('D', '11') 绘制棋子完成, 颜色: black
+2024-10-22 19:37:59 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:37:59 - DEBUG - 当前位置: (9, 3)=('J', '4') 绘制棋子完成, 颜色: white
+2024-10-22 19:37:59 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:37:59 - DEBUG - 当前位置: (3, 9)=('D', '10') 绘制棋子完成, 颜色: black
+2024-10-22 19:37:59 - INFO - Player(name='Player', color='black', type='human') 胜利
+2024-10-22 19:38:00 - INFO - Player(name='Player', color='black', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:38:00 - INFO - Player(name='Player', color='black', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:38:01 - INFO - Player(name='Player', color='black', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:38:01 - INFO - Player(name='Player', color='black', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:38:03 - INFO - 棋盘已清空
+2024-10-22 19:38:03 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:38:03 - DEBUG - 当前位置: (1, 8)=('B', '9') 绘制棋子完成, 颜色: white
+2024-10-22 19:38:03 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:38:04 - DEBUG - 当前位置: (2, 8)=('C', '9') 绘制棋子完成, 颜色: black
+2024-10-22 19:38:04 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:38:04 - DEBUG - 当前位置: (3, 5)=('D', '6') 绘制棋子完成, 颜色: white
+2024-10-22 19:38:04 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:38:04 - DEBUG - 当前位置: (3, 8)=('D', '9') 绘制棋子完成, 颜色: black
+2024-10-22 19:38:04 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:38:04 - DEBUG - 当前位置: (11, 2)=('L', '3') 绘制棋子完成, 颜色: white
+2024-10-22 19:38:04 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:38:04 - DEBUG - 当前位置: (4, 8)=('E', '9') 绘制棋子完成, 颜色: black
+2024-10-22 19:38:04 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:38:04 - DEBUG - 当前位置: (11, 11)=('L', '12') 绘制棋子完成, 颜色: white
+2024-10-22 19:38:05 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:38:05 - DEBUG - 当前位置: (5, 8)=('F', '9') 绘制棋子完成, 颜色: black
+2024-10-22 19:38:05 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:38:05 - DEBUG - 当前位置: (8, 10)=('I', '11') 绘制棋子完成, 颜色: white
+2024-10-22 19:38:05 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:38:05 - DEBUG - 当前位置: (7, 8)=('H', '9') 绘制棋子完成, 颜色: black
+2024-10-22 19:38:05 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:38:05 - DEBUG - 当前位置: (3, 4)=('D', '5') 绘制棋子完成, 颜色: white
+2024-10-22 19:38:05 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:38:05 - DEBUG - 当前位置: (8, 8)=('I', '9') 绘制棋子完成, 颜色: black
+2024-10-22 19:38:05 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:38:05 - DEBUG - 当前位置: (0, 13)=('A', '14') 绘制棋子完成, 颜色: white
+2024-10-22 19:38:05 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:38:05 - DEBUG - 当前位置: (9, 8)=('J', '9') 绘制棋子完成, 颜色: black
+2024-10-22 19:38:06 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:38:06 - DEBUG - 当前位置: (10, 12)=('K', '13') 绘制棋子完成, 颜色: white
+2024-10-22 19:38:06 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:38:06 - DEBUG - 当前位置: (10, 8)=('K', '9') 绘制棋子完成, 颜色: black
+2024-10-22 19:38:06 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:38:06 - DEBUG - 当前位置: (1, 5)=('B', '6') 绘制棋子完成, 颜色: white
+2024-10-22 19:38:06 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:38:06 - DEBUG - 当前位置: (10, 8)=('K', '9') 已经有棋子, 颜色: black
+2024-10-22 19:38:06 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:38:06 - DEBUG - 当前位置: (11, 12)=('L', '13') 绘制棋子完成, 颜色: white
+2024-10-22 19:38:06 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:38:06 - DEBUG - 当前位置: (11, 8)=('L', '9') 绘制棋子完成, 颜色: black
+2024-10-22 19:38:06 - INFO - Player(name='Player', color='black', type='human') 胜利
+2024-10-22 19:38:07 - INFO - Player(name='Player', color='black', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:38:08 - INFO - 棋盘已清空
+2024-10-22 19:38:08 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:38:08 - DEBUG - 当前位置: (4, 6)=('E', '7') 绘制棋子完成, 颜色: white
+2024-10-22 19:38:08 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:38:09 - DEBUG - 当前位置: (5, 6)=('F', '7') 绘制棋子完成, 颜色: black
+2024-10-22 19:38:09 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:38:09 - DEBUG - 当前位置: (1, 5)=('B', '6') 绘制棋子完成, 颜色: white
+2024-10-22 19:38:09 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:38:10 - DEBUG - 当前位置: (6, 6)=('G', '7') 绘制棋子完成, 颜色: black
+2024-10-22 19:38:10 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:38:10 - DEBUG - 当前位置: (9, 1)=('J', '2') 绘制棋子完成, 颜色: white
+2024-10-22 19:38:10 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:38:10 - DEBUG - 当前位置: (7, 6)=('H', '7') 绘制棋子完成, 颜色: black
+2024-10-22 19:38:10 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:38:10 - DEBUG - 当前位置: (14, 1)=('O', '2') 绘制棋子完成, 颜色: white
+2024-10-22 19:38:10 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:38:10 - DEBUG - 当前位置: (8, 6)=('I', '7') 绘制棋子完成, 颜色: black
+2024-10-22 19:38:10 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:38:10 - DEBUG - 当前位置: (14, 3)=('O', '4') 绘制棋子完成, 颜色: white
+2024-10-22 19:38:10 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:38:10 - DEBUG - 当前位置: (9, 6)=('J', '7') 绘制棋子完成, 颜色: black
+2024-10-22 19:38:10 - INFO - Player(name='Player', color='black', type='human') 胜利
+2024-10-22 19:38:11 - INFO - Player(name='Player', color='black', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:38:12 - INFO - 棋盘已清空
+2024-10-22 19:38:12 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:38:12 - DEBUG - 当前位置: (13, 11)=('N', '12') 绘制棋子完成, 颜色: white
+2024-10-22 19:38:12 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:38:21 - DEBUG - 当前位置: (13, 10)=('N', '11') 绘制棋子完成, 颜色: black
+2024-10-22 19:38:21 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:38:21 - DEBUG - 当前位置: (5, 12)=('F', '13') 绘制棋子完成, 颜色: white
+2024-10-22 19:38:21 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:38:21 - DEBUG - 当前位置: (13, 9)=('N', '10') 绘制棋子完成, 颜色: black
+2024-10-22 19:38:22 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:38:22 - DEBUG - 当前位置: (7, 2)=('H', '3') 绘制棋子完成, 颜色: white
+2024-10-22 19:38:22 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:38:22 - DEBUG - 当前位置: (13, 8)=('N', '9') 绘制棋子完成, 颜色: black
+2024-10-22 19:38:22 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:38:22 - DEBUG - 当前位置: (0, 12)=('A', '13') 绘制棋子完成, 颜色: white
+2024-10-22 19:38:22 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:38:22 - DEBUG - 当前位置: (13, 7)=('N', '8') 绘制棋子完成, 颜色: black
+2024-10-22 19:38:22 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:38:22 - DEBUG - 当前位置: (8, 5)=('I', '6') 绘制棋子完成, 颜色: white
+2024-10-22 19:38:22 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:38:23 - DEBUG - 当前位置: (13, 6)=('N', '7') 绘制棋子完成, 颜色: black
+2024-10-22 19:38:23 - INFO - Player(name='Player', color='black', type='human') 胜利
+2024-10-22 19:38:23 - INFO - Player(name='Player', color='black', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:38:24 - INFO - 棋盘已清空
+2024-10-22 19:38:24 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:38:24 - DEBUG - 当前位置: (4, 5)=('E', '6') 绘制棋子完成, 颜色: white
+2024-10-22 19:38:24 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:38:26 - DEBUG - 当前位置: (5, 5)=('F', '6') 绘制棋子完成, 颜色: black
+2024-10-22 19:38:26 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:38:26 - DEBUG - 当前位置: (14, 14)=('O', '15') 绘制棋子完成, 颜色: white
+2024-10-22 19:38:26 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:38:26 - DEBUG - 当前位置: (6, 5)=('G', '6') 绘制棋子完成, 颜色: black
+2024-10-22 19:38:26 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:38:26 - DEBUG - 当前位置: (3, 8)=('D', '9') 绘制棋子完成, 颜色: white
+2024-10-22 19:38:26 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:38:26 - DEBUG - 当前位置: (7, 5)=('H', '6') 绘制棋子完成, 颜色: black
+2024-10-22 19:38:26 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:38:26 - DEBUG - 当前位置: (0, 2)=('A', '3') 绘制棋子完成, 颜色: white
+2024-10-22 19:38:26 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:38:26 - DEBUG - 当前位置: (9, 5)=('J', '6') 绘制棋子完成, 颜色: black
+2024-10-22 19:38:26 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:38:26 - DEBUG - 当前位置: (3, 2)=('D', '3') 绘制棋子完成, 颜色: white
+2024-10-22 19:38:27 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:38:27 - DEBUG - 当前位置: (10, 5)=('K', '6') 绘制棋子完成, 颜色: black
+2024-10-22 19:38:27 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:38:27 - DEBUG - 当前位置: (9, 11)=('J', '12') 绘制棋子完成, 颜色: white
+2024-10-22 19:38:27 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:38:27 - DEBUG - 当前位置: (11, 5)=('L', '6') 绘制棋子完成, 颜色: black
+2024-10-22 19:38:27 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:38:27 - DEBUG - 当前位置: (4, 9)=('E', '10') 绘制棋子完成, 颜色: white
+2024-10-22 19:38:27 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:38:27 - DEBUG - 当前位置: (12, 5)=('M', '6') 绘制棋子完成, 颜色: black
+2024-10-22 19:38:27 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:38:27 - DEBUG - 当前位置: (4, 10)=('E', '11') 绘制棋子完成, 颜色: white
+2024-10-22 19:38:27 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:38:27 - DEBUG - 当前位置: (12, 5)=('M', '6') 已经有棋子, 颜色: black
+2024-10-22 19:38:27 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:38:27 - DEBUG - 当前位置: (4, 3)=('E', '4') 绘制棋子完成, 颜色: white
+2024-10-22 19:38:28 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:38:28 - DEBUG - 当前位置: (13, 5)=('N', '6') 绘制棋子完成, 颜色: black
+2024-10-22 19:38:28 - INFO - Player(name='Player', color='black', type='human') 胜利
+2024-10-22 19:38:28 - INFO - Player(name='Player', color='black', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:38:30 - INFO - 棋盘已清空
+2024-10-22 19:38:30 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:38:30 - DEBUG - 当前位置: (4, 5)=('E', '6') 绘制棋子完成, 颜色: white
+2024-10-22 19:38:30 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:38:31 - DEBUG - 当前位置: (5, 5)=('F', '6') 绘制棋子完成, 颜色: black
+2024-10-22 19:38:32 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:38:32 - DEBUG - 当前位置: (13, 6)=('N', '7') 绘制棋子完成, 颜色: white
+2024-10-22 19:38:32 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:38:32 - DEBUG - 当前位置: (6, 5)=('G', '6') 绘制棋子完成, 颜色: black
+2024-10-22 19:38:32 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:38:32 - DEBUG - 当前位置: (2, 13)=('C', '14') 绘制棋子完成, 颜色: white
+2024-10-22 19:38:32 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:38:32 - DEBUG - 当前位置: (8, 5)=('I', '6') 绘制棋子完成, 颜色: black
+2024-10-22 19:38:32 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:38:32 - DEBUG - 当前位置: (5, 13)=('F', '14') 绘制棋子完成, 颜色: white
+2024-10-22 19:38:32 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:38:33 - DEBUG - 当前位置: (9, 5)=('J', '6') 绘制棋子完成, 颜色: black
+2024-10-22 19:38:33 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:38:33 - DEBUG - 当前位置: (12, 1)=('M', '2') 绘制棋子完成, 颜色: white
+2024-10-22 19:38:33 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:38:33 - DEBUG - 当前位置: (10, 5)=('K', '6') 绘制棋子完成, 颜色: black
+2024-10-22 19:38:33 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:38:33 - DEBUG - 当前位置: (13, 9)=('N', '10') 绘制棋子完成, 颜色: white
+2024-10-22 19:38:33 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:38:33 - DEBUG - 当前位置: (11, 5)=('L', '6') 绘制棋子完成, 颜色: black
+2024-10-22 19:38:33 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:38:33 - DEBUG - 当前位置: (12, 5)=('M', '6') 绘制棋子完成, 颜色: white
+2024-10-22 19:38:33 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:38:34 - DEBUG - 当前位置: (12, 5)=('M', '6') 已经有棋子, 颜色: black
+2024-10-22 19:38:34 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:38:34 - DEBUG - 当前位置: (6, 4)=('G', '5') 绘制棋子完成, 颜色: white
+2024-10-22 19:38:34 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:38:34 - DEBUG - 当前位置: (11, 4)=('L', '5') 绘制棋子完成, 颜色: black
+2024-10-22 19:38:34 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:38:34 - DEBUG - 当前位置: (3, 2)=('D', '3') 绘制棋子完成, 颜色: white
+2024-10-22 19:38:34 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:38:35 - DEBUG - 当前位置: (11, 3)=('L', '4') 绘制棋子完成, 颜色: black
+2024-10-22 19:38:35 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:38:35 - DEBUG - 当前位置: (0, 4)=('A', '5') 绘制棋子完成, 颜色: white
+2024-10-22 19:38:35 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:38:35 - DEBUG - 当前位置: (11, 2)=('L', '3') 绘制棋子完成, 颜色: black
+2024-10-22 19:38:35 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:38:35 - DEBUG - 当前位置: (12, 9)=('M', '10') 绘制棋子完成, 颜色: white
+2024-10-22 19:38:35 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:38:35 - DEBUG - 当前位置: (11, 1)=('L', '2') 绘制棋子完成, 颜色: black
+2024-10-22 19:38:35 - INFO - Player(name='Player', color='black', type='human') 胜利
+2024-10-22 19:38:36 - INFO - Player(name='Player', color='black', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:38:42 - INFO - Player(name='Player', color='black', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:38:43 - INFO - Player(name='Player', color='black', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:38:43 - INFO - Player(name='Player', color='black', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:38:45 - INFO - Player(name='Player', color='black', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:38:46 - INFO - Player(name='Player', color='black', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:38:47 - INFO - Player(name='Player', color='black', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:38:49 - INFO - Player(name='Player', color='black', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:38:50 - INFO - Player(name='Player', color='black', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:38:50 - INFO - Player(name='Player', color='black', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:38:51 - INFO - Player(name='Player', color='black', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:39:05 - INFO - Player(name='Player', color='black', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:39:06 - INFO - Player(name='Player', color='black', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:39:07 - INFO - Player(name='Player', color='black', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:39:07 - INFO - Player(name='Player', color='black', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:39:08 - INFO - Player(name='Player', color='black', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:39:08 - INFO - Player(name='Player', color='black', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:39:09 - INFO - Player(name='Player', color='black', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:39:09 - INFO - Player(name='Player', color='black', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:39:10 - INFO - Player(name='Player', color='black', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:39:10 - INFO - Player(name='Player', color='black', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:39:10 - INFO - Player(name='Player', color='black', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:39:11 - INFO - Player(name='Player', color='black', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:39:11 - INFO - Player(name='Player', color='black', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:39:12 - INFO - Player(name='Player', color='black', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:39:12 - INFO - Player(name='Player', color='black', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:39:13 - INFO - Player(name='Player', color='black', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:39:13 - INFO - Player(name='Player', color='black', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:39:13 - INFO - Player(name='Player', color='black', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:39:14 - INFO - Player(name='Player', color='black', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:39:14 - INFO - Player(name='Player', color='black', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:39:14 - INFO - Player(name='Player', color='black', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:39:15 - INFO - Player(name='Player', color='black', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:39:15 - INFO - Player(name='Player', color='black', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:39:15 - INFO - Player(name='Player', color='black', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:39:16 - INFO - Player(name='Player', color='black', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:39:16 - INFO - Player(name='Player', color='black', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:39:16 - INFO - Player(name='Player', color='black', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:39:17 - INFO - Player(name='Player', color='black', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:39:17 - INFO - Player(name='Player', color='black', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:39:17 - INFO - Player(name='Player', color='black', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:39:17 - INFO - Player(name='Player', color='black', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:39:17 - INFO - Player(name='Player', color='black', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:39:18 - INFO - Player(name='Player', color='black', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:39:18 - INFO - Player(name='Player', color='black', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:39:18 - INFO - Player(name='Player', color='black', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:39:18 - INFO - Player(name='Player', color='black', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:39:19 - INFO - Player(name='Player', color='black', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:39:19 - INFO - Player(name='Player', color='black', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:39:19 - INFO - Player(name='Player', color='black', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:39:20 - INFO - Player(name='Player', color='black', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:39:20 - INFO - Player(name='Player', color='black', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:39:20 - INFO - Player(name='Player', color='black', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:39:21 - INFO - Player(name='Player', color='black', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:39:23 - INFO - 棋盘已清空
+2024-10-22 19:39:23 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:39:23 - DEBUG - 当前位置: (8, 1)=('I', '2') 绘制棋子完成, 颜色: white
+2024-10-22 19:39:23 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:39:24 - DEBUG - 当前位置: (9, 2)=('J', '3') 绘制棋子完成, 颜色: black
+2024-10-22 19:39:24 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:39:24 - DEBUG - 当前位置: (7, 6)=('H', '7') 绘制棋子完成, 颜色: white
+2024-10-22 19:39:24 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:39:25 - DEBUG - 当前位置: (10, 3)=('K', '4') 绘制棋子完成, 颜色: black
+2024-10-22 19:39:25 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:39:25 - DEBUG - 当前位置: (1, 4)=('B', '5') 绘制棋子完成, 颜色: white
+2024-10-22 19:39:25 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:39:29 - DEBUG - 当前位置: (11, 3)=('L', '4') 绘制棋子完成, 颜色: black
+2024-10-22 19:39:29 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:39:29 - DEBUG - 当前位置: (6, 9)=('G', '10') 绘制棋子完成, 颜色: white
+2024-10-22 19:39:29 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:39:29 - DEBUG - 当前位置: (11, 4)=('L', '5') 绘制棋子完成, 颜色: black
+2024-10-22 19:39:29 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:39:29 - DEBUG - 当前位置: (0, 2)=('A', '3') 绘制棋子完成, 颜色: white
+2024-10-22 19:39:29 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:39:30 - DEBUG - 当前位置: (11, 5)=('L', '6') 绘制棋子完成, 颜色: black
+2024-10-22 19:39:30 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:39:30 - DEBUG - 当前位置: (9, 0)=('J', '1') 绘制棋子完成, 颜色: white
+2024-10-22 19:39:30 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:39:30 - DEBUG - 当前位置: (11, 6)=('L', '7') 绘制棋子完成, 颜色: black
+2024-10-22 19:39:30 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:39:30 - DEBUG - 当前位置: (12, 12)=('M', '13') 绘制棋子完成, 颜色: white
+2024-10-22 19:39:30 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:39:30 - DEBUG - 当前位置: (11, 7)=('L', '8') 绘制棋子完成, 颜色: black
+2024-10-22 19:39:30 - INFO - Player(name='Player', color='black', type='human') 胜利
+2024-10-22 19:39:31 - INFO - Player(name='Player', color='black', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:39:31 - INFO - 棋盘已清空
+2024-10-22 19:39:31 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:39:32 - DEBUG - 当前位置: (11, 4)=('L', '5') 绘制棋子完成, 颜色: white
+2024-10-22 19:39:32 - INFO - 当前玩家: Player(name='AI', color='black', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:39:32 - DEBUG - 当前位置: (7, 7)=('H', '8') 绘制棋子完成, 颜色: black
+2024-10-22 19:39:32 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:39:33 - DEBUG - 当前位置: (10, 5)=('K', '6') 绘制棋子完成, 颜色: white
+2024-10-22 19:39:33 - INFO - 当前玩家: Player(name='AI', color='black', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:39:33 - DEBUG - 当前位置: (3, 4)=('D', '5') 绘制棋子完成, 颜色: black
+2024-10-22 19:39:33 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:39:33 - DEBUG - 当前位置: (10, 6)=('K', '7') 绘制棋子完成, 颜色: white
+2024-10-22 19:39:33 - INFO - 当前玩家: Player(name='AI', color='black', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:39:33 - DEBUG - 当前位置: (5, 8)=('F', '9') 绘制棋子完成, 颜色: black
+2024-10-22 19:39:33 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:39:33 - DEBUG - 当前位置: (10, 7)=('K', '8') 绘制棋子完成, 颜色: white
+2024-10-22 19:39:33 - INFO - 当前玩家: Player(name='AI', color='black', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:39:33 - DEBUG - 当前位置: (1, 7)=('B', '8') 绘制棋子完成, 颜色: black
+2024-10-22 19:39:33 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:39:34 - DEBUG - 当前位置: (10, 8)=('K', '9') 绘制棋子完成, 颜色: white
+2024-10-22 19:39:34 - INFO - 当前玩家: Player(name='AI', color='black', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:39:34 - DEBUG - 当前位置: (6, 2)=('G', '3') 绘制棋子完成, 颜色: black
+2024-10-22 19:39:34 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:39:34 - DEBUG - 当前位置: (10, 9)=('K', '10') 绘制棋子完成, 颜色: white
+2024-10-22 19:39:34 - INFO - Player(name='Player', color='white', type='human') 胜利
+2024-10-22 19:39:35 - INFO - Player(name='Player', color='white', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:39:35 - INFO - Player(name='Player', color='white', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:39:36 - INFO - Player(name='Player', color='white', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:39:37 - INFO - Player(name='Player', color='white', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:39:38 - INFO - Player(name='Player', color='white', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:39:39 - INFO - Player(name='Player', color='white', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:39:39 - INFO - Player(name='Player', color='white', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:39:39 - INFO - Player(name='Player', color='white', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:39:40 - INFO - 棋盘已清空
+2024-10-22 19:39:40 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:39:41 - DEBUG - 当前位置: (13, 3)=('N', '4') 绘制棋子完成, 颜色: white
+2024-10-22 19:39:41 - INFO - 当前玩家: Player(name='AI', color='black', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:39:41 - DEBUG - 当前位置: (8, 13)=('I', '14') 绘制棋子完成, 颜色: black
+2024-10-22 19:39:41 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:39:41 - DEBUG - 当前位置: (12, 4)=('M', '5') 绘制棋子完成, 颜色: white
+2024-10-22 19:39:41 - INFO - 当前玩家: Player(name='AI', color='black', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:39:41 - DEBUG - 当前位置: (3, 5)=('D', '6') 绘制棋子完成, 颜色: black
+2024-10-22 19:39:42 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:39:42 - DEBUG - 当前位置: (11, 5)=('L', '6') 绘制棋子完成, 颜色: white
+2024-10-22 19:39:42 - INFO - 当前玩家: Player(name='AI', color='black', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:39:42 - DEBUG - 当前位置: (0, 0)=('A', '1') 绘制棋子完成, 颜色: black
+2024-10-22 19:39:42 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:39:42 - DEBUG - 当前位置: (10, 6)=('K', '7') 绘制棋子完成, 颜色: white
+2024-10-22 19:39:42 - INFO - 当前玩家: Player(name='AI', color='black', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:39:42 - DEBUG - 当前位置: (2, 9)=('C', '10') 绘制棋子完成, 颜色: black
+2024-10-22 19:39:42 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:39:43 - DEBUG - 当前位置: (9, 7)=('J', '8') 绘制棋子完成, 颜色: white
+2024-10-22 19:39:43 - INFO - Player(name='Player', color='white', type='human') 胜利
+2024-10-22 19:39:43 - INFO - Player(name='Player', color='white', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:39:43 - INFO - Player(name='Player', color='white', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:39:44 - INFO - 棋盘已清空
+2024-10-22 19:39:44 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:39:44 - DEBUG - 当前位置: (13, 4)=('N', '5') 绘制棋子完成, 颜色: white
+2024-10-22 19:39:45 - INFO - 当前玩家: Player(name='AI', color='black', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:39:45 - DEBUG - 当前位置: (7, 12)=('H', '13') 绘制棋子完成, 颜色: black
+2024-10-22 19:39:45 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:39:45 - DEBUG - 当前位置: (13, 5)=('N', '6') 绘制棋子完成, 颜色: white
+2024-10-22 19:39:45 - INFO - 当前玩家: Player(name='AI', color='black', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:39:45 - DEBUG - 当前位置: (11, 14)=('L', '15') 绘制棋子完成, 颜色: black
+2024-10-22 19:39:45 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:39:45 - DEBUG - 当前位置: (13, 6)=('N', '7') 绘制棋子完成, 颜色: white
+2024-10-22 19:39:45 - INFO - 当前玩家: Player(name='AI', color='black', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:39:45 - DEBUG - 当前位置: (10, 4)=('K', '5') 绘制棋子完成, 颜色: black
+2024-10-22 19:39:45 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:39:46 - DEBUG - 当前位置: (13, 7)=('N', '8') 绘制棋子完成, 颜色: white
+2024-10-22 19:39:46 - INFO - 当前玩家: Player(name='AI', color='black', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:39:46 - DEBUG - 当前位置: (11, 9)=('L', '10') 绘制棋子完成, 颜色: black
+2024-10-22 19:39:46 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:39:47 - DEBUG - 当前位置: (13, 8)=('N', '9') 绘制棋子完成, 颜色: white
+2024-10-22 19:39:47 - INFO - Player(name='Player', color='white', type='human') 胜利
+2024-10-22 19:39:47 - INFO - Player(name='Player', color='white', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:39:48 - INFO - 棋盘已清空
+2024-10-22 19:39:48 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:39:48 - DEBUG - 当前位置: (0, 10)=('A', '11') 绘制棋子完成, 颜色: white
+2024-10-22 19:39:48 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:39:50 - DEBUG - 当前位置: (1, 9)=('B', '10') 绘制棋子完成, 颜色: black
+2024-10-22 19:39:50 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:39:50 - DEBUG - 当前位置: (3, 9)=('D', '10') 绘制棋子完成, 颜色: white
+2024-10-22 19:39:50 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:39:50 - DEBUG - 当前位置: (2, 8)=('C', '9') 绘制棋子完成, 颜色: black
+2024-10-22 19:39:50 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:39:50 - DEBUG - 当前位置: (1, 10)=('B', '11') 绘制棋子完成, 颜色: white
+2024-10-22 19:39:50 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:39:51 - DEBUG - 当前位置: (3, 7)=('D', '8') 绘制棋子完成, 颜色: black
+2024-10-22 19:39:51 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:39:51 - DEBUG - 当前位置: (7, 4)=('H', '5') 绘制棋子完成, 颜色: white
+2024-10-22 19:39:51 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:39:51 - DEBUG - 当前位置: (4, 6)=('E', '7') 绘制棋子完成, 颜色: black
+2024-10-22 19:39:51 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:39:51 - DEBUG - 当前位置: (9, 13)=('J', '14') 绘制棋子完成, 颜色: white
+2024-10-22 19:39:51 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:39:52 - DEBUG - 当前位置: (5, 5)=('F', '6') 绘制棋子完成, 颜色: black
+2024-10-22 19:39:52 - INFO - Player(name='Player', color='black', type='human') 胜利
+2024-10-22 19:39:52 - INFO - Player(name='Player', color='black', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:39:54 - INFO - 棋盘已清空
+2024-10-22 19:39:54 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:39:54 - DEBUG - 当前位置: (14, 13)=('O', '14') 绘制棋子完成, 颜色: white
+2024-10-22 19:39:54 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:39:55 - DEBUG - 当前位置: (7, 6)=('H', '7') 绘制棋子完成, 颜色: black
+2024-10-22 19:39:55 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:39:55 - DEBUG - 当前位置: (0, 12)=('A', '13') 绘制棋子完成, 颜色: white
+2024-10-22 19:39:55 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:39:55 - DEBUG - 当前位置: (8, 7)=('I', '8') 绘制棋子完成, 颜色: black
+2024-10-22 19:39:55 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:39:55 - DEBUG - 当前位置: (3, 6)=('D', '7') 绘制棋子完成, 颜色: white
+2024-10-22 19:39:55 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:39:55 - DEBUG - 当前位置: (9, 8)=('J', '9') 绘制棋子完成, 颜色: black
+2024-10-22 19:39:55 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:39:55 - DEBUG - 当前位置: (14, 8)=('O', '9') 绘制棋子完成, 颜色: white
+2024-10-22 19:39:55 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:39:56 - DEBUG - 当前位置: (10, 9)=('K', '10') 绘制棋子完成, 颜色: black
+2024-10-22 19:39:56 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:39:56 - DEBUG - 当前位置: (7, 1)=('H', '2') 绘制棋子完成, 颜色: white
+2024-10-22 19:39:56 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:39:56 - DEBUG - 当前位置: (11, 10)=('L', '11') 绘制棋子完成, 颜色: black
+2024-10-22 19:39:56 - INFO - Player(name='Player', color='black', type='human') 胜利
+2024-10-22 19:39:56 - INFO - Player(name='Player', color='black', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:39:57 - INFO - 棋盘已清空
+2024-10-22 19:39:57 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:39:57 - DEBUG - 当前位置: (6, 4)=('G', '5') 绘制棋子完成, 颜色: white
+2024-10-22 19:39:57 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:39:59 - DEBUG - 当前位置: (1, 5)=('B', '6') 绘制棋子完成, 颜色: black
+2024-10-22 19:40:00 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:40:00 - DEBUG - 当前位置: (5, 14)=('F', '15') 绘制棋子完成, 颜色: white
+2024-10-22 19:40:00 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:40:00 - DEBUG - 当前位置: (2, 6)=('C', '7') 绘制棋子完成, 颜色: black
+2024-10-22 19:40:00 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:40:00 - DEBUG - 当前位置: (6, 14)=('G', '15') 绘制棋子完成, 颜色: white
+2024-10-22 19:40:00 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:40:01 - DEBUG - 当前位置: (3, 7)=('D', '8') 绘制棋子完成, 颜色: black
+2024-10-22 19:40:01 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:40:01 - DEBUG - 当前位置: (6, 7)=('G', '8') 绘制棋子完成, 颜色: white
+2024-10-22 19:40:01 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:40:03 - DEBUG - 当前位置: (4, 8)=('E', '9') 绘制棋子完成, 颜色: black
+2024-10-22 19:40:03 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:40:03 - DEBUG - 当前位置: (3, 1)=('D', '2') 绘制棋子完成, 颜色: white
+2024-10-22 19:40:03 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 19:40:06 - DEBUG - 当前位置: (5, 9)=('F', '10') 绘制棋子完成, 颜色: black
+2024-10-22 19:40:06 - INFO - Player(name='Player', color='black', type='human') 胜利
+2024-10-22 19:40:07 - INFO - Player(name='Player', color='black', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:40:08 - INFO - Player(name='Player', color='black', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:40:08 - INFO - Player(name='Player', color='black', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 19:40:11 - INFO - 棋盘已清空
+2024-10-22 19:40:11 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 19:40:11 - DEBUG - 当前位置: (5, 0)=('F', '1') 绘制棋子完成, 颜色: white
+2024-10-22 19:40:11 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
