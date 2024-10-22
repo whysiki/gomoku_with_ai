@@ -50,12 +50,12 @@ def Form_1_onLoad(uiName, threadings=0):
 def run_gbd(is_priority):
     player = Player(
         name="Player",
-        color=PlayerColor.WHITE if is_priority else PlayerColor.BLACK,
+        color=PlayerColor.WHITE,
         type=PlayerType.HUMAN,
     )
     ai_player = Player(
         name="AI",
-        color=PlayerColor.BLACK if is_priority else PlayerColor.WHITE,
+        color=PlayerColor.BLACK,
         type=PlayerType.AI,
     )
 

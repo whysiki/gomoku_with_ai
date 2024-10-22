@@ -3185,3 +3185,34 @@
 2024-10-22 20:02:04 - INFO - Player(name='Player', color='black', type='human') 胜利
 2024-10-22 20:02:06 - INFO - 棋盘已清空
 2024-10-22 20:02:06 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 20:07:28 - INFO - 初始化棋盘完成, 接下来请设置当前玩家
+2024-10-22 20:07:29 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 20:07:31 - DEBUG - 当前位置: (7, 4)=('H', '5') 绘制棋子完成, 颜色: white
+2024-10-22 20:07:31 - INFO - 当前玩家: Player(name='AI', color='black', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 20:07:31 - DEBUG - 当前位置: (11, 4)=('L', '5') 绘制棋子完成, 颜色: black
+2024-10-22 20:07:31 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 20:07:32 - DEBUG - 当前位置: (7, 3)=('H', '4') 绘制棋子完成, 颜色: white
+2024-10-22 20:07:32 - INFO - 当前玩家: Player(name='AI', color='black', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 20:07:32 - DEBUG - 当前位置: (13, 4)=('N', '5') 绘制棋子完成, 颜色: black
+2024-10-22 20:07:32 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 20:07:33 - DEBUG - 当前位置: (7, 2)=('H', '3') 绘制棋子完成, 颜色: white
+2024-10-22 20:07:33 - INFO - 当前玩家: Player(name='AI', color='black', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 20:07:33 - DEBUG - 当前位置: (8, 8)=('I', '9') 绘制棋子完成, 颜色: black
+2024-10-22 20:07:33 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 20:07:33 - DEBUG - 当前位置: (7, 1)=('H', '2') 绘制棋子完成, 颜色: white
+2024-10-22 20:07:33 - INFO - 当前玩家: Player(name='AI', color='black', type='ai')AI 玩家, 请等待AI下棋
+2024-10-22 20:07:33 - DEBUG - 当前位置: (1, 13)=('B', '14') 绘制棋子完成, 颜色: black
+2024-10-22 20:07:33 - INFO - 当前玩家: Player(name='Player', color='white', type='human')人类玩家, 请点击棋盘下棋
+2024-10-22 20:07:34 - DEBUG - 当前位置: (7, 0)=('H', '1') 绘制棋子完成, 颜色: white
+2024-10-22 20:07:34 - INFO - Player(name='Player', color='white', type='human') 胜利
+2024-10-22 20:07:34 - INFO - Player(name='Player', color='white', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 20:07:35 - INFO - Player(name='Player', color='white', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 20:07:36 - INFO - Player(name='Player', color='white', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 20:07:36 - INFO - Player(name='Player', color='white', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 20:07:37 - INFO - Player(name='Player', color='white', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 20:07:37 - INFO - Player(name='Player', color='white', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 20:07:38 - INFO - Player(name='Player', color='white', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 20:07:38 - INFO - Player(name='Player', color='white', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 20:07:39 - INFO - Player(name='Player', color='white', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 20:07:39 - INFO - Player(name='Player', color='white', type='human') 已经胜利, 请重新开始游戏
+2024-10-22 20:07:39 - INFO - Player(name='Player', color='white', type='human') 已经胜利, 请重新开始游戏
