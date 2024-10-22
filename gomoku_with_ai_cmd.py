@@ -35,6 +35,8 @@ is_priority = True
 # Form 'Form_1's Load Event :
 def Form_1_onLoad(uiName, threadings=0):
     global gbd
+    if not gbd:
+        Fun.MessageBox("点击开始进行游戏")
     if gbd and isinstance(gbd, GomokuBoard):
         gbd.clear_board()
     canvas = Fun.GetElement(uiName, "Canvas_1")
@@ -45,6 +47,13 @@ def Form_1_onLoad(uiName, threadings=0):
     Fun.SetCurrentValue(uiName, "SwitchButton_1", True)
     Fun.SetVisible(uiName, "Button_1", False)
     print(f"GomokuBoard , width: {width}, height: {height}")  # 640, 640
+    
+
+def process_winner():
+    if gbd.winner.type == PlayerType.HUMAN:
+        Fun.MessageBox("你赢了",type="info")
+    else:
+        Fun.MessageBox("再接再力",type="error")
 
 
 def run_gbd(is_priority):
@@ -62,6 +71,7 @@ def run_gbd(is_priority):
     def player_turn():
         if gbd.winner:
             Fun.SetVisible(uiName, "Button_1", True)
+            process_winner()
             return
 
         gbd.set_current_player(player)
@@ -73,6 +83,7 @@ def run_gbd(is_priority):
     def ai_turn():
         if gbd.winner:
             Fun.SetVisible(uiName, "Button_1", True)
+            process_winner()
             return
         gbd.set_current_player(ai_player)
         if not gbd.action_done:
@@ -100,8 +111,6 @@ def Button_1_onCommand(uiName, widgetName, threadings=0):
         is_priority_work = is_priority
         threading.Thread(target=run_gbd, args=(is_priority_work,)).start()
     Fun.SetVisible(uiName, "Button_1", False)
-
-
 
 
 #isis_priority
