@@ -50,10 +50,11 @@ def Form_1_onLoad(uiName, threadings=0):
     
 
 def process_winner():
-    if gbd.winner.type == PlayerType.HUMAN:
-        Fun.MessageBox("你赢了",type="info")
-    else:
-        Fun.MessageBox("再接再力",type="error")
+    if gbd.winner:
+        if gbd.winner.type == PlayerType.HUMAN:
+            Fun.MessageBox("你赢了",type="info")
+        else:
+            Fun.MessageBox("再接再力",type="error")
 
 
 def run_gbd(is_priority):
@@ -109,6 +110,7 @@ def Button_1_onCommand(uiName, widgetName, threadings=0):
     if gbd is not None:
         gbd.clear_board()
         is_priority_work = is_priority
+        gbd.current_player = None
         threading.Thread(target=run_gbd, args=(is_priority_work,)).start()
     Fun.SetVisible(uiName, "Button_1", False)
 
@@ -117,3 +119,9 @@ def Button_1_onCommand(uiName, widgetName, threadings=0):
 def SwitchButton_1_onSwitch(uiName, widgetName, value, threadings=0):
     global is_priority
     is_priority = value
+    if gbd is not None:
+        gbd.clear_board()
+        is_priority_work = is_priority
+        gbd.current_player = None
+        threading.Thread(target=run_gbd, args=(is_priority_work,)).start()
+    Fun.SetVisible(uiName, "Button_1", False)
