@@ -29,17 +29,20 @@ logger.add(
 )
 
 gbd = None
-is_priority = False
+is_priority = True
 
 
 # Form 'Form_1's Load Event :
 def Form_1_onLoad(uiName, threadings=0):
     global gbd
+    if gbd and isinstance(gbd, GomokuBoard):
+        gbd.clear_board()
     canvas = Fun.GetElement(uiName, "Canvas_1")
     gbd = GomokuBoard(canvas)
     width = canvas.winfo_width()
     height = canvas.winfo_height()
     # hide restart button
+    Fun.SetCurrentValue(uiName, "SwitchButton_1", True)
     Fun.SetVisible(uiName, "Button_1", False)
     print(f"GomokuBoard , width: {width}, height: {height}")  # 640, 640
 

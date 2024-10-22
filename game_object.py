@@ -8,6 +8,7 @@ import random
 class PlayerColor:
     BLACK = "black"
     WHITE = "white"
+    COLOR_NUM_DICT = {"black": -1, "white": 1}
 
 
 @dataclass
@@ -32,8 +33,6 @@ class Player:
         self.type = type
 
     def test_ai_get_action(self, status_matrix: np.ndarray) -> tuple[int, int]:
-        # return random.choice(np.argwhere(status_matrix == 0))
-        # assert status_matrix.shape == (15, 15)
         if self.type == PlayerType.AI:
             return random.choice(np.argwhere(status_matrix == 0))
 
@@ -50,9 +49,7 @@ class GomokuBoard:
         self.__canvas.configure(bg="burlywood")
         self.__canvas.pack()
         self.draw_board()
-        self.__status_matrix = np.zeros(
-            (self.board_size, self.board_size), dtype=int
-        )  # 0: empty, 1: white, -1: black
+        self.__status_matrix = np.zeros((self.board_size, self.board_size), dtype=int)
         self.winner: Player = None
         self.current_player: Player = None
         self.last_player: Player = None
@@ -70,12 +67,9 @@ class GomokuBoard:
     @property
     def grid_size(self):
         return self.__canvas__width // (self.board_size + 1)
-        # return 40
 
     @property
     def offset(self):
-        # return self.grid_size // 2
-        # return 40
         return self.grid_size
 
     def set_current_player(self, curent_player: Player):
@@ -90,7 +84,7 @@ class GomokuBoard:
                 logger.info(
                     f"当前玩家: {self.current_player}" + "人类玩家, 请点击棋盘下棋"
                 )
-                self.__canvas.bind("<Button-1>", self.__place_a_piece)
+                self.__canvas.bind("<Button-1>", self.__human_place_a_piece)
             self.last_player = self.current_player
 
     def clear_board(self):
@@ -108,12 +102,10 @@ class GomokuBoard:
 
     def update_status_matrix(self, x: int, y: int, color: str):
         """0: empty, 1: white, -1: black"""
-        if color.strip() == PlayerColor.WHITE:
-            self.__status_matrix[y][x] = 1
-        elif color.strip() == PlayerColor.BLACK:
-            self.__status_matrix[y][x] = -1
+        if color in PlayerColor.COLOR_NUM_DICT.keys():
+            self.__status_matrix[y][x] = PlayerColor.COLOR_NUM_DICT[color]
         else:
-            raise ValueError("Invalid color: {}".format(color))
+            raise ValueError("Invalid color: {}, must be black or white".format(color))
 
     def draw_board(self):
         for i in range(self.board_size):
@@ -211,7 +203,7 @@ class GomokuBoard:
         self.__place_oval(index_x, index_y)
         self.action_done = True
 
-    def __place_a_piece(self, event):
+    def __human_place_a_piece(self, event):
         """点击棋盘下棋"""
         if self.winner:
             logger.info(f"{self.winner} 已经胜利, 请重新开始游戏")
