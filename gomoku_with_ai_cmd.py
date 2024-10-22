@@ -86,6 +86,12 @@ def run_gbd(is_priority):
     else:
         ai_turn()
 
+# Start Game
+def Button_2_onCommand(uiName, widgetName, threadings=0):
+    if gbd is not None and gbd.current_player is None:
+        # 开启线程
+        is_priority_work = is_priority
+        threading.Thread(target=run_gbd, args=(is_priority_work,)).start()
 
 # restart
 def Button_1_onCommand(uiName, widgetName, threadings=0):
@@ -96,14 +102,14 @@ def Button_1_onCommand(uiName, widgetName, threadings=0):
     Fun.SetVisible(uiName, "Button_1", False)
 
 
-# Start Game
-def Button_2_onCommand(uiName, widgetName, threadings=0):
-    if gbd is not None and gbd.current_player is None:
-        # 开启线程
-        is_priority_work = is_priority
-        threading.Thread(target=run_gbd, args=(is_priority_work,)).start()
 
 
+#isis_priority
 def SwitchButton_1_onSwitch(uiName, widgetName, value, threadings=0):
     global is_priority
     is_priority = value
+    if gbd is not None:
+        gbd.clear_board()
+        is_priority_work = is_priority
+        threading.Thread(target=run_gbd, args=(is_priority_work,)).start()
+        Fun.SetVisible(uiName, "Button_1", False)

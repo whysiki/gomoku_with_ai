@@ -2,7 +2,7 @@ from dataclasses import dataclass
 import numpy as np
 from loguru import logger
 import random
-from ai_actions import BaseGomokuAI
+from ai_actions import FoolishGomokuAI
 
 
 @dataclass
@@ -33,14 +33,12 @@ class Player:
             raise ValueError("Invalid type: {}, must be ai or human".format(type))
         self.type = type
 
-    def test_ai_get_action(self, status_matrix: np.ndarray) -> tuple[int, int]:
+    def test_ai_get_action(self, status_matrix: np.ndarray, rank:int = 0) -> tuple[int, int]:
         # default ai color is black
-        color = self.color
-        value = PlayerColor.COLOR_NUM_DICT[color]
-        # if self.type == PlayerType.AI:
-        #     return random.choice(np.argwhere(status_matrix == 0))
-        baseai = BaseGomokuAI(color)
-        return baseai.get_best_action(status_matrix)
+        if self.type == PlayerType.AI:
+            if rank == 0:
+                baseai = FoolishGomokuAI(self.color,PlayerColor)
+            return baseai.get_best_action(status_matrix)
 
 
 class GomokuBoard:
