@@ -47,14 +47,14 @@ def Form_1_onLoad(uiName, threadings=0):
     Fun.SetCurrentValue(uiName, "SwitchButton_1", True)
     Fun.SetVisible(uiName, "Button_1", False)
     print(f"GomokuBoard , width: {width}, height: {height}")  # 640, 640
-    
+
 
 def process_winner():
     if gbd.winner:
         if gbd.winner.type == PlayerType.HUMAN:
-            Fun.MessageBox("你赢了",type="info")
+            Fun.MessageBox("你赢了", type="info")
         else:
-            Fun.MessageBox("再接再力",type="error")
+            Fun.MessageBox("再接再力", type="error")
 
 
 def run_gbd(is_priority):
@@ -90,7 +90,7 @@ def run_gbd(is_priority):
         gbd.set_current_player(ai_player)
         if not gbd.action_done:
             status_matrix = gbd.status_matrix
-            ai_action = ai_player.test_ai_get_action(status_matrix)
+            ai_action = ai_player.test_ai_get_action(status_matrix, rank=1)
             gbd.action(*ai_action)
             gbd.canvas.after(100, player_turn)  # 切换到玩家动作
 
@@ -99,6 +99,7 @@ def run_gbd(is_priority):
     else:
         ai_turn()
 
+
 # Start Game
 def Button_2_onCommand(uiName, widgetName, threadings=0):
     if gbd is not None and gbd.current_player is None:
@@ -106,17 +107,18 @@ def Button_2_onCommand(uiName, widgetName, threadings=0):
         is_priority_work = is_priority
         threading.Thread(target=run_gbd, args=(is_priority_work,)).start()
 
+
 # restart
 def Button_1_onCommand(uiName, widgetName, threadings=0):
     if gbd is not None:
         gbd.clear_board()
         is_priority_work = is_priority
-        
+
         threading.Thread(target=run_gbd, args=(is_priority_work,)).start()
     Fun.SetVisible(uiName, "Button_1", False)
 
 
-#isis_priority
+# isis_priority
 def SwitchButton_1_onSwitch(uiName, widgetName, value, threadings=0):
     global is_priority
     is_priority = value
