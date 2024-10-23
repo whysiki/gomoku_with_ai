@@ -98,7 +98,6 @@ class GomokuBoard:
                 self.__canvas.bind("<Button-1>", self.__human_place_a_piece)
             self.last_player = self.current_player
         # else:
-            
 
     def clear_board(self):
         self.__canvas.delete("all")
