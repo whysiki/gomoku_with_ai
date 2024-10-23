@@ -52,9 +52,11 @@ def Form_1_onLoad(uiName, threadings=0):
 def process_winner():
     if gbd.winner:
         if gbd.winner.type == PlayerType.HUMAN:
-            Fun.MessageBox("你赢了", type="info")
-        else:
+            Fun.MessageBox(f"恭喜{gbd.winner.name}获胜", type="info")
+        elif gbd.winner.type == PlayerType.AI:
             Fun.MessageBox("再接再力", type="error")
+        elif gbd.winner == "平局".strip():
+            Fun.MessageBox("平局", type="info")
 
 
 def run_gbd(is_priority):
@@ -90,7 +92,7 @@ def run_gbd(is_priority):
         gbd.set_current_player(ai_player)
         if not gbd.action_done:
             status_matrix = gbd.status_matrix
-            ai_action = ai_player.test_ai_get_action(status_matrix, rank=1)
+            ai_action = ai_player.test_ai_get_action(status_matrix, rank=0)
             gbd.action(*ai_action)
             gbd.canvas.after(100, player_turn)  # 切换到玩家动作
 
@@ -113,7 +115,6 @@ def Button_1_onCommand(uiName, widgetName, threadings=0):
     if gbd is not None:
         gbd.clear_board()
         is_priority_work = is_priority
-
         threading.Thread(target=run_gbd, args=(is_priority_work,)).start()
     Fun.SetVisible(uiName, "Button_1", False)
 
@@ -124,6 +125,5 @@ def SwitchButton_1_onSwitch(uiName, widgetName, value, threadings=0):
     is_priority = value
     if gbd is not None:
         gbd.clear_board()
-        is_priority_work = is_priority
-        threading.Thread(target=run_gbd, args=(is_priority_work,)).start()
+        Fun.MessageBox("请重新点击开始游戏", type="info")
     Fun.SetVisible(uiName, "Button_1", False)

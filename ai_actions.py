@@ -4,7 +4,7 @@ import numpy as np
 
 
 class FoolishGomokuAI:
-    def __init__(self, color: str, aivalue: int):
+    def __init__(self, aivalue: int):
         self.value = aivalue
         self.enemy_value = -self.value
         self.pattern_scores = {
@@ -73,9 +73,9 @@ class FoolishGomokuAI:
         for x in range(board.shape[0]):
             for y in range(board.shape[1]):
                 if board[y, x] == 0:
-                    board[y, x] = self.PlayerColor.COLOR_NUM_DICT[self.color]
+                    board[y, x] = self.value
                     score = self.evaluate_board(board)
-                    board[y, x] = self.PlayerColor.COLOR_NUM_DICT[self.enemy_color]
+                    board[y, x] = self.enemy_value
                     enemy_score = self.evaluate_board(board)
                     board[y, x] = 0
                     if enemy_score >= 1000:

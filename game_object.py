@@ -1,7 +1,6 @@
 from dataclasses import dataclass
 import numpy as np
 from loguru import logger
-import random
 from ai_actions import *
 
 
@@ -36,16 +35,12 @@ class Player:
     def test_ai_get_action(
         self, status_matrix: np.ndarray, rank: int = 0
     ) -> tuple[int, int]:
-        # default ai color is black
         if self.type == PlayerType.AI:
             if rank == 0:
-                baseai = FoolishGomokuAI(self.color, PlayerColor)
+                baseai = FoolishGomokuAI(PlayerColor.COLOR_NUM_DICT[self.color])
                 return baseai.get_best_action(status_matrix)
             if rank == 1:
-                baseai = FoolishGomokuAI(self.color, PlayerColor)
-                return baseai.get_best_action(status_matrix)
-                # ai = SmartGomokuAI(self.color,PlayerColor)
-                # return ai.get_best_action(status_matrix)
+                raise NotImplementedError()
 
 
 class GomokuBoard:
@@ -61,7 +56,7 @@ class GomokuBoard:
         self.__canvas.pack()
         self.draw_board()
         self.__status_matrix = np.zeros((self.board_size, self.board_size), dtype=int)
-        self.winner: Player = None
+        self.winner: Player | str = None
         self.current_player: Player = None
         self.last_player: Player = None
         self.action_done = False
@@ -84,6 +79,7 @@ class GomokuBoard:
         return self.grid_size
 
     def set_current_player(self, curent_player: Player):
+        assert curent_player and isinstance(curent_player, Player), "设置的玩家非法"
         if curent_player != self.last_player:  # 防止重复设置当前玩家
             self.current_player = curent_player
             self.action_done = False
@@ -97,7 +93,9 @@ class GomokuBoard:
                 )
                 self.__canvas.bind("<Button-1>", self.__human_place_a_piece)
             self.last_player = self.current_player
-        # else:
+        else:
+            # logger.warning("玩家不能连续下棋")
+            pass
 
     def clear_board(self):
         self.__canvas.delete("all")
@@ -107,6 +105,7 @@ class GomokuBoard:
         self.action_done = False
         self.current_player = None
         self.last_player = None
+        # self.__init__(self.__canvas)
         logger.info("棋盘已清空")
 
     def reset_status_matrix(self):
@@ -118,6 +117,9 @@ class GomokuBoard:
             self.__status_matrix[y][x] = PlayerColor.COLOR_NUM_DICT[color]
         else:
             raise ValueError("Invalid color: {}, must be black or white".format(color))
+        if not np.any(self.__status_matrix == 0):
+            logger.warning("棋盘已满, 平局")
+            self.winner = "平局".strip()
 
     def draw_board(self):
         for i in range(self.board_size):
@@ -185,7 +187,7 @@ class GomokuBoard:
         fill: str = self.current_player.color
         # 如果当前棋盘位置已经有棋子，则不再绘制
         if self.__status_matrix[index_y][index_x] != 0:
-            logger.debug(
+            logger.warning(
                 "当前位置: {}={} 已经有棋子, 颜色: {}".format(
                     (index_x, index_y), (text_x, text_y), fill
                 )
@@ -202,6 +204,7 @@ class GomokuBoard:
                 )
             )
             self.update_status_matrix(index_x, index_y, fill)
+            self.action_done = True
 
         if self.__check_win(index_x, index_y):
             logger.info(f"{self.current_player} 胜利")
@@ -213,7 +216,6 @@ class GomokuBoard:
             logger.info(f"{self.winner} 已经胜利, 请重新开始游戏")
             return
         self.__place_oval(index_x, index_y)
-        self.action_done = True
 
     def __human_place_a_piece(self, event):
         """点击棋盘下棋"""
