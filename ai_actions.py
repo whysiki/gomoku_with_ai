@@ -2,7 +2,6 @@ import numpy as np
 import random
 import numpy as np
 
-
 class FoolishGomokuAI:
     def __init__(self, color: str, PlayerColor):
         self.PlayerColor = PlayerColor
