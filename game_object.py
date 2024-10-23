@@ -97,6 +97,8 @@ class GomokuBoard:
                 )
                 self.__canvas.bind("<Button-1>", self.__human_place_a_piece)
             self.last_player = self.current_player
+        # else:
+            
 
     def clear_board(self):
         self.__canvas.delete("all")
@@ -241,6 +243,7 @@ class GomokuBoard:
             logger.warning("请先设置当前玩家")
 
     def __check_win(self, index_x, index_y):
+        """检查下的这一步是否赢"""
         x, y = index_x, index_y
         color = self.__status_matrix[y][x]
         directions = [
