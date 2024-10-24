@@ -78,7 +78,7 @@ def evaluate_board(board: np.ndarray, patternDict: dict) -> int:
                 if pattern_score >= 100000:  # 如果是连五，直接返回
                     return 100000 * 10000
                 if pattern_score <= -100000:  # 如果是对手连五，直接返回
-                    print("对手即将连五")
+                    # print("对手即将连五")
                     return -100000 * 1000
         return score
 
