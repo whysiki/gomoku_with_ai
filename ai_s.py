@@ -10,6 +10,7 @@ import sys
 from loguru import logger
 from rich import print
 import uuid
+from functools import lru_cache
 
 sys.setrecursionlimit(1500)
 
@@ -25,8 +26,6 @@ class AlphaBetaGomokuAI:
         self.patternDict = create_pattern_dict(self.value)
         self.move_history = []
         self.base_move = None
-        self.MaxPlayeralphabetaMoveHistory: list = list()
-        self.MinPlayeralphabetaMoveHistory: list = list()
         self.TTable = {}  # [score, depth, best_move]
         self.zobristTable = self.init_zobrist()
         self.last_board_state: np.ndarray = np.zeros((15, 15), dtype=int)  # 默认新局面
@@ -54,16 +53,15 @@ class AlphaBetaGomokuAI:
     def board_to_tuple(self, board: np.ndarray) -> tuple:
         return tuple(map(tuple, board))
 
-    def heuristic(
-        self, board_state: np.ndarray, action: tuple, is_max_player: bool
-    ) -> int:
-        temp = board_state[action[0]][action[1]]  # 保存当前位置的值
-        board_state[action[0]][action[1]] = (
+    @lru_cache(maxsize=None)
+    def heuristic(self, board_state: tuple, action: tuple, is_max_player: bool) -> int:
+        """模拟落子后的局势评估"""
+        board_state_copy = np.array(board_state)  # 复制棋盘
+        # board_state_copy = board_state_copy.copy()  # 复制棋盘
+        board_state_copy[action[0]][action[1]] = (
             self.maxvalue if is_max_player else self.minvalue
-        )  # 模拟落子
-        score = evaluate_board(board_state, self.patternDict)  # 评估落子后的局势
-        board_state[action[0]][action[1]] = temp  # 撤销落子
-        # print(f"Action: {action}, score: {score}")
+        )  # 落子
+        score = evaluate_board(board_state_copy, self.patternDict)  # 评估落子后的局势
         return score  # 返回评估值
 
     def alphabeta(
@@ -75,7 +73,6 @@ class AlphaBetaGomokuAI:
         is_max_player: bool,
     ):
         board_tuple = self.board_to_tuple(board_state)
-        # print(f"TTable size: {len(self.TTable)}")
 
         # 检查置换表
         if (
@@ -94,16 +91,11 @@ class AlphaBetaGomokuAI:
 
         if is_max_player:
             max_val = -np.inf
-            father_node_action = (
-                self.MaxPlayeralphabetaMoveHistory[-1]
-                if self.MaxPlayeralphabetaMoveHistory
-                else None
-            )
+            father_node_action = None
             actions = get_near_actions(board_tuple, father_node_action, 3)
-
             # 对可能的动作进行启发式排序，提升剪枝效果
             actions.sort(
-                key=lambda action: self.heuristic(board_state, action, is_max_player),
+                key=lambda action: self.heuristic(board_tuple, action, is_max_player),
                 reverse=True,
             )
 
@@ -113,11 +105,11 @@ class AlphaBetaGomokuAI:
                 temp = board_state[action[0]][action[1]]
                 board_state[action[0]][action[1]] = self.maxvalue  # 极大玩家落子
                 self.update_rolling_hash(action[0], action[1], 0)  # 更新当前哈希值
-                self.MaxPlayeralphabetaMoveHistory.append(action)
-                eval_ = self.alphabeta(board_state, depth - 1, alpha, beta, False)
+                eval_ = self.alphabeta(
+                    board_state, depth - 1, alpha, beta, False
+                )  # 下了之后评估分数
                 board_state[action[0]][action[1]] = temp  # 撤销落子
                 self.update_rolling_hash(action[0], action[1], 0)  # 撤销当前哈希值
-                self.MaxPlayeralphabetaMoveHistory.remove(action)
 
                 if eval_ > max_val:
                     max_val = eval_
@@ -134,21 +126,13 @@ class AlphaBetaGomokuAI:
             return max_val
         else:
             min_val = np.inf
-            father_node_action = (
-                self.MinPlayeralphabetaMoveHistory[-1]
-                if self.MinPlayeralphabetaMoveHistory
-                else None
-            )
+            father_node_action = None
             actions = get_near_actions(board_tuple, father_node_action, 3)
-
             # 对极小玩家的动作进行启发式排序
             actions.sort(
-                key=lambda action: self.heuristic(
-                    board_state, action, not is_max_player
-                ),
+                key=lambda action: self.heuristic(board_tuple, action, is_max_player),
                 reverse=False,
             )
-
             for action in actions:
                 if action in self.move_history:
                     continue
@@ -204,9 +188,33 @@ class AlphaBetaGomokuAI:
 
         self.base_move = None
         num_pieces = np.count_nonzero(board_state)
+        enemy_num_pieces = np.count_nonzero(board_state == self.enemy_value)
         if num_pieces == 0:
             print("No pieces , AI will choose center")
             best_action = (board_state.shape[0] // 2, board_state.shape[1] // 2)
+
+        elif enemy_num_pieces < 2:
+            # 在敌方棋子少于2个时，优先选择中心位置,距离中心位置2以内的位置
+            print("Enemy pieces less than 3, will choose center")
+            center_position = (board_state.shape[0] // 2, board_state.shape[1] // 2)
+            near_center_positions = []
+            for i in range(center_position[0] - 2, center_position[0] + 3):
+                for j in range(center_position[1] - 2, center_position[1] + 3):
+                    if (
+                        i >= 0
+                        and i < 15
+                        and j >= 0
+                        and j < 15
+                        and board_state[i][j] == 0  # 位置为空
+                        and (i, j) not in self.move_history  # 位置不在历史记录中
+                    ):
+                        near_center_positions.append((i, j))
+            best_action = (
+                random.choice(near_center_positions)
+                if len(near_center_positions) > 0
+                else None
+            )
+
         else:
             print("AI is thinking ...")
             if self.maxvalue == self.value:
@@ -232,7 +240,7 @@ class AlphaBetaGomokuAI:
         if best_action is None:
             if self.rollingHash in self.TTable:
                 _, _, best_action = self.TTable[self.rollingHash]
-            if best_action is not None:
+            if best_action is not None and best_action not in self.move_history:
                 print(f"Using cached best move: {best_action}")
             else:
                 logger.warning(
@@ -245,7 +253,9 @@ class AlphaBetaGomokuAI:
                 )
                 available_actions.sort(
                     key=lambda action: self.heuristic(
-                        board_state, action, self.value > self.enemy_value
+                        ai.board_to_tuple(board_state),
+                        action,
+                        self.value > self.enemy_value,
                     ),
                     reverse=self.is_max_player,
                 )
@@ -365,7 +375,7 @@ if __name__ == "__main__":
         ai_move_history = set()
         # print(init_board)
 
-        while True:
+        for i in range(225):
             print(f"Round {i} with {first_turn}'s first turn")
 
             # 控制先后手
@@ -392,7 +402,7 @@ if __name__ == "__main__":
                 avi_actions = get_near_actions(ai.board_to_tuple(init_board), None)
                 avi_actions.sort(
                     key=lambda action: ai.heuristic(
-                        init_board, action, enemy_value > ai_value
+                        ai.board_to_tuple(init_board), action, enemy_value > ai_value
                     ),
                     reverse=True if enemy_value > ai_value else False,
                 )  # 对玩家的动作进行启发式排序
@@ -412,10 +422,10 @@ if __name__ == "__main__":
                     print("Player wins")
                     break
 
-            print(init_board)
+            # print(init_board)
 
     ai = AlphaBetaGomokuAI(1, depth=1)
-    test_ai_on_generated_boards_continuously(ai, 1, -1, first_turn="AI")
+    # test_ai_on_generated_boards_continuously(ai, 1, -1, first_turn="AI")
     test_ai_on_generated_boards_continuously(ai, 1, -1, first_turn="Player")
     # ai = AlphaBetaGomokuAI(1, depth=2)
     # test_ai_on_generated_boards(ai, 1, -1)

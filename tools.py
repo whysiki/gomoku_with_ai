@@ -8,9 +8,8 @@ def create_pattern_dict(your_value: int) -> dict:
     # x 为 -1 表示对手，x 为 1 表示己方
     for x in [-1, 1]:
         y = -x  # y为对手棋子的表示
-        # 定义各种棋型模式
-        patternDict[(x, x, x, x, x)] = 1000000 * x  # 连五
-        patternDict[(0, x, x, x, x, 0)] = 100000 * x  # 活四
+        patternDict[(x, x, x, x, x)] = 100000 * 99999 * x  # 连五
+        patternDict[(0, x, x, x, x, 0)] = 500000 * x  # 活四
         patternDict[(0, x, x, x, 0, x, 0)] = 100000 * x  # 跳四
         patternDict[(0, x, 0, x, x, x, 0)] = 100000 * x  # 跳四
         patternDict[(0, x, x, 0, x, x, 0)] = 100000 * x  # 跳四
@@ -46,6 +45,13 @@ def create_pattern_dict(your_value: int) -> dict:
         patternDict[(y, x, x, x, y)] = 1 * x  # 死三
         patternDict[(y, x, 0, x, x, y)] = 1 * x  # 封堵跳三
 
+        patternDict[(0, x, x, 0, x, 0, x, 0)] = 500 * x  # 跳四
+        patternDict[(0, x, 0, x, 0, x, 0, x, 0)] = 500 * x  # 跳四
+        patternDict[(0, x, x, x, 0, 0)] = 500 * x  # 活三
+        patternDict[(0, 0, x, x, x, 0)] = 500 * x  # 活三
+        patternDict[(0, x, 0, x, 0, x, 0)] = 500 * x  # 跳三
+        patternDict[(0, x, 0, 0, x, 0, x, 0)] = 500 * x  # 跳三
+
     # 返回玩家对应的分数，如果是对手就反转
     return patternDict if your_value == 1 else {k: -v for k, v in patternDict.items()}
 
@@ -70,11 +76,11 @@ def evaluate_board(board: np.ndarray, patternDict: dict) -> int:
             if pattern_str in line_str:
                 score += pattern_score
                 # 优先自己连五
-                if pattern_score >= 100000:  # 如果是连五，直接返回
-                    return 100000 * 10000
-                if pattern_score <= -100000:  # 如果是对手连五，直接返回
-                    # print("对手即将连五")
-                    return -100000 * 1000
+                # if pattern_score >= 100000:  # 如果是连五，直接返回
+                #     return 100000 * 10000
+                # if pattern_score <= -100000:  # 如果是对手连五，直接返回
+                #     # print("对手即将连五")
+                #     return -100000 * 1000
         return score
 
     @lru_cache(maxsize=None)

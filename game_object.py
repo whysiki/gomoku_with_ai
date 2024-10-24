@@ -37,7 +37,7 @@ class Player:
                 self.ai = FoolishGomokuAI(PlayerColor.COLOR_NUM_DICT[self.color])
             elif airank == 1:
                 self.ai = AlphaBetaGomokuAI(
-                    PlayerColor.COLOR_NUM_DICT[self.color], depth=2
+                    PlayerColor.COLOR_NUM_DICT[self.color], depth=1
                 )
             else:
                 raise ValueError("Invalid airank: {}, must be 0 or 1".format(airank))
