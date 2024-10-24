@@ -39,6 +39,8 @@ class Player:
                 self.ai = AlphaBetaGomokuAI(
                     PlayerColor.COLOR_NUM_DICT[self.color], depth=2
                 )
+            else:
+                raise ValueError("Invalid airank: {}, must be 0 or 1".format(airank))
 
     def test_ai_get_action(self, status_matrix: np.ndarray) -> tuple[int, int]:
         if self.type == PlayerType.AI:

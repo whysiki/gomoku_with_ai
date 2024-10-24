@@ -12,6 +12,7 @@ from rich import print
 from loguru import logger
 from game_object import Player, GomokuBoard, PlayerColor, PlayerType
 import threading
+from tools import evaluate_board, create_pattern_dict
 
 uiName = "gomoku_with_ai"
 ElementBGArray = {}
@@ -61,54 +62,59 @@ def process_winner():
 
 
 def run_gbd(is_priority):
-    with lock:
-        gbd.current_player = None
-        player = Player(
-            name="Player",
-            color=PlayerColor.BLACK,
-            type=PlayerType.HUMAN,
-        )
-        ai_player = Player(
-            name="AI",
-            color=PlayerColor.WHITE,
-            type=PlayerType.AI,
-            airank=1,
-        )
+    # with lock:
+    gbd.current_player = None
+    player = Player(
+        name="Player",
+        color=PlayerColor.BLACK,
+        type=PlayerType.HUMAN,
+    )
+    ai_player = Player(
+        name="AI",
+        color=PlayerColor.WHITE,
+        type=PlayerType.AI,
+        airank=1,
+    )
+    predict_dict = create_pattern_dict(PlayerColor.COLOR_NUM_DICT[ai_player.color])
 
-        def player_turn():
-            if gbd.winner:
-                Fun.SetVisible(uiName, "Button_1", True)
-                process_winner()
-                return
+    def player_turn():
+        if gbd.winner:
+            Fun.SetVisible(uiName, "Button_1", True)
+            process_winner()
+            return
 
-            gbd.set_current_player(player)
-            if not gbd.action_done:
-                gbd.canvas.after(100, player_turn)  # 继续等待玩家动作
-            else:
-                ai_turn()
-
-        def ai_turn():
-            if gbd.winner:
-                Fun.SetVisible(uiName, "Button_1", True)
-                process_winner()
-                return
-            gbd.set_current_player(ai_player)
-            if not gbd.action_done:
-                ai_action = ai_player.test_ai_get_action(gbd.status_matrix)
-                logger.debug(f"Ai best move :{ai_action}")
-                gbd.action(*ai_action)
-                gbd.canvas.after(100, player_turn)  # 切换到玩家动作
-
-        if is_priority:
-            player_turn()
+        gbd.set_current_player(player)
+        if not gbd.action_done:
+            gbd.canvas.after(100, player_turn)  # 继续等待玩家动作
         else:
             ai_turn()
+
+    def ai_turn():
+        if gbd.winner:
+            Fun.SetVisible(uiName, "Button_1", True)
+            process_winner()
+            return
+        gbd.set_current_player(ai_player)
+        if not gbd.action_done:
+            print(gbd.status_matrix)
+            current_socre = evaluate_board(gbd.status_matrix, predict_dict)
+            logger.debug(f"Current score for AI: {current_socre}")
+            ai_action = ai_player.test_ai_get_action(gbd.status_matrix)
+            # logger.debug(f"Ai best move :{ai_action}")
+            gbd.action(*ai_action)
+            gbd.canvas.after(100, player_turn)  # 切换到玩家动作
+
+    if is_priority:
+        player_turn()
+    else:
+        ai_turn()
 
 
 # Start Game
 def Button_2_onCommand(uiName, widgetName, threadings=0):
-    if gbd is not None and gbd.current_player is None:
+    if gbd is not None:
         # 开启线程
+        gbd.clear_board()
         is_priority_work = is_priority
         threading.Thread(target=run_gbd, args=(is_priority_work,)).start()
 
