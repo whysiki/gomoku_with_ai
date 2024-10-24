@@ -21,7 +21,7 @@ ElementBGArray_IM = {}
 
 
 logger.add(
-    "log/gomoku_with_ai.log",
+    f"{Fun.G_ExeDir}/log/gomoku_with_ai.log",
     rotation="10 MB",
     mode="a",
     encoding="utf-8",
