@@ -75,7 +75,7 @@ def run_gbd(is_priority):
         type=PlayerType.AI,
         airank=1,
     )
-    predict_dict = create_pattern_dict(PlayerColor.COLOR_NUM_DICT[ai_player.color])
+    # predict_dict = create_pattern_dict(PlayerColor.COLOR_NUM_DICT[ai_player.color])
 
     def player_turn():
         if gbd.winner:
@@ -99,7 +99,7 @@ def run_gbd(is_priority):
             # print(gbd.status_matrix)
             # current_socre = evaluate_board(gbd.status_matrix, predict_dict)
             # logger.debug(f"Current score for AI: {current_socre}")
-            ai_action = ai_player.test_ai_get_action(gbd.status_matrix)
+            ai_action = ai_player.test_ai_get_action(gbd.status_matrix.T)
             # logger.debug(f"Ai best move :{ai_action}")
             gbd.action(*ai_action)
             gbd.canvas.after(100, player_turn)  # 切换到玩家动作

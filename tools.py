@@ -1,5 +1,5 @@
 import numpy as np
-from functools import wraps, lru_cache
+from functools import lru_cache
 
 
 def create_pattern_dict(your_value: int) -> dict:
@@ -105,7 +105,9 @@ def evaluate_board(board: np.ndarray, patternDict: dict) -> int:
     return score
 
 
-def is_gameover(board: np.ndarray) -> bool:
+@lru_cache(maxsize=None)
+def is_gameover(board: tuple) -> bool:
+    board = np.array(board)
     # 检查行、列是否有赢家
     for i in range(board.shape[0]):
         if check_winning_line(board[i, :]) or check_winning_line(board[:, i]):
@@ -160,7 +162,23 @@ def check_winning_line(line: np.ndarray) -> bool:
     return False
 
 
-if __name__ == "__main__":
+if __name__ == "__main__" and False:
+
+    def is_gameover(board: np.ndarray) -> bool:
+        # 检查行、列是否有赢家
+        for i in range(board.shape[0]):
+            if check_winning_line(board[i, :]) or check_winning_line(board[:, i]):
+                return True
+
+        # 检查对角线
+        for i in range(-board.shape[0] + 5, board.shape[0] - 4):
+            if check_winning_line(board.diagonal(i)) or check_winning_line(
+                np.fliplr(board).diagonal(i)
+            ):
+                return True
+
+        # 检查是否无空位
+        return not np.any(board == 0)
 
     def generate_disadvantage_board(
         direction: str, board_size=15, player_value=1, opponent_value=-1
