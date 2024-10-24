@@ -2,6 +2,7 @@ from dataclasses import dataclass
 import numpy as np
 from loguru import logger
 from ai_actions import *
+from ai_s import AlphaBetaGomokuAI
 
 
 @dataclass
@@ -23,7 +24,7 @@ class Player:
     color: str
     type: str
 
-    def __init__(self, name: str, color: str, type: str):
+    def __init__(self, name: str, color: str, type: str, airank: int = 0):
         if color.strip() not in (PlayerColor.BLACK, PlayerColor.WHITE):
             raise ValueError("Invalid color: {}, must be black or white".format(color))
         self.name = name
@@ -31,16 +32,19 @@ class Player:
         if type.strip() not in (PlayerType.AI, PlayerType.HUMAN):
             raise ValueError("Invalid type: {}, must be ai or human".format(type))
         self.type = type
-
-    def test_ai_get_action(
-        self, status_matrix: np.ndarray, rank: int = 0
-    ) -> tuple[int, int]:
         if self.type == PlayerType.AI:
-            if rank == 0:
-                baseai = FoolishGomokuAI(PlayerColor.COLOR_NUM_DICT[self.color])
-                return baseai.get_best_action(status_matrix)
-            if rank == 1:
-                raise NotImplementedError()
+            if airank == 0:
+                self.ai = FoolishGomokuAI(PlayerColor.COLOR_NUM_DICT[self.color])
+            elif airank == 1:
+                self.ai = AlphaBetaGomokuAI(
+                    PlayerColor.COLOR_NUM_DICT[self.color], depth=2
+                )
+
+    def test_ai_get_action(self, status_matrix: np.ndarray) -> tuple[int, int]:
+        if self.type == PlayerType.AI:
+            return self.ai.get_best_action(status_matrix)
+        else:
+            raise ValueError("当前玩家不是AI玩家")
 
 
 class GomokuBoard:
@@ -183,6 +187,10 @@ class GomokuBoard:
         """
         由棋盘坐标放置棋子
         """
+        # 检查是否越界
+        if not (0 <= index_x < self.board_size and 0 <= index_y < self.board_size):
+            logger.error("当前位置: {}={} 超出棋盘范围".format((index_x, index_y)))
+            return
         text_x, text_y = self.get_coordinate_text_for_index(index_x, index_y)
         fill: str = self.current_player.color
         # 如果当前棋盘位置已经有棋子，则不再绘制

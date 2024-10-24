@@ -30,6 +30,7 @@ logger.add(
 
 gbd = None
 is_priority = True
+lock = threading.Lock()
 
 
 # Form 'Form_1's Load Event :
@@ -60,46 +61,48 @@ def process_winner():
 
 
 def run_gbd(is_priority):
-    gbd.current_player = None
-    player = Player(
-        name="Player",
-        color=PlayerColor.WHITE,
-        type=PlayerType.HUMAN,
-    )
-    ai_player = Player(
-        name="AI",
-        color=PlayerColor.BLACK,
-        type=PlayerType.AI,
-    )
+    with lock:
+        gbd.current_player = None
+        player = Player(
+            name="Player",
+            color=PlayerColor.BLACK,
+            type=PlayerType.HUMAN,
+        )
+        ai_player = Player(
+            name="AI",
+            color=PlayerColor.WHITE,
+            type=PlayerType.AI,
+            airank=1,
+        )
 
-    def player_turn():
-        if gbd.winner:
-            Fun.SetVisible(uiName, "Button_1", True)
-            process_winner()
-            return
+        def player_turn():
+            if gbd.winner:
+                Fun.SetVisible(uiName, "Button_1", True)
+                process_winner()
+                return
 
-        gbd.set_current_player(player)
-        if not gbd.action_done:
-            gbd.canvas.after(100, player_turn)  # 继续等待玩家动作
+            gbd.set_current_player(player)
+            if not gbd.action_done:
+                gbd.canvas.after(100, player_turn)  # 继续等待玩家动作
+            else:
+                ai_turn()
+
+        def ai_turn():
+            if gbd.winner:
+                Fun.SetVisible(uiName, "Button_1", True)
+                process_winner()
+                return
+            gbd.set_current_player(ai_player)
+            if not gbd.action_done:
+                ai_action = ai_player.test_ai_get_action(gbd.status_matrix)
+                logger.debug(f"Ai best move :{ai_action}")
+                gbd.action(*ai_action)
+                gbd.canvas.after(100, player_turn)  # 切换到玩家动作
+
+        if is_priority:
+            player_turn()
         else:
             ai_turn()
-
-    def ai_turn():
-        if gbd.winner:
-            Fun.SetVisible(uiName, "Button_1", True)
-            process_winner()
-            return
-        gbd.set_current_player(ai_player)
-        if not gbd.action_done:
-            status_matrix = gbd.status_matrix
-            ai_action = ai_player.test_ai_get_action(status_matrix, rank=0)
-            gbd.action(*ai_action)
-            gbd.canvas.after(100, player_turn)  # 切换到玩家动作
-
-    if is_priority:
-        player_turn()
-    else:
-        ai_turn()
 
 
 # Start Game
