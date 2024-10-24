@@ -260,11 +260,9 @@ class AlphaBetaGomokuAI:
             board_state[best_action[0]][best_action[1]] == 0
         ), "AI move error: invalid move"
         self.move_history.append(best_action)
-        temp = board_state[best_action[0]][best_action[1]]
-        board_state[best_action[0]][best_action[1]] = self.value  # AI 落子
-        self.last_board_state = board_state  # 更新上一次的棋盘状态
-        board_state[best_action[0]][best_action[1]] = temp  # 撤销落子
-        # logger.success(f"AI move: {tuple(map(int, best_action))}")
+        board_state_copy = board_state.copy()
+        board_state_copy[best_action[0]][best_action[1]] = self.value
+        self.last_board_state = board_state_copy
         return best_action
 
 
@@ -360,31 +358,65 @@ if __name__ == "__main__":
 
     # 测试连续对局的性能
     def test_ai_on_generated_boards_continuously(
-        ai: AlphaBetaGomokuAI, ai_value: int, enemy_value: int
+        ai: AlphaBetaGomokuAI, ai_value: int, enemy_value: int, first_turn: str = "AI"
     ):
         init_board = np.zeros((15, 15), dtype=int)
-        for i in range(10):
-            print(f"Round {i}")
-            print("AI's turn")
-            action = ai.get_best_action(init_board)
-            init_board[action[0]][action[1]] = ai_value  # 更新棋盘
-            print(f"AI's action: {tuple(map(int, action))}")
-            # print(init_board)
-            if is_gameover(ai.board_to_tuple(init_board)):
-                print("AI wins")
-                break
+        player_move_history = set()
+        ai_move_history = set()
+        # print(init_board)
 
-            print(f"Player's turn")
-            row, col = random.choice(np.argwhere(init_board == 0))
-            print(f"Player's action: {tuple(map(int, (row, col)))}")
-            init_board[row][col] = enemy_value
-            # print(init_board)
-            if is_gameover(ai.board_to_tuple(init_board)):
-                print("Player wins")
-                break
+        while True:
+            print(f"Round {i} with {first_turn}'s first turn")
 
-    ai = AlphaBetaGomokuAI(1, depth=2)
-    test_ai_on_generated_boards_continuously(ai, 1, -1)
+            # 控制先后手
+            if (first_turn == "AI" and i % 2 == 0) or (
+                first_turn == "Player" and i % 2 == 1
+            ):
+                print("AI's turn")
+                action = ai.get_best_action(init_board)
+                assert (
+                    init_board[action[0]][action[1]] == 0
+                ), "AI move error: invalid move"
+                assert action not in ai_move_history, "AI move error: duplicate move"
+                assert (
+                    action not in ai_move_history | player_move_history
+                ), "Invalid move"
+                init_board[action[0]][action[1]] = ai_value  # 更新棋盘
+                ai_move_history.add(action)
+                print(f"AI's action: {tuple(map(int, action))}")
+                if is_gameover(ai.board_to_tuple(init_board)):
+                    print("AI wins")
+                    break
+            else:
+                print("Player's turn")
+                avi_actions = get_near_actions(ai.board_to_tuple(init_board), None)
+                avi_actions.sort(
+                    key=lambda action: ai.heuristic(
+                        init_board, action, enemy_value > ai_value
+                    ),
+                    reverse=True if enemy_value > ai_value else False,
+                )  # 对玩家的动作进行启发式排序
+                playaction = avi_actions[0]
+                row, col = playaction
+                assert init_board[row][col] == 0, "Player move error: invalid move"
+                assert (
+                    playaction not in player_move_history
+                ), "Player move error: duplicate move"
+                assert (
+                    playaction not in ai_move_history | player_move_history
+                ), "Invalid move"
+                print(f"Player's action: {tuple(map(int, (row, col)))}")
+                init_board[row][col] = enemy_value
+                player_move_history.add(playaction)
+                if is_gameover(ai.board_to_tuple(init_board)):
+                    print("Player wins")
+                    break
+
+            print(init_board)
+
+    ai = AlphaBetaGomokuAI(1, depth=1)
+    test_ai_on_generated_boards_continuously(ai, 1, -1, first_turn="AI")
+    test_ai_on_generated_boards_continuously(ai, 1, -1, first_turn="Player")
     # ai = AlphaBetaGomokuAI(1, depth=2)
     # test_ai_on_generated_boards(ai, 1, -1)
 
