@@ -1,10 +1,5 @@
 import numpy as np
 from functools import wraps, lru_cache
-import diskcache as dc
-import re
-
-# 创建缓存实例
-# cache = dc.Cache("./cache")
 
 
 def create_pattern_dict(your_value: int) -> dict:

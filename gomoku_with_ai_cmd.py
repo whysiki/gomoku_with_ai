@@ -96,9 +96,9 @@ def run_gbd(is_priority):
             return
         gbd.set_current_player(ai_player)
         if not gbd.action_done:
-            print(gbd.status_matrix)
-            current_socre = evaluate_board(gbd.status_matrix, predict_dict)
-            logger.debug(f"Current score for AI: {current_socre}")
+            # print(gbd.status_matrix)
+            # current_socre = evaluate_board(gbd.status_matrix, predict_dict)
+            # logger.debug(f"Current score for AI: {current_socre}")
             ai_action = ai_player.test_ai_get_action(gbd.status_matrix)
             # logger.debug(f"Ai best move :{ai_action}")
             gbd.action(*ai_action)

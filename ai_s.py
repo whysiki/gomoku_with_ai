@@ -10,10 +10,6 @@ import sys
 from loguru import logger
 from rich import print
 
-# import diskcache as dc
-# 创建缓存实例
-# cache = dc.Cache("./cache")
-
 sys.setrecursionlimit(1500)
 
 
@@ -63,11 +59,9 @@ class AlphaBetaGomokuAI:
                     continue
                 temp = board_state[action[0]][action[1]]  # 保存当前位置的值
                 board_state[action[0]][action[1]] = self.value  # 模拟AI落子
-                self.update_hash(action[0], action[1], 1)  # 更新哈希
 
                 eval_ = self.alphabeta(board_state, depth - 1, alpha, beta, False)
                 board_state[action[0]][action[1]] = temp  # 撤销棋盘
-                self.update_hash(action[0], action[1], 0)  # 撤销哈希
 
                 if eval_ > max_val:
                     max_val = eval_
@@ -75,14 +69,10 @@ class AlphaBetaGomokuAI:
                         print(f"Update base_move: {action}, max_val: {max_val}")
                         self.base_move = action
                 alpha = max(alpha, max_val)
-
-                self.rollingHash ^= self.zobristTable[action[0]][action[1]][1]
-
                 if beta <= alpha:
-                    # print("AlphaBeta Pruning ........ ")
+
                     break
 
-            self.TTable[self.rollingHash] = [max_val, depth]
             return max_val
         else:
             min_val = np.inf
@@ -92,12 +82,8 @@ class AlphaBetaGomokuAI:
 
                 temp = board_state[action[0]][action[1]]  # 保存当前位置的值
                 board_state[action[0]][action[1]] = self.enemy_value  # 模拟对手落子
-                self.update_hash(action[0], action[1], 0)  # 更新哈希
-
                 eval_ = self.alphabeta(board_state, depth - 1, alpha, beta, True)
-
                 board_state[action[0]][action[1]] = temp  # 撤销棋盘
-                self.update_hash(action[0], action[1], 1)  # 撤销哈希
 
                 if eval_ < min_val:
                     min_val = eval_
@@ -105,29 +91,42 @@ class AlphaBetaGomokuAI:
                         self.base_move = action
                 beta = min(beta, min_val)
                 if beta <= alpha:
-                    # print("AlphaBeta Pruning ........ ")
                     break
 
-            self.TTable[self.rollingHash] = [min_val, depth]
             return min_val
 
     def get_best_action(self, board_state: np.ndarray) -> tuple:
-        # 纠正方向 互换xy
+        # 互换xy
         board_state = board_state.T
         if is_gameover(board_state):
             logger.warning("Game over")
             return (-1, -1)
         self.base_move = None
-        # self.MaxPlayeralphabetaMoveHistory.clear()
-        # self.MinPlayeralphabetaMoveHistory.clear()
 
         # 计算当前棋盘上的棋子数量
         num_pieces = np.count_nonzero(board_state)
+        enemy_num_pieces = np.count_nonzero(board_state == self.enemy_value)
         # 如果没有棋子，选择中间位置
         if num_pieces == 0:
             print("No pieces will choose center")
-            # best_action = (board_state.shape[0] // 2, board_state.shape[1] // 2)
-            best_action = (3, 7)
+            best_action = (board_state.shape[0] // 2, board_state.shape[1] // 2)
+            # best_action = (3, 7)
+        elif enemy_num_pieces < 3:
+            # 在敌方棋子少于3个时，优先选择中心位置,距离中心位置3以内的位置
+            print("Enemy pieces less than 3, will choose center")
+            center_position = (board_state.shape[0] // 2, board_state.shape[1] // 2)
+            near_center_positions = []
+            for i in range(center_position[0] - 3, center_position[0] + 4):
+                for j in range(center_position[1] - 3, center_position[1] + 4):
+                    if (
+                        i >= 0
+                        and i < 15
+                        and j >= 0
+                        and j < 15
+                        and board_state[i][j] == 0
+                    ):
+                        near_center_positions.append((i, j))
+            best_action = random.choice(near_center_positions)
         else:
             print("AI is thinking ...")
             self.alphabeta(
