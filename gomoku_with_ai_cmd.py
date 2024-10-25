@@ -59,11 +59,15 @@ def reset_time_labels():
 
 def update_time_labels_main_loop():
     last_player_type = None
-    while True:
+
+    def update():
+        nonlocal last_player_type
         if gbd_global:
-            if last_player_type != (
+            current_player_type = (
                 gbd_global.current_player.type if gbd_global.current_player else None
-            ):
+            )
+
+            if last_player_type != current_player_type:
                 # 切换玩家
                 if (
                     gbd_global.current_player
@@ -71,41 +75,47 @@ def update_time_labels_main_loop():
                 ):
                     time_counter_global.player_time_start = None  # 玩家计时清零
                     time_counter_global.start_ai_time()  # 开始AI计时
-                    # print("AI开始计时")
                 elif (
                     gbd_global.current_player
                     and gbd_global.current_player.type == PlayerType.HUMAN
                 ):
                     time_counter_global.ai_time_start = None  # AI计时清零
                     time_counter_global.start_player_time()  # 开始玩家计时
-                    # print("玩家开始计时")
-                last_player_type = (
-                    gbd_global.current_player.type
-                    if gbd_global.current_player
-                    else None
-                )
+
+                last_player_type = current_player_type
+
             if gbd_global.current_player and not gbd_global.winner:
                 update_time_labels()  # 更新时间标签
-            time.sleep(0.5)
+
+        gbd_global.canvas.after(500, update)
+
+    update()
 
 
 def process_turn_queue_main_loop():
-    global turn_last_name_global
+
+    global is_continue_queue_global
     print("process_turn_queue start")
     process_winner_task_executed = False
-    while True:
-        while gbd_global and not gbd_global.winner and is_continue_queue_global:
+
+    def process_turn_queue():
+        global turn_last_name_global
+        nonlocal process_winner_task_executed
+        if gbd_global and not gbd_global.winner and is_continue_queue_global:
             if not turn_queue_global.empty():
                 turn = turn_queue_global.get()
                 if turn.__name__ != turn_last_name_global:
                     print(f"process_turn_queue {turn.__name__}")
                     turn()
                     turn_last_name_global = turn.__name__
-            time.sleep(0.5)
-            process_winner_task_executed = False  # 重置任务执行状态,新的一轮
+            process_winner_task_executed = False  # 任务未执行
         if gbd_global.winner and not process_winner_task_executed:
             process_winner()
             process_winner_task_executed = True  # 任务已执行
+
+        gbd_global.canvas.after(500, process_turn_queue)
+
+    process_turn_queue()
 
 
 def process_winner():
@@ -121,7 +131,6 @@ def process_winner():
 
 
 def play_click_sound():
-    pass
     threading.Thread(
         target=winsound.PlaySound,
         args=(f"{Fun.G_ExeDir}/static/sounds/rclick-13693.wav", winsound.SND_ASYNC),
@@ -212,7 +221,6 @@ def Form_1_onLoad(uiName, threadings=0):
         tag="start_tip_text",
     )
     print(f"GomokuBoard , width: {width}, height: {height}")  # 640, 640
-    # Start the timer update loop
     threading.Thread(
         target=update_time_labels_main_loop, daemon=True
     ).start()  # 时间更新线程

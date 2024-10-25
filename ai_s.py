@@ -37,7 +37,7 @@ class AlphaBetaGomokuAI:
         self.enemy_history = []
         self.best_move = None
         self.cache = {}
-        self.last_board_state: np.ndarray = np.zeros((15, 15), dtype=int)  # 默认新局面
+        # self.last_board_state: np.ndarray = np.zeros((15, 15), dtype=int)  # 默认新局面
         logger.info("Current AI: AlphaBetaGomokuAI")
 
     @lru_cache(maxsize=None)
