@@ -34,8 +34,6 @@ logger.add(
 )
 
 # 清除日志
-# logger.remove()
-
 gbd_global = None
 is_priority_global = True
 time_counter_global = TimeCounter()
@@ -88,7 +86,26 @@ def update_time_labels_main_loop():
                 )
             if gbd_global.current_player and not gbd_global.winner:
                 update_time_labels()  # 更新时间标签
-            time.sleep(0.5)  # 增加UI更新频率
+            time.sleep(0.5)
+
+
+def process_turn_queue_main_loop():
+    global turn_last_name_global
+    print("process_turn_queue start")
+    process_winner_task_executed = False
+    while True:
+        while gbd_global and not gbd_global.winner and is_continue_queue_global:
+            if not turn_queue_global.empty():
+                turn = turn_queue_global.get()
+                if turn.__name__ != turn_last_name_global:
+                    print(f"process_turn_queue {turn.__name__}")
+                    turn()
+                    turn_last_name_global = turn.__name__
+            time.sleep(0.5)
+            process_winner_task_executed = False  # 重置任务执行状态,新的一轮
+        if gbd_global.winner and not process_winner_task_executed:
+            process_winner()
+            process_winner_task_executed = True  # 任务已执行
 
 
 def process_winner():
@@ -146,26 +163,6 @@ def run_gbd(is_priority):
         turn_queue_global.put(ai_turn)
 
 
-def process_turn_queue():
-    global turn_last_name_global
-    global is_continue_queue_global
-    print("process_turn_queue start")
-    process_winner_task_executed = False
-    while True:
-        while gbd_global and not gbd_global.winner and is_continue_queue_global:
-            if not turn_queue_global.empty():
-                turn = turn_queue_global.get()
-                if turn.__name__ != turn_last_name_global:
-                    print(f"process_turn_queue {turn.__name__}")
-                    turn()
-                    turn_last_name_global = turn.__name__
-            time.sleep(0.2)
-            process_winner_task_executed = False  # 重置任务执行状态,新的一轮
-        if gbd_global.winner and not process_winner_task_executed:
-            process_winner()
-            process_winner_task_executed = True  # 任务已执行
-
-
 def free_run_gbd_queue():
     global turn_last_name_global
     global turn_queue_global
@@ -219,7 +216,9 @@ def Form_1_onLoad(uiName, threadings=0):
     threading.Thread(
         target=update_time_labels_main_loop, daemon=True
     ).start()  # 时间更新线程
-    threading.Thread(target=process_turn_queue, daemon=True).start()  # 下子线程
+    threading.Thread(
+        target=process_turn_queue_main_loop, daemon=True
+    ).start()  # 下子线程
 
 
 # 开始游戏按钮
