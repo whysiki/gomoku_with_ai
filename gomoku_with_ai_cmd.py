@@ -15,6 +15,8 @@ import threading
 import os
 import winsound
 import time
+import queue
+from time_count_ import TimeCounter
 
 uiName = "gomoku_with_ai"
 ElementBGArray = {}
@@ -34,108 +36,18 @@ logger.add(
 # 清除日志
 # logger.remove()
 
-gbd = None
-is_priority = True
-
-
-class TimeCounter:
-
-    def __init__(self):
-        self.total_time_start = None
-        self.player_time_start = None
-        self.ai_time_start = None
-
-    @property
-    def player_time_elapsed(self):
-        if self.player_time_start:
-            return time.time() - self.player_time_start
-        else:
-            return 0
-
-    @property
-    def ai_time_elapsed(self):
-        if self.ai_time_start:
-            return time.time() - self.ai_time_start
-        else:
-            return 0
-
-    @property
-    def total_time_elapsed(self):
-        if self.total_time_start:
-            return time.time() - self.total_time_start
-        else:
-            return 0
-
-    def start_total_time(self):
-        self.total_time_start = time.time()
-
-    def start_player_time(self):
-        self.player_time_start = time.time()
-
-    def start_ai_time(self):
-        self.ai_time_start = time.time()
-
-    def get_total_time(self):
-        # 当前总用时 - 总开始用时
-        return int(self.total_time_elapsed)
-
-    def get_player_time(self):
-        # 当前玩家用时 - 玩家开始用时
-        return int(self.player_time_elapsed)
-
-    def get_ai_time(self):
-        # 当前AI用时 - AI开始用时
-        return int(self.ai_time_elapsed)
-
-    def reset(self):
-        self.total_time_start = None
-        self.player_time_start = None
-        self.ai_time_start = None
-
-    def print(self):
-        print(f"total_time_start: {self.total_time_start}")
-        print(f"player_time_start: {self.player_time_start}")
-        print(f"ai_time_start: {self.ai_time_start}")
-        print(f"total_time_elapsed: {self.total_time_elapsed}")
-        print(f"player_time_elapsed: {self.player_time_elapsed}")
-        print(f"ai_time_elapsed: {self.ai_time_elapsed}")
-
-
-time_counter = TimeCounter()
-
-
-def Form_1_onLoad(uiName, threadings=0):
-    global gbd
-    if gbd and isinstance(gbd, GomokuBoard):
-        gbd.clear_board()
-    canvas = Fun.GetElement(uiName, "Canvas_1")
-    gbd = GomokuBoard(canvas)
-    width = canvas.winfo_width()
-    height = canvas.winfo_height()
-    Fun.SetCurrentValue(uiName, "SwitchButton_1", True)
-    Fun.SetVisible(uiName, "Button_1", False)
-    Fun.SetVisible(uiName, "Label_2", Visible=True)
-    Fun.SetText(uiName, "Label_5", "0")  # 总用时
-    Fun.SetText(uiName, "Label_6", "0")  # AI用时
-    Fun.SetText(uiName, "Label_7", "0")  # 玩家用时
-    gbd.canvas.create_text(
-        width // 2,
-        height // 2,
-        text="请点击开始游戏",
-        font=("Segoe UI", 30, "bold"),
-        fill="red",
-        tag="start_tip_text",
-    )
-    print(f"GomokuBoard , width: {width}, height: {height}")  # 640, 640
-    # Start the timer update loop
-    threading.Thread(target=update_time_labels_loop, daemon=True).start()
+gbd_global = None
+is_priority_global = True
+time_counter_global = TimeCounter()
+turn_queue_global = queue.Queue()
+turn_last_name_global = None
+is_continue_queue_global = False
 
 
 def update_time_labels():
-    total_time = time_counter.get_total_time()
-    ai_time = time_counter.get_ai_time()
-    player_time = time_counter.get_player_time()
-    # print(f"total_time: {total_time}, ai_time: {ai_time}, player_time: {player_time}")
+    total_time = time_counter_global.get_total_time()
+    ai_time = time_counter_global.get_ai_time()
+    player_time = time_counter_global.get_player_time()
     Fun.SetText(uiName, "Label_5", f"{total_time}s")  # 总用时
     Fun.SetText(uiName, "Label_6", f"{ai_time}s")  # AI用时
     Fun.SetText(uiName, "Label_7", f"{player_time}s")  # 玩家用时
@@ -147,47 +59,48 @@ def reset_time_labels():
     Fun.SetText(uiName, "Label_7", "0")  # 玩家用时
 
 
-def update_time_labels_loop():
+def update_time_labels_main_loop():
     last_player_type = None
     while True:
-        if gbd:
+        if gbd_global:
             if last_player_type != (
-                gbd.current_player.type if gbd.current_player else None
+                gbd_global.current_player.type if gbd_global.current_player else None
             ):
                 # 切换玩家
-                if gbd.current_player and gbd.current_player.type == PlayerType.AI:
-                    time_counter.player_time_start = None  # 玩家计时清零
-                    time_counter.start_ai_time()  # 开始AI计时
+                if (
+                    gbd_global.current_player
+                    and gbd_global.current_player.type == PlayerType.AI
+                ):
+                    time_counter_global.player_time_start = None  # 玩家计时清零
+                    time_counter_global.start_ai_time()  # 开始AI计时
                     # print("AI开始计时")
-                elif gbd.current_player and gbd.current_player.type == PlayerType.HUMAN:
-                    time_counter.ai_time_start = None  # AI计时清零
-                    time_counter.start_player_time()  # 开始玩家计时
+                elif (
+                    gbd_global.current_player
+                    and gbd_global.current_player.type == PlayerType.HUMAN
+                ):
+                    time_counter_global.ai_time_start = None  # AI计时清零
+                    time_counter_global.start_player_time()  # 开始玩家计时
                     # print("玩家开始计时")
                 last_player_type = (
-                    gbd.current_player.type if gbd.current_player else None
+                    gbd_global.current_player.type
+                    if gbd_global.current_player
+                    else None
                 )
-
-            # if gbd.isfullzero and not gbd.winner and gbd.current_player:
-            # time_counter.start_total_time()
-            # print("总时间开始计时")
-
-            if gbd.current_player and not gbd.winner:
+            if gbd_global.current_player and not gbd_global.winner:
                 update_time_labels()  # 更新时间标签
-                # time_counter.print()
             time.sleep(0.5)  # 增加UI更新频率
 
 
 def process_winner():
     Fun.SetVisible(uiName, "Button_1", True)  # 设置重新开始按钮可见
-    if gbd.winner:
-        if gbd.winner.type == PlayerType.HUMAN:
-            Fun.MessageBox(f"恭喜{gbd.winner.name}获胜", type="info")
-        elif gbd.winner.type == PlayerType.AI:
+    if gbd_global.winner:
+        if gbd_global.winner.type == PlayerType.HUMAN:
+            Fun.MessageBox(f"恭喜{gbd_global.winner.name}获胜", type="info")
+        elif gbd_global.winner.type == PlayerType.AI:
             Fun.MessageBox("再接再力", type="error")
-        elif gbd.winner == "平局".strip():
+        elif gbd_global.winner == "平局".strip():
             Fun.MessageBox("平局", type="info")
-        time_counter.reset()
-        # reset_time_labels()
+        time_counter_global.reset()  # 重置时间
 
 
 def play_click_sound():
@@ -199,7 +112,7 @@ def play_click_sound():
 
 
 def run_gbd(is_priority):
-    gbd.current_player = None
+    gbd_global.current_player = None
     player = Player(
         name="Player",
         color=PlayerColor.BLACK,
@@ -213,62 +126,128 @@ def run_gbd(is_priority):
     )
 
     def player_turn():
-        if gbd.winner:
-            process_winner()
-            return
-        gbd.set_current_player(player)
-        if not gbd.action_done:
-            gbd.canvas.after(100, player_turn)  # 继续等待玩家动作
+        gbd_global.set_current_player(player)
+        if not gbd_global.action_done:
+            gbd_global.canvas.after(100, player_turn)
         else:
             play_click_sound()
-            threading.Thread(target=ai_turn).start()
+            turn_queue_global.put(ai_turn)
 
     def ai_turn():
-        if gbd.winner:
-            process_winner()
-            return
-        gbd.set_current_player(ai_player)
-        if not gbd.action_done:
-            ai_action = ai_player.test_ai_get_action(gbd.status_matrix.T)
-            gbd.action(*ai_action)
-            gbd.canvas.after(100, player_turn)  # 切换到玩家动作
+        gbd_global.set_current_player(ai_player)
+        if not gbd_global.action_done:
+            ai_action = ai_player.test_ai_get_action(gbd_global.status_matrix.T)
+            gbd_global.action(*ai_action)
+            gbd_global.canvas.after(100, lambda: turn_queue_global.put(player_turn))
 
     if is_priority:
-        player_turn()
+        turn_queue_global.put(player_turn)
     else:
-        threading.Thread(target=ai_turn).start()
+        turn_queue_global.put(ai_turn)
 
 
-# 开始游戏
+def process_turn_queue():
+    global turn_last_name_global
+    global is_continue_queue_global
+    is_continue_queue_global_copy = is_continue_queue_global
+    print("process_turn_queue start")
+    while True:
+        while gbd_global and not gbd_global.winner and is_continue_queue_global:
+            turn = turn_queue_global.get()
+            if turn.__name__ != turn_last_name_global:
+                print(f"process_turn_queue {turn.__name__}")
+                turn()
+                turn_last_name_global = turn.__name__  # 记录上一次的函数名
+            else:
+                print(f"process_turn_queue {turn.__name__} is same as last")
+            if turn_queue_global.empty():
+                print("turn_queue is empty")
+                time.sleep(0.1)
+        print("process_turn_queue exit")
+        if gbd_global.winner and (
+            is_continue_queue_global_copy == is_continue_queue_global
+        ):
+            print("process_turn_queue winner")
+            process_winner()
+            is_continue_queue_global_copy ^= is_continue_queue_global
+
+
+def free_run_gbd_queue():
+    global turn_last_name_global
+    global turn_queue_global
+    global is_continue_queue_global
+    while not turn_queue_global.empty():  # 清空队列
+        turn_queue_global.get()
+    turn_last_name_global = None  # 重置上一次的函数名
+    is_continue_queue_global = False  # 重置是否继续队列
+
+
+def start_game_handler(is_run_gbd=True):
+    global is_continue_queue_global
+    if gbd_global is not None:
+        gbd_global.clear_board()  # 清空棋盘
+        is_priority_work = is_priority_global  # 是否先手
+        time_counter_global.reset()  # 重置时间
+        reset_time_labels()  # 重置时间标签
+        time_counter_global.start_total_time()  # 开始总时间计时
+        free_run_gbd_queue()  # 清空队列
+        gbd_global.clear_board()  # 清空棋盘
+        if is_run_gbd:
+            is_continue_queue_global = True
+            run_gbd(is_priority_work)  # 开始交互队列
+
+
+# 开始游戏加载事件
+def Form_1_onLoad(uiName, threadings=0):
+    global gbd_global
+    if gbd_global and isinstance(gbd_global, GomokuBoard):
+        gbd_global.clear_board()
+    canvas = Fun.GetElement(uiName, "Canvas_1")
+    gbd_global = GomokuBoard(canvas)
+    width = canvas.winfo_width()
+    height = canvas.winfo_height()
+    Fun.SetCurrentValue(uiName, "SwitchButton_1", True)
+    Fun.SetVisible(uiName, "Button_1", False)
+    Fun.SetVisible(uiName, "Label_2", Visible=True)
+    Fun.SetText(uiName, "Label_5", "0")  # 总用时
+    Fun.SetText(uiName, "Label_6", "0")  # AI用时
+    Fun.SetText(uiName, "Label_7", "0")  # 玩家用时
+    gbd_global.canvas.create_text(
+        width // 2,
+        height // 2,
+        text="请点击开始游戏",
+        font=("Segoe UI", 30, "bold"),
+        fill="red",
+        tag="start_tip_text",
+    )
+    print(f"GomokuBoard , width: {width}, height: {height}")  # 640, 640
+    # Start the timer update loop
+    threading.Thread(
+        target=update_time_labels_main_loop, daemon=True
+    ).start()  # 时间更新线程
+    threading.Thread(target=process_turn_queue, daemon=True).start()  # 下子线程
+
+
+# 开始游戏按钮
 def Button_2_onCommand(uiName, widgetName, threadings=0):
-    if gbd is not None:
-        gbd.clear_board()
-        is_priority_work = is_priority
-        time_counter.reset()
-        reset_time_labels()
-        time_counter.start_total_time()
-        threading.Thread(target=run_gbd, args=(is_priority_work,)).start()
+    start_game_handler()
 
 
-# 重新开始
+# 重新开始按钮
 def Button_1_onCommand(uiName, widgetName, threadings=0):
-    if gbd is not None:
-        gbd.clear_board()
-        is_priority_work = is_priority
-        time_counter.reset()
-        reset_time_labels()
-        time_counter.start_total_time()
-        threading.Thread(target=run_gbd, args=(is_priority_work,)).start()
+    start_game_handler()
     Fun.SetVisible(uiName, "Button_1", False)
 
 
-# 是否先手
+# 是否先手开关
 def SwitchButton_1_onSwitch(uiName, widgetName, value, threadings=0):
-    global is_priority
-    is_priority = value
-    if gbd is not None:
-        gbd.clear_board()
-        time_counter.reset()
+    global is_priority_global
+    is_priority_global = value
+    if gbd_global is not None:
+        gbd_global.clear_board()
+        time_counter_global.reset()
         reset_time_labels()
+        free_run_gbd_queue()
+        gbd_global.clear_board()  # 清空棋盘
         Fun.MessageBox("请重新点击开始游戏", type="info")
     Fun.SetVisible(uiName, "Button_1", False)

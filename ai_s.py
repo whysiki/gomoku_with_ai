@@ -64,7 +64,7 @@ class AlphaBetaGomokuAI:
         hash_key = hash_tuple_md5(board_tuple)  # 计算哈希值
         if hash_key in self.cache and depth != self.depth:  # 非根节点直接返回缓存的分数
             print(
-                f"[bold red]Cache hit eval_ {self.cache[hash_key][0], self.cache[hash_key][1]},depth:{depth}[/bold red]"
+                f"[bold red]Cache hit eval_ {self.cache[hash_key]},depth:{depth}[/bold red]"
             )
             return self.cache[hash_key]
         # 终止条件：到达最大深度或游戏结束
