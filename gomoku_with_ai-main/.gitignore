@@ -1,0 +1,8 @@
+/BackUp
+/__pycache__
+/.venv
+/test
+/cache_directory
+/cache_directory/joblib/__main__-d%3A-python_codes-PyMe-gomoku_with_ai-ai_actions/cached_get_possible_moves
+/cache_directory/joblib/__main__-d%3A-python_codes-PyMe-gomoku_with_ai-ai_actions/cached_is_nearby
+/tempCodeRunnerFile.py

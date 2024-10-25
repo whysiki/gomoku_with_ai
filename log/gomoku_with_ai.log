@@ -1,0 +1,1444 @@
+2024-10-25 05:25:47 - INFO - 初始化棋盘完成, 接下来请设置当前玩家
+2024-10-25 05:25:49 - INFO - 棋盘已清空
+2024-10-25 05:25:49 - INFO - Current AI: AlphaBetaGomokuAI
+2024-10-25 05:25:49 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 05:25:50 - DEBUG - 当前位置: (7, 5)=('H', '6') 绘制棋子完成, 颜色: black
+2024-10-25 05:25:50 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 05:25:50 - DEBUG - Enemy pieces less than 3, will choose center randomly
+2024-10-25 05:25:50 - SUCCESS - AI move: (7, 6)
+2024-10-25 05:25:50 - DEBUG - 当前位置: (7, 6)=('H', '7') 绘制棋子完成, 颜色: white
+2024-10-25 05:25:50 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 05:25:51 - DEBUG - 当前位置: (8, 6)=('I', '7') 绘制棋子完成, 颜色: black
+2024-10-25 05:25:51 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 05:25:51 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 05:25:51 - SUCCESS - AI move: (6, 4)
+2024-10-25 05:25:51 - DEBUG - 当前位置: (6, 4)=('G', '5') 绘制棋子完成, 颜色: white
+2024-10-25 05:25:51 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 05:25:52 - DEBUG - 当前位置: (6, 5)=('G', '6') 绘制棋子完成, 颜色: black
+2024-10-25 05:25:52 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 05:25:52 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 05:25:53 - SUCCESS - AI move: (8, 5)
+2024-10-25 05:25:53 - DEBUG - 当前位置: (8, 5)=('I', '6') 绘制棋子完成, 颜色: white
+2024-10-25 05:25:53 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 05:25:53 - DEBUG - 当前位置: (9, 5)=('J', '6') 绘制棋子完成, 颜色: black
+2024-10-25 05:25:53 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 05:25:53 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 05:25:54 - SUCCESS - AI move: (6, 7)
+2024-10-25 05:25:54 - DEBUG - 当前位置: (6, 7)=('G', '8') 绘制棋子完成, 颜色: white
+2024-10-25 05:25:55 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 05:25:55 - DEBUG - 当前位置: (5, 8)=('F', '9') 绘制棋子完成, 颜色: black
+2024-10-25 05:25:55 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 05:25:55 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 05:25:57 - SUCCESS - AI move: (9, 4)
+2024-10-25 05:25:57 - DEBUG - 当前位置: (9, 4)=('J', '5') 绘制棋子完成, 颜色: white
+2024-10-25 05:25:57 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 05:25:58 - DEBUG - 当前位置: (10, 3)=('K', '4') 绘制棋子完成, 颜色: black
+2024-10-25 05:25:58 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 05:25:58 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 05:26:01 - SUCCESS - AI move: (10, 4)
+2024-10-25 05:26:01 - DEBUG - 当前位置: (10, 4)=('K', '5') 绘制棋子完成, 颜色: white
+2024-10-25 05:26:02 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 05:26:03 - DEBUG - 当前位置: (11, 4)=('L', '5') 绘制棋子完成, 颜色: black
+2024-10-25 05:26:03 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 05:26:03 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 05:26:10 - SUCCESS - AI move: (9, 2)
+2024-10-25 05:26:10 - DEBUG - 当前位置: (9, 2)=('J', '3') 绘制棋子完成, 颜色: white
+2024-10-25 05:26:10 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 05:26:16 - DEBUG - 当前位置: (8, 3)=('I', '4') 绘制棋子完成, 颜色: black
+2024-10-25 05:26:17 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 05:26:17 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 05:26:21 - SUCCESS - AI move: (9, 3)
+2024-10-25 05:26:21 - DEBUG - 当前位置: (9, 3)=('J', '4') 绘制棋子完成, 颜色: white
+2024-10-25 05:26:21 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 05:26:26 - DEBUG - 当前位置: (9, 1)=('J', '2') 绘制棋子完成, 颜色: black
+2024-10-25 05:26:26 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 05:26:26 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 05:26:28 - SUCCESS - AI move: (8, 2)
+2024-10-25 05:26:28 - DEBUG - 当前位置: (8, 2)=('I', '3') 绘制棋子完成, 颜色: white
+2024-10-25 05:26:28 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 05:26:30 - DEBUG - 当前位置: (11, 5)=('L', '6') 绘制棋子完成, 颜色: black
+2024-10-25 05:26:30 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 05:26:30 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 05:26:35 - SUCCESS - AI move: (7, 1)
+2024-10-25 05:26:35 - DEBUG - 当前位置: (7, 1)=('H', '2') 绘制棋子完成, 颜色: white
+2024-10-25 05:26:35 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 05:26:36 - DEBUG - 当前位置: (6, 0)=('G', '1') 绘制棋子完成, 颜色: black
+2024-10-25 05:26:36 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 05:26:36 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 05:26:42 - SUCCESS - AI move: (7, 2)
+2024-10-25 05:26:42 - DEBUG - 当前位置: (7, 2)=('H', '3') 绘制棋子完成, 颜色: white
+2024-10-25 05:26:42 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 05:26:43 - DEBUG - 当前位置: (6, 2)=('G', '3') 绘制棋子完成, 颜色: black
+2024-10-25 05:26:43 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 05:26:43 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 05:26:51 - SUCCESS - AI move: (10, 2)
+2024-10-25 05:26:51 - DEBUG - 当前位置: (10, 2)=('K', '3') 绘制棋子完成, 颜色: white
+2024-10-25 05:26:51 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 05:26:52 - DEBUG - 当前位置: (11, 2)=('L', '3') 绘制棋子完成, 颜色: black
+2024-10-25 05:26:52 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 05:26:52 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 05:27:01 - SUCCESS - AI move: (11, 3)
+2024-10-25 05:27:01 - DEBUG - 当前位置: (11, 3)=('L', '4') 绘制棋子完成, 颜色: white
+2024-10-25 05:27:02 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 05:27:12 - DEBUG - 当前位置: (10, 6)=('K', '7') 绘制棋子完成, 颜色: black
+2024-10-25 05:27:12 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 05:27:12 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 05:27:20 - SUCCESS - AI move: (7, 3)
+2024-10-25 05:27:20 - DEBUG - 当前位置: (7, 3)=('H', '4') 绘制棋子完成, 颜色: white
+2024-10-25 05:27:20 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 05:27:29 - DEBUG - 当前位置: (9, 7)=('J', '8') 绘制棋子完成, 颜色: black
+2024-10-25 05:27:29 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 05:27:29 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 05:27:37 - SUCCESS - AI move: (12, 4)
+2024-10-25 05:27:37 - DEBUG - 当前位置: (12, 4)=('M', '5') 绘制棋子完成, 颜色: white
+2024-10-25 05:27:37 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 05:27:50 - DEBUG - 当前位置: (8, 8)=('I', '9') 绘制棋子完成, 颜色: black
+2024-10-25 05:27:50 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 05:27:50 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 05:27:54 - SUCCESS - AI move: (7, 9)
+2024-10-25 05:27:54 - DEBUG - 当前位置: (7, 9)=('H', '10') 绘制棋子完成, 颜色: white
+2024-10-25 05:27:54 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 05:27:58 - DEBUG - 当前位置: (8, 7)=('I', '8') 绘制棋子完成, 颜色: black
+2024-10-25 05:27:58 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 05:27:58 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 05:28:06 - SUCCESS - AI move: (13, 5)
+2024-10-25 05:28:06 - DEBUG - 当前位置: (13, 5)=('N', '6') 绘制棋子完成, 颜色: white
+2024-10-25 05:28:06 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 05:28:15 - DEBUG - 当前位置: (14, 6)=('O', '7') 绘制棋子完成, 颜色: black
+2024-10-25 05:28:15 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 05:28:15 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 05:28:24 - SUCCESS - AI move: (5, 5)
+2024-10-25 05:28:24 - DEBUG - 当前位置: (5, 5)=('F', '6') 绘制棋子完成, 颜色: white
+2024-10-25 05:28:24 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 05:28:27 - DEBUG - 当前位置: (4, 6)=('E', '7') 绘制棋子完成, 颜色: black
+2024-10-25 05:28:27 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 05:28:27 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 05:28:41 - SUCCESS - AI move: (7, 4)
+2024-10-25 05:28:41 - DEBUG - 当前位置: (7, 4)=('H', '5') 绘制棋子完成, 颜色: white
+2024-10-25 05:28:41 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 05:28:45 - DEBUG - 当前位置: (7, 0)=('H', '1') 绘制棋子完成, 颜色: black
+2024-10-25 05:28:46 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 05:28:46 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 05:28:53 - SUCCESS - AI move: (8, 4)
+2024-10-25 05:28:53 - DEBUG - 当前位置: (8, 4)=('I', '5') 绘制棋子完成, 颜色: white
+2024-10-25 05:28:53 - INFO - Player(name='AI', color='white', type='ai') 胜利
+2024-10-25 05:29:14 - INFO - 初始化棋盘完成, 接下来请设置当前玩家
+2024-10-25 05:29:17 - INFO - 棋盘已清空
+2024-10-25 05:29:19 - INFO - 棋盘已清空
+2024-10-25 05:29:19 - INFO - Current AI: AlphaBetaGomokuAI
+2024-10-25 05:29:19 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 05:29:19 - INFO - AI is first
+2024-10-25 05:29:19 - DEBUG - No pieces , AI will choose center
+2024-10-25 05:29:19 - SUCCESS - AI move: (7, 7)
+2024-10-25 05:29:19 - DEBUG - 当前位置: (7, 7)=('H', '8') 绘制棋子完成, 颜色: white
+2024-10-25 05:29:19 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 05:29:20 - DEBUG - 当前位置: (8, 6)=('I', '7') 绘制棋子完成, 颜色: black
+2024-10-25 05:29:20 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 05:29:20 - DEBUG - Enemy pieces less than 3, will choose center randomly
+2024-10-25 05:29:20 - SUCCESS - AI move: (8, 7)
+2024-10-25 05:29:20 - DEBUG - 当前位置: (8, 7)=('I', '8') 绘制棋子完成, 颜色: white
+2024-10-25 05:29:20 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 05:29:21 - DEBUG - 当前位置: (9, 5)=('J', '6') 绘制棋子完成, 颜色: black
+2024-10-25 05:29:21 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 05:29:21 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 05:29:21 - SUCCESS - AI move: (9, 7)
+2024-10-25 05:29:21 - DEBUG - 当前位置: (9, 7)=('J', '8') 绘制棋子完成, 颜色: white
+2024-10-25 05:29:21 - WARNING - 当前玩家不是人类玩家, 请等待AI下棋
+2024-10-25 05:29:21 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 05:29:22 - DEBUG - 当前位置: (9, 6)=('J', '7') 绘制棋子完成, 颜色: black
+2024-10-25 05:29:22 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 05:29:22 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 05:29:23 - SUCCESS - AI move: (10, 7)
+2024-10-25 05:29:23 - DEBUG - 当前位置: (10, 7)=('K', '8') 绘制棋子完成, 颜色: white
+2024-10-25 05:29:23 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 05:29:24 - DEBUG - 当前位置: (11, 7)=('L', '8') 绘制棋子完成, 颜色: black
+2024-10-25 05:29:24 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 05:29:24 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 05:29:24 - SUCCESS - AI move: (6, 7)
+2024-10-25 05:29:24 - DEBUG - 当前位置: (6, 7)=('G', '8') 绘制棋子完成, 颜色: white
+2024-10-25 05:29:24 - INFO - Player(name='AI', color='white', type='ai') 胜利
+2024-10-25 05:29:27 - INFO - 棋盘已清空
+2024-10-25 05:29:27 - INFO - Current AI: AlphaBetaGomokuAI
+2024-10-25 05:29:27 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 05:29:27 - INFO - AI is first
+2024-10-25 05:29:27 - DEBUG - No pieces , AI will choose center
+2024-10-25 05:29:27 - SUCCESS - AI move: (7, 7)
+2024-10-25 05:29:27 - DEBUG - 当前位置: (7, 7)=('H', '8') 绘制棋子完成, 颜色: white
+2024-10-25 05:29:27 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 05:29:28 - DEBUG - 当前位置: (8, 6)=('I', '7') 绘制棋子完成, 颜色: black
+2024-10-25 05:29:28 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 05:29:28 - DEBUG - Enemy pieces less than 3, will choose center randomly
+2024-10-25 05:29:28 - SUCCESS - AI move: (5, 5)
+2024-10-25 05:29:28 - DEBUG - 当前位置: (5, 5)=('F', '6') 绘制棋子完成, 颜色: white
+2024-10-25 05:29:28 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 05:29:29 - DEBUG - 当前位置: (6, 6)=('G', '7') 绘制棋子完成, 颜色: black
+2024-10-25 05:29:29 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 05:29:29 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 05:29:30 - SUCCESS - AI move: (7, 6)
+2024-10-25 05:29:30 - DEBUG - 当前位置: (7, 6)=('H', '7') 绘制棋子完成, 颜色: white
+2024-10-25 05:29:30 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 05:29:31 - DEBUG - 当前位置: (7, 5)=('H', '6') 绘制棋子完成, 颜色: black
+2024-10-25 05:29:31 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 05:29:31 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 05:29:32 - SUCCESS - AI move: (7, 8)
+2024-10-25 05:29:32 - DEBUG - 当前位置: (7, 8)=('H', '9') 绘制棋子完成, 颜色: white
+2024-10-25 05:29:32 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 05:29:33 - DEBUG - 当前位置: (8, 4)=('I', '5') 绘制棋子完成, 颜色: black
+2024-10-25 05:29:33 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 05:29:33 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 05:29:34 - SUCCESS - AI move: (7, 9)
+2024-10-25 05:29:34 - DEBUG - 当前位置: (7, 9)=('H', '10') 绘制棋子完成, 颜色: white
+2024-10-25 05:29:35 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 05:29:38 - DEBUG - 当前位置: (7, 10)=('H', '11') 绘制棋子完成, 颜色: black
+2024-10-25 05:29:38 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 05:29:38 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 05:29:40 - SUCCESS - AI move: (9, 3)
+2024-10-25 05:29:40 - DEBUG - 当前位置: (9, 3)=('J', '4') 绘制棋子完成, 颜色: white
+2024-10-25 05:29:41 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 05:29:43 - DEBUG - 当前位置: (5, 7)=('F', '8') 绘制棋子完成, 颜色: black
+2024-10-25 05:29:43 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 05:29:43 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 05:29:44 - SUCCESS - AI move: (4, 8)
+2024-10-25 05:29:44 - DEBUG - 当前位置: (4, 8)=('E', '9') 绘制棋子完成, 颜色: white
+2024-10-25 05:29:44 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 05:29:46 - DEBUG - 当前位置: (9, 7)=('J', '8') 绘制棋子完成, 颜色: black
+2024-10-25 05:29:46 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 05:29:46 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 05:29:52 - SUCCESS - AI move: (10, 8)
+2024-10-25 05:29:52 - DEBUG - 当前位置: (10, 8)=('K', '9') 绘制棋子完成, 颜色: white
+2024-10-25 05:29:52 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 05:29:53 - DEBUG - 当前位置: (8, 5)=('I', '6') 绘制棋子完成, 颜色: black
+2024-10-25 05:29:53 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 05:29:53 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 05:30:01 - SUCCESS - AI move: (8, 7)
+2024-10-25 05:30:01 - DEBUG - 当前位置: (8, 7)=('I', '8') 绘制棋子完成, 颜色: white
+2024-10-25 05:30:01 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 05:30:05 - DEBUG - 当前位置: (9, 5)=('J', '6') 绘制棋子完成, 颜色: black
+2024-10-25 05:30:06 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 05:30:06 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 05:30:14 - SUCCESS - AI move: (6, 5)
+2024-10-25 05:30:14 - DEBUG - 当前位置: (6, 5)=('G', '6') 绘制棋子完成, 颜色: white
+2024-10-25 05:30:14 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 05:30:17 - DEBUG - 当前位置: (9, 8)=('J', '9') 绘制棋子完成, 颜色: black
+2024-10-25 05:30:18 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 05:30:18 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 05:30:25 - SUCCESS - AI move: (9, 6)
+2024-10-25 05:30:25 - DEBUG - 当前位置: (9, 6)=('J', '7') 绘制棋子完成, 颜色: white
+2024-10-25 05:30:25 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 05:30:34 - DEBUG - 当前位置: (7, 3)=('H', '4') 绘制棋子完成, 颜色: black
+2024-10-25 05:30:34 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 05:30:34 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 05:30:40 - SUCCESS - AI move: (10, 5)
+2024-10-25 05:30:40 - DEBUG - 当前位置: (10, 5)=('K', '6') 绘制棋子完成, 颜色: white
+2024-10-25 05:30:41 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 05:30:45 - DEBUG - 当前位置: (11, 4)=('L', '5') 绘制棋子完成, 颜色: black
+2024-10-25 05:30:45 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 05:30:45 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 05:30:48 - SUCCESS - AI move: (6, 9)
+2024-10-25 05:30:48 - DEBUG - 当前位置: (6, 9)=('G', '10') 绘制棋子完成, 颜色: white
+2024-10-25 05:30:48 - INFO - Player(name='AI', color='white', type='ai') 胜利
+2024-10-25 11:59:13 - INFO - 初始化棋盘完成, 接下来请设置当前玩家
+2024-10-25 11:59:15 - INFO - 棋盘已清空
+2024-10-25 11:59:16 - INFO - Current AI: AlphaBetaGomokuAI
+2024-10-25 11:59:16 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 11:59:17 - DEBUG - 当前位置: (7, 4)=('H', '5') 绘制棋子完成, 颜色: black
+2024-10-25 11:59:17 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 11:59:17 - DEBUG - Enemy pieces less than 3, will choose center randomly
+2024-10-25 11:59:17 - SUCCESS - AI move: (8, 5)
+2024-10-25 11:59:17 - DEBUG - 当前位置: (8, 5)=('I', '6') 绘制棋子完成, 颜色: white
+2024-10-25 11:59:17 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 11:59:18 - DEBUG - 当前位置: (8, 3)=('I', '4') 绘制棋子完成, 颜色: black
+2024-10-25 11:59:18 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 11:59:18 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 11:59:19 - SUCCESS - AI move: (6, 5)
+2024-10-25 11:59:19 - DEBUG - 当前位置: (6, 5)=('G', '6') 绘制棋子完成, 颜色: white
+2024-10-25 11:59:19 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 11:59:22 - DEBUG - 当前位置: (9, 4)=('J', '5') 绘制棋子完成, 颜色: black
+2024-10-25 11:59:22 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 11:59:22 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 11:59:23 - SUCCESS - AI move: (7, 5)
+2024-10-25 11:59:23 - DEBUG - 当前位置: (7, 5)=('H', '6') 绘制棋子完成, 颜色: white
+2024-10-25 11:59:23 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 11:59:23 - DEBUG - 当前位置: (9, 5)=('J', '6') 绘制棋子完成, 颜色: black
+2024-10-25 11:59:23 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 11:59:23 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 11:59:24 - SUCCESS - AI move: (5, 5)
+2024-10-25 11:59:24 - DEBUG - 当前位置: (5, 5)=('F', '6') 绘制棋子完成, 颜色: white
+2024-10-25 11:59:24 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 11:59:25 - WARNING - 当前位置: (5, 5)=('F', '6') 已经有棋子, 颜色: black
+2024-10-25 11:59:25 - DEBUG - 当前位置: (4, 5)=('E', '6') 绘制棋子完成, 颜色: black
+2024-10-25 11:59:25 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 11:59:25 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 11:59:28 - SUCCESS - AI move: (6, 4)
+2024-10-25 11:59:28 - DEBUG - 当前位置: (6, 4)=('G', '5') 绘制棋子完成, 颜色: white
+2024-10-25 11:59:28 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 11:59:31 - DEBUG - 当前位置: (10, 4)=('K', '5') 绘制棋子完成, 颜色: black
+2024-10-25 11:59:31 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 11:59:31 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 11:59:35 - SUCCESS - AI move: (8, 4)
+2024-10-25 11:59:35 - DEBUG - 当前位置: (8, 4)=('I', '5') 绘制棋子完成, 颜色: white
+2024-10-25 11:59:35 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 11:59:39 - DEBUG - 当前位置: (10, 5)=('K', '6') 绘制棋子完成, 颜色: black
+2024-10-25 11:59:39 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 11:59:39 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 11:59:43 - SUCCESS - AI move: (11, 6)
+2024-10-25 11:59:43 - DEBUG - 当前位置: (11, 6)=('L', '7') 绘制棋子完成, 颜色: white
+2024-10-25 11:59:43 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 11:59:47 - DEBUG - 当前位置: (8, 6)=('I', '7') 绘制棋子完成, 颜色: black
+2024-10-25 11:59:47 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 11:59:47 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 11:59:51 - SUCCESS - AI move: (11, 3)
+2024-10-25 11:59:51 - DEBUG - 当前位置: (11, 3)=('L', '4') 绘制棋子完成, 颜色: white
+2024-10-25 11:59:51 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 11:59:54 - DEBUG - 当前位置: (9, 6)=('J', '7') 绘制棋子完成, 颜色: black
+2024-10-25 11:59:54 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 11:59:54 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 11:59:59 - SUCCESS - AI move: (9, 3)
+2024-10-25 11:59:59 - DEBUG - 当前位置: (9, 3)=('J', '4') 绘制棋子完成, 颜色: white
+2024-10-25 11:59:59 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 12:00:01 - DEBUG - 当前位置: (10, 2)=('K', '3') 绘制棋子完成, 颜色: black
+2024-10-25 12:00:01 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 12:00:01 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 12:00:07 - SUCCESS - AI move: (10, 3)
+2024-10-25 12:00:07 - DEBUG - 当前位置: (10, 3)=('K', '4') 绘制棋子完成, 颜色: white
+2024-10-25 12:00:07 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 12:00:26 - DEBUG - 当前位置: (7, 7)=('H', '8') 绘制棋子完成, 颜色: black
+2024-10-25 12:00:26 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 12:00:26 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 12:00:30 - SUCCESS - AI move: (6, 8)
+2024-10-25 12:00:30 - DEBUG - 当前位置: (6, 8)=('G', '9') 绘制棋子完成, 颜色: white
+2024-10-25 12:00:30 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 12:00:40 - DEBUG - 当前位置: (8, 7)=('I', '8') 绘制棋子完成, 颜色: black
+2024-10-25 12:00:40 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 12:00:40 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 12:00:47 - SUCCESS - AI move: (12, 3)
+2024-10-25 12:00:47 - DEBUG - 当前位置: (12, 3)=('M', '4') 绘制棋子完成, 颜色: white
+2024-10-25 12:00:47 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 12:00:48 - DEBUG - 当前位置: (13, 3)=('N', '4') 绘制棋子完成, 颜色: black
+2024-10-25 12:00:48 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 12:00:48 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 12:11:08 - INFO - 初始化棋盘完成, 接下来请设置当前玩家
+2024-10-25 12:11:11 - INFO - 棋盘已清空
+2024-10-25 12:11:11 - INFO - Current AI: AlphaBetaGomokuAI
+2024-10-25 12:11:11 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 12:11:11 - DEBUG - 当前位置: (7, 4)=('H', '5') 绘制棋子完成, 颜色: black
+2024-10-25 12:11:11 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 12:11:11 - DEBUG - Enemy pieces less than 3, will choose center randomly
+2024-10-25 12:11:11 - SUCCESS - AI move: (8, 5)
+2024-10-25 12:11:11 - DEBUG - 当前位置: (8, 5)=('I', '6') 绘制棋子完成, 颜色: white
+2024-10-25 12:11:11 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 12:11:12 - DEBUG - 当前位置: (7, 5)=('H', '6') 绘制棋子完成, 颜色: black
+2024-10-25 12:11:12 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 12:11:12 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 12:11:12 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 12:11:13 - SUCCESS - AI move: (7, 6)
+2024-10-25 12:11:13 - DEBUG - 当前位置: (7, 6)=('H', '7') 绘制棋子完成, 颜色: black
+2024-10-25 12:11:13 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 12:11:13 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 12:11:13 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 12:11:14 - SUCCESS - AI move: (7, 7)
+2024-10-25 12:11:14 - DEBUG - 当前位置: (7, 7)=('H', '8') 绘制棋子完成, 颜色: black
+2024-10-25 12:11:14 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 12:11:14 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 12:11:14 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 12:11:14 - WARNING - No best action found in AlphaBeta , will use heuristic get a move
+2024-10-25 12:11:15 - SUCCESS - AI move: (7, 8)
+2024-10-25 12:11:15 - DEBUG - 当前位置: (7, 8)=('H', '9') 绘制棋子完成, 颜色: black
+2024-10-25 12:11:15 - INFO - Player(name='Player', color='black', type='human') 胜利
+2024-10-25 12:13:45 - INFO - 初始化棋盘完成, 接下来请设置当前玩家
+2024-10-25 12:13:46 - INFO - 棋盘已清空
+2024-10-25 12:13:46 - INFO - Current AI: AlphaBetaGomokuAI
+2024-10-25 12:13:46 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 12:13:48 - DEBUG - 当前位置: (7, 3)=('H', '4') 绘制棋子完成, 颜色: black
+2024-10-25 12:13:48 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 12:13:48 - DEBUG - Enemy pieces less than 3, will choose center randomly
+2024-10-25 12:13:48 - SUCCESS - AI move: (7, 7)
+2024-10-25 12:13:48 - DEBUG - 当前位置: (7, 7)=('H', '8') 绘制棋子完成, 颜色: white
+2024-10-25 12:13:48 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 12:13:49 - DEBUG - 当前位置: (7, 4)=('H', '5') 绘制棋子完成, 颜色: black
+2024-10-25 12:13:49 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 12:13:49 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 12:13:49 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 12:13:50 - SUCCESS - AI move: (7, 2)
+2024-10-25 12:13:50 - DEBUG - 当前位置: (7, 2)=('H', '3') 绘制棋子完成, 颜色: black
+2024-10-25 12:13:50 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 12:13:50 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 12:13:50 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 12:13:51 - SUCCESS - AI move: (7, 1)
+2024-10-25 12:13:51 - DEBUG - 当前位置: (7, 1)=('H', '2') 绘制棋子完成, 颜色: black
+2024-10-25 12:13:51 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 12:13:51 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 12:13:51 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 12:13:51 - WARNING - No best action found in AlphaBeta , will use heuristic get a move
+2024-10-25 12:13:51 - SUCCESS - AI move: (7, 0)
+2024-10-25 12:13:51 - DEBUG - 当前位置: (7, 0)=('H', '1') 绘制棋子完成, 颜色: black
+2024-10-25 12:13:51 - INFO - Player(name='Player', color='black', type='human') 胜利
+2024-10-25 12:18:07 - INFO - 初始化棋盘完成, 接下来请设置当前玩家
+2024-10-25 12:18:09 - INFO - 棋盘已清空
+2024-10-25 12:18:09 - INFO - Current AI: AlphaBetaGomokuAI
+2024-10-25 12:18:09 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 12:18:11 - DEBUG - 当前位置: (7, 4)=('H', '5') 绘制棋子完成, 颜色: black
+2024-10-25 12:18:11 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 12:18:11 - DEBUG - Enemy pieces less than 3, will choose center randomly
+2024-10-25 12:18:11 - SUCCESS - AI move: (7, 9)
+2024-10-25 12:18:11 - DEBUG - 当前位置: (7, 9)=('H', '10') 绘制棋子完成, 颜色: white
+2024-10-25 12:18:11 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 12:18:12 - DEBUG - 当前位置: (7, 5)=('H', '6') 绘制棋子完成, 颜色: black
+2024-10-25 12:18:12 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 12:18:12 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 12:18:12 - SUCCESS - AI move: (7, 6)
+2024-10-25 12:18:12 - DEBUG - 当前位置: (7, 6)=('H', '7') 绘制棋子完成, 颜色: white
+2024-10-25 12:18:13 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 12:18:13 - DEBUG - 当前位置: (6, 6)=('G', '7') 绘制棋子完成, 颜色: black
+2024-10-25 12:18:14 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 12:18:14 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 12:18:14 - SUCCESS - AI move: (5, 7)
+2024-10-25 12:18:14 - DEBUG - 当前位置: (5, 7)=('F', '8') 绘制棋子完成, 颜色: white
+2024-10-25 12:18:14 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 12:18:15 - DEBUG - 当前位置: (6, 7)=('G', '8') 绘制棋子完成, 颜色: black
+2024-10-25 12:18:15 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 12:18:15 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 12:18:16 - SUCCESS - AI move: (6, 8)
+2024-10-25 12:18:16 - DEBUG - 当前位置: (6, 8)=('G', '9') 绘制棋子完成, 颜色: white
+2024-10-25 12:18:16 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 12:18:17 - DEBUG - 当前位置: (8, 10)=('I', '11') 绘制棋子完成, 颜色: black
+2024-10-25 12:18:17 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 12:18:17 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 12:18:18 - SUCCESS - AI move: (4, 6)
+2024-10-25 12:18:18 - DEBUG - 当前位置: (4, 6)=('E', '7') 绘制棋子完成, 颜色: white
+2024-10-25 12:18:18 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 12:18:19 - DEBUG - 当前位置: (3, 5)=('D', '6') 绘制棋子完成, 颜色: black
+2024-10-25 12:18:19 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 12:18:19 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 12:18:22 - SUCCESS - AI move: (6, 5)
+2024-10-25 12:18:22 - DEBUG - 当前位置: (6, 5)=('G', '6') 绘制棋子完成, 颜色: white
+2024-10-25 12:18:22 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 12:18:27 - DEBUG - 当前位置: (8, 6)=('I', '7') 绘制棋子完成, 颜色: black
+2024-10-25 12:18:27 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 12:18:27 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 12:18:30 - SUCCESS - AI move: (8, 7)
+2024-10-25 12:18:30 - DEBUG - 当前位置: (8, 7)=('I', '8') 绘制棋子完成, 颜色: white
+2024-10-25 12:18:30 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 12:18:31 - DEBUG - 当前位置: (9, 8)=('J', '9') 绘制棋子完成, 颜色: black
+2024-10-25 12:18:31 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 12:18:31 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 12:18:33 - SUCCESS - AI move: (5, 4)
+2024-10-25 12:18:33 - DEBUG - 当前位置: (5, 4)=('F', '5') 绘制棋子完成, 颜色: white
+2024-10-25 12:18:33 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 12:18:35 - DEBUG - 当前位置: (4, 3)=('E', '4') 绘制棋子完成, 颜色: black
+2024-10-25 12:18:35 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 12:18:35 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 12:18:42 - SUCCESS - AI move: (9, 7)
+2024-10-25 12:18:42 - DEBUG - 当前位置: (9, 7)=('J', '8') 绘制棋子完成, 颜色: white
+2024-10-25 12:18:42 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 12:18:45 - DEBUG - 当前位置: (10, 7)=('K', '8') 绘制棋子完成, 颜色: black
+2024-10-25 12:18:45 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 12:18:45 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 12:18:52 - SUCCESS - AI move: (8, 8)
+2024-10-25 12:18:52 - DEBUG - 当前位置: (8, 8)=('I', '9') 绘制棋子完成, 颜色: white
+2024-10-25 12:18:52 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 12:18:53 - DEBUG - 当前位置: (10, 6)=('K', '7') 绘制棋子完成, 颜色: black
+2024-10-25 12:18:53 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 12:18:53 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 12:19:01 - SUCCESS - AI move: (6, 10)
+2024-10-25 12:19:01 - DEBUG - 当前位置: (6, 10)=('G', '11') 绘制棋子完成, 颜色: white
+2024-10-25 12:19:01 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 12:19:02 - DEBUG - 当前位置: (5, 11)=('F', '12') 绘制棋子完成, 颜色: black
+2024-10-25 12:19:02 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 12:19:02 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 12:19:18 - SUCCESS - AI move: (5, 5)
+2024-10-25 12:19:18 - DEBUG - 当前位置: (5, 5)=('F', '6') 绘制棋子完成, 颜色: white
+2024-10-25 12:19:18 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 12:26:26 - DEBUG - 当前位置: (5, 6)=('F', '7') 绘制棋子完成, 颜色: black
+2024-10-25 12:26:26 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 12:26:26 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 12:26:31 - SUCCESS - AI move: (3, 7)
+2024-10-25 12:26:31 - DEBUG - 当前位置: (3, 7)=('D', '8') 绘制棋子完成, 颜色: white
+2024-10-25 12:26:31 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 12:26:33 - DEBUG - 当前位置: (2, 8)=('C', '9') 绘制棋子完成, 颜色: black
+2024-10-25 12:26:33 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 12:26:33 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 12:26:39 - SUCCESS - AI move: (6, 4)
+2024-10-25 12:26:39 - DEBUG - 当前位置: (6, 4)=('G', '5') 绘制棋子完成, 颜色: white
+2024-10-25 12:26:40 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 12:26:42 - DEBUG - 当前位置: (7, 3)=('H', '4') 绘制棋子完成, 颜色: black
+2024-10-25 12:26:42 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 12:26:42 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 12:26:55 - SUCCESS - AI move: (7, 2)
+2024-10-25 12:26:55 - DEBUG - 当前位置: (7, 2)=('H', '3') 绘制棋子完成, 颜色: white
+2024-10-25 12:26:55 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 12:27:01 - DEBUG - 当前位置: (8, 9)=('I', '10') 绘制棋子完成, 颜色: black
+2024-10-25 12:27:01 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 12:27:01 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 12:27:15 - SUCCESS - AI move: (4, 5)
+2024-10-25 12:27:15 - DEBUG - 当前位置: (4, 5)=('E', '6') 绘制棋子完成, 颜色: white
+2024-10-25 12:27:15 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 12:27:19 - DEBUG - 当前位置: (7, 10)=('H', '11') 绘制棋子完成, 颜色: black
+2024-10-25 12:27:19 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 12:27:19 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 12:31:12 - INFO - 初始化棋盘完成, 接下来请设置当前玩家
+2024-10-25 12:31:14 - INFO - 棋盘已清空
+2024-10-25 12:31:14 - INFO - Current AI: AlphaBetaGomokuAI
+2024-10-25 12:31:14 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 12:31:15 - DEBUG - 当前位置: (7, 4)=('H', '5') 绘制棋子完成, 颜色: black
+2024-10-25 12:31:15 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 12:31:15 - DEBUG - Enemy pieces less than 3, will choose center randomly
+2024-10-25 12:31:15 - SUCCESS - AI move: (6, 5)
+2024-10-25 12:31:15 - DEBUG - 当前位置: (6, 5)=('G', '6') 绘制棋子完成, 颜色: white
+2024-10-25 12:31:15 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 12:31:16 - DEBUG - 当前位置: (5, 6)=('F', '7') 绘制棋子完成, 颜色: black
+2024-10-25 12:31:16 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 12:31:16 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 12:31:16 - SUCCESS - AI move: (3, 4)
+2024-10-25 12:31:16 - DEBUG - 当前位置: (3, 4)=('D', '5') 绘制棋子完成, 颜色: white
+2024-10-25 12:31:16 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 12:31:17 - DEBUG - 当前位置: (4, 4)=('E', '5') 绘制棋子完成, 颜色: black
+2024-10-25 12:31:17 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 12:31:17 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 12:31:19 - SUCCESS - AI move: (5, 4)
+2024-10-25 12:31:19 - DEBUG - 当前位置: (5, 4)=('F', '5') 绘制棋子完成, 颜色: white
+2024-10-25 12:31:19 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 12:31:20 - DEBUG - 当前位置: (4, 3)=('E', '4') 绘制棋子完成, 颜色: black
+2024-10-25 12:31:20 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 12:31:20 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 12:31:21 - SUCCESS - AI move: (4, 5)
+2024-10-25 12:31:21 - DEBUG - 当前位置: (4, 5)=('E', '6') 绘制棋子完成, 颜色: white
+2024-10-25 12:31:21 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 12:31:22 - DEBUG - 当前位置: (3, 6)=('D', '7') 绘制棋子完成, 颜色: black
+2024-10-25 12:31:22 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 12:31:22 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 12:31:23 - SUCCESS - AI move: (5, 5)
+2024-10-25 12:31:23 - DEBUG - 当前位置: (5, 5)=('F', '6') 绘制棋子完成, 颜色: white
+2024-10-25 12:31:23 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 12:31:24 - DEBUG - 当前位置: (7, 5)=('H', '6') 绘制棋子完成, 颜色: black
+2024-10-25 12:31:24 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 12:31:24 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 12:31:25 - SUCCESS - AI move: (3, 5)
+2024-10-25 12:31:25 - DEBUG - 当前位置: (3, 5)=('D', '6') 绘制棋子完成, 颜色: white
+2024-10-25 12:31:26 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 12:31:26 - DEBUG - 当前位置: (2, 5)=('C', '6') 绘制棋子完成, 颜色: black
+2024-10-25 12:31:26 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 12:31:26 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 12:31:29 - SUCCESS - AI move: (7, 6)
+2024-10-25 12:31:29 - DEBUG - 当前位置: (7, 6)=('H', '7') 绘制棋子完成, 颜色: white
+2024-10-25 12:31:30 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 12:31:31 - DEBUG - 当前位置: (8, 7)=('I', '8') 绘制棋子完成, 颜色: black
+2024-10-25 12:31:31 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 12:31:31 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 12:31:33 - SUCCESS - AI move: (1, 4)
+2024-10-25 12:31:33 - DEBUG - 当前位置: (1, 4)=('B', '5') 绘制棋子完成, 颜色: white
+2024-10-25 12:31:33 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 12:31:39 - DEBUG - 当前位置: (0, 3)=('A', '4') 绘制棋子完成, 颜色: black
+2024-10-25 12:31:39 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 12:31:39 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 12:31:41 - SUCCESS - AI move: (4, 6)
+2024-10-25 12:31:41 - DEBUG - 当前位置: (4, 6)=('E', '7') 绘制棋子完成, 颜色: white
+2024-10-25 12:31:41 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 12:31:42 - DEBUG - 当前位置: (3, 7)=('D', '8') 绘制棋子完成, 颜色: black
+2024-10-25 12:31:42 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 12:31:42 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 12:38:00 - INFO - 初始化棋盘完成, 接下来请设置当前玩家
+2024-10-25 12:38:02 - INFO - 棋盘已清空
+2024-10-25 12:38:02 - INFO - Current AI: AlphaBetaGomokuAI
+2024-10-25 12:38:02 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 12:38:03 - DEBUG - 当前位置: (6, 3)=('G', '4') 绘制棋子完成, 颜色: black
+2024-10-25 12:38:03 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 12:38:03 - DEBUG - Enemy pieces less than 3, will choose center randomly
+2024-10-25 12:38:03 - SUCCESS - AI move: (9, 6)
+2024-10-25 12:38:03 - DEBUG - 当前位置: (9, 6)=('J', '7') 绘制棋子完成, 颜色: white
+2024-10-25 12:38:03 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 12:38:04 - DEBUG - 当前位置: (7, 4)=('H', '5') 绘制棋子完成, 颜色: black
+2024-10-25 12:38:04 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 12:38:04 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 12:38:04 - SUCCESS - AI move: (4, 1)
+2024-10-25 12:38:04 - DEBUG - 当前位置: (4, 1)=('E', '2') 绘制棋子完成, 颜色: white
+2024-10-25 12:38:04 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 12:38:05 - DEBUG - 当前位置: (5, 2)=('F', '3') 绘制棋子完成, 颜色: black
+2024-10-25 12:38:05 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 12:38:05 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 12:38:08 - SUCCESS - AI move: (8, 5)
+2024-10-25 12:38:08 - DEBUG - 当前位置: (8, 5)=('I', '6') 绘制棋子完成, 颜色: white
+2024-10-25 12:38:08 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 12:38:09 - DEBUG - 当前位置: (6, 5)=('G', '6') 绘制棋子完成, 颜色: black
+2024-10-25 12:38:09 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 12:38:09 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 12:38:12 - SUCCESS - AI move: (10, 5)
+2024-10-25 12:38:12 - DEBUG - 当前位置: (10, 5)=('K', '6') 绘制棋子完成, 颜色: white
+2024-10-25 12:38:12 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 12:38:14 - DEBUG - 当前位置: (9, 5)=('J', '6') 绘制棋子完成, 颜色: black
+2024-10-25 12:38:14 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 12:38:14 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 12:38:16 - SUCCESS - AI move: (8, 7)
+2024-10-25 12:38:16 - DEBUG - 当前位置: (8, 7)=('I', '8') 绘制棋子完成, 颜色: white
+2024-10-25 12:38:16 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 12:38:39 - DEBUG - 当前位置: (7, 8)=('H', '9') 绘制棋子完成, 颜色: black
+2024-10-25 12:38:39 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 12:38:39 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 12:38:43 - SUCCESS - AI move: (11, 4)
+2024-10-25 12:38:43 - DEBUG - 当前位置: (11, 4)=('L', '5') 绘制棋子完成, 颜色: white
+2024-10-25 12:38:43 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 12:38:45 - DEBUG - 当前位置: (12, 5)=('M', '6') 绘制棋子完成, 颜色: black
+2024-10-25 12:38:45 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 12:38:45 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 12:38:55 - SUCCESS - AI move: (12, 3)
+2024-10-25 12:38:55 - DEBUG - 当前位置: (12, 3)=('M', '4') 绘制棋子完成, 颜色: white
+2024-10-25 12:38:55 - INFO - Player(name='AI', color='white', type='ai') 胜利
+2024-10-25 12:38:58 - INFO - 棋盘已清空
+2024-10-25 12:38:58 - INFO - Current AI: AlphaBetaGomokuAI
+2024-10-25 12:38:58 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 12:38:59 - DEBUG - 当前位置: (8, 7)=('I', '8') 绘制棋子完成, 颜色: black
+2024-10-25 12:38:59 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 12:38:59 - DEBUG - Enemy pieces less than 3, will choose center randomly
+2024-10-25 12:38:59 - SUCCESS - AI move: (8, 9)
+2024-10-25 12:38:59 - DEBUG - 当前位置: (8, 9)=('I', '10') 绘制棋子完成, 颜色: white
+2024-10-25 12:38:59 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 12:39:00 - DEBUG - 当前位置: (8, 8)=('I', '9') 绘制棋子完成, 颜色: black
+2024-10-25 12:39:00 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 12:39:00 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 12:39:00 - SUCCESS - AI move: (8, 5)
+2024-10-25 12:39:00 - DEBUG - 当前位置: (8, 5)=('I', '6') 绘制棋子完成, 颜色: white
+2024-10-25 12:39:00 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 12:39:01 - DEBUG - 当前位置: (8, 6)=('I', '7') 绘制棋子完成, 颜色: black
+2024-10-25 12:39:01 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 12:39:01 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 12:39:02 - SUCCESS - AI move: (6, 7)
+2024-10-25 12:39:02 - DEBUG - 当前位置: (6, 7)=('G', '8') 绘制棋子完成, 颜色: white
+2024-10-25 12:39:02 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 12:39:03 - DEBUG - 当前位置: (7, 6)=('H', '7') 绘制棋子完成, 颜色: black
+2024-10-25 12:39:03 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 12:39:03 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 12:39:04 - SUCCESS - AI move: (7, 8)
+2024-10-25 12:39:04 - DEBUG - 当前位置: (7, 8)=('H', '9') 绘制棋子完成, 颜色: white
+2024-10-25 12:39:04 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 12:39:05 - DEBUG - 当前位置: (5, 6)=('F', '7') 绘制棋子完成, 颜色: black
+2024-10-25 12:39:05 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 12:39:05 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 12:39:06 - SUCCESS - AI move: (9, 10)
+2024-10-25 12:39:06 - DEBUG - 当前位置: (9, 10)=('J', '11') 绘制棋子完成, 颜色: white
+2024-10-25 12:39:06 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 12:39:07 - DEBUG - 当前位置: (10, 11)=('K', '12') 绘制棋子完成, 颜色: black
+2024-10-25 12:39:07 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 12:39:07 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 12:39:08 - SUCCESS - AI move: (6, 6)
+2024-10-25 12:39:08 - DEBUG - 当前位置: (6, 6)=('G', '7') 绘制棋子完成, 颜色: white
+2024-10-25 12:39:08 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 12:39:10 - DEBUG - 当前位置: (6, 8)=('G', '9') 绘制棋子完成, 颜色: black
+2024-10-25 12:39:10 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 12:39:10 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 12:39:12 - SUCCESS - AI move: (6, 5)
+2024-10-25 12:39:12 - DEBUG - 当前位置: (6, 5)=('G', '6') 绘制棋子完成, 颜色: white
+2024-10-25 12:39:13 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 12:39:31 - DEBUG - 当前位置: (6, 4)=('G', '5') 绘制棋子完成, 颜色: black
+2024-10-25 12:39:31 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 12:39:31 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 12:39:34 - SUCCESS - AI move: (7, 5)
+2024-10-25 12:39:34 - DEBUG - 当前位置: (7, 5)=('H', '6') 绘制棋子完成, 颜色: white
+2024-10-25 12:39:34 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 12:39:36 - DEBUG - 当前位置: (9, 5)=('J', '6') 绘制棋子完成, 颜色: black
+2024-10-25 12:39:36 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 12:39:36 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 12:39:37 - SUCCESS - AI move: (7, 7)
+2024-10-25 12:39:37 - DEBUG - 当前位置: (7, 7)=('H', '8') 绘制棋子完成, 颜色: white
+2024-10-25 12:39:37 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 12:39:44 - DEBUG - 当前位置: (5, 5)=('F', '6') 绘制棋子完成, 颜色: black
+2024-10-25 12:39:44 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 12:39:44 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 12:39:46 - SUCCESS - AI move: (5, 7)
+2024-10-25 12:39:46 - DEBUG - 当前位置: (5, 7)=('F', '8') 绘制棋子完成, 颜色: white
+2024-10-25 12:39:46 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 12:39:51 - DEBUG - 当前位置: (4, 8)=('E', '9') 绘制棋子完成, 颜色: black
+2024-10-25 12:39:51 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 12:39:51 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 12:39:52 - SUCCESS - AI move: (8, 4)
+2024-10-25 12:39:52 - DEBUG - 当前位置: (8, 4)=('I', '5') 绘制棋子完成, 颜色: white
+2024-10-25 12:39:52 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 12:39:53 - DEBUG - 当前位置: (9, 3)=('J', '4') 绘制棋子完成, 颜色: black
+2024-10-25 12:39:53 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 12:39:53 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 12:39:55 - SUCCESS - AI move: (4, 7)
+2024-10-25 12:39:55 - DEBUG - 当前位置: (4, 7)=('E', '8') 绘制棋子完成, 颜色: white
+2024-10-25 12:39:55 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 12:39:57 - DEBUG - 当前位置: (3, 7)=('D', '8') 绘制棋子完成, 颜色: black
+2024-10-25 12:39:57 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 12:39:57 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 12:39:59 - SUCCESS - AI move: (4, 6)
+2024-10-25 12:39:59 - DEBUG - 当前位置: (4, 6)=('E', '7') 绘制棋子完成, 颜色: white
+2024-10-25 12:39:59 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 12:40:00 - DEBUG - 当前位置: (4, 5)=('E', '6') 绘制棋子完成, 颜色: black
+2024-10-25 12:40:00 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 12:40:00 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 12:40:03 - SUCCESS - AI move: (7, 10)
+2024-10-25 12:40:03 - DEBUG - 当前位置: (7, 10)=('H', '11') 绘制棋子完成, 颜色: white
+2024-10-25 12:40:03 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 12:40:13 - DEBUG - 当前位置: (6, 11)=('G', '12') 绘制棋子完成, 颜色: black
+2024-10-25 12:40:13 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 12:40:13 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 12:40:16 - SUCCESS - AI move: (7, 9)
+2024-10-25 12:40:16 - DEBUG - 当前位置: (7, 9)=('H', '10') 绘制棋子完成, 颜色: white
+2024-10-25 12:40:16 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 12:40:17 - DEBUG - 当前位置: (7, 11)=('H', '12') 绘制棋子完成, 颜色: black
+2024-10-25 12:40:17 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 12:40:17 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 12:40:23 - SUCCESS - AI move: (9, 9)
+2024-10-25 12:40:23 - DEBUG - 当前位置: (9, 9)=('J', '10') 绘制棋子完成, 颜色: white
+2024-10-25 12:40:23 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 12:40:24 - DEBUG - 当前位置: (10, 9)=('K', '10') 绘制棋子完成, 颜色: black
+2024-10-25 12:40:24 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 12:40:24 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 12:40:30 - SUCCESS - AI move: (6, 9)
+2024-10-25 12:40:30 - DEBUG - 当前位置: (6, 9)=('G', '10') 绘制棋子完成, 颜色: white
+2024-10-25 12:40:30 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 12:40:31 - DEBUG - 当前位置: (5, 9)=('F', '10') 绘制棋子完成, 颜色: black
+2024-10-25 12:40:31 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 12:40:31 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 12:40:34 - SUCCESS - AI move: (6, 10)
+2024-10-25 12:40:34 - DEBUG - 当前位置: (6, 10)=('G', '11') 绘制棋子完成, 颜色: white
+2024-10-25 12:40:34 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 12:40:42 - DEBUG - 当前位置: (8, 11)=('I', '12') 绘制棋子完成, 颜色: black
+2024-10-25 12:40:42 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 12:40:42 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 12:40:50 - SUCCESS - AI move: (9, 11)
+2024-10-25 12:40:50 - DEBUG - 当前位置: (9, 11)=('J', '12') 绘制棋子完成, 颜色: white
+2024-10-25 12:40:51 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 12:41:00 - DEBUG - 当前位置: (9, 12)=('J', '13') 绘制棋子完成, 颜色: black
+2024-10-25 12:41:01 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 12:41:01 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 12:41:04 - SUCCESS - AI move: (8, 10)
+2024-10-25 12:41:04 - DEBUG - 当前位置: (8, 10)=('I', '11') 绘制棋子完成, 颜色: white
+2024-10-25 12:41:04 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 12:41:06 - DEBUG - 当前位置: (10, 10)=('K', '11') 绘制棋子完成, 颜色: black
+2024-10-25 12:41:06 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 12:41:06 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 12:41:11 - SUCCESS - AI move: (5, 10)
+2024-10-25 12:41:11 - DEBUG - 当前位置: (5, 10)=('F', '11') 绘制棋子完成, 颜色: white
+2024-10-25 12:41:11 - INFO - Player(name='AI', color='white', type='ai') 胜利
+2024-10-25 12:42:42 - INFO - 初始化棋盘完成, 接下来请设置当前玩家
+2024-10-25 12:42:43 - INFO - 棋盘已清空
+2024-10-25 12:42:43 - INFO - Current AI: AlphaBetaGomokuAI
+2024-10-25 12:42:43 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 12:42:43 - DEBUG - 当前位置: (8, 5)=('I', '6') 绘制棋子完成, 颜色: black
+2024-10-25 12:42:43 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 12:42:43 - DEBUG - Enemy pieces less than 3, will choose center randomly
+2024-10-25 12:42:43 - SUCCESS - AI move: (8, 6)
+2024-10-25 12:42:43 - DEBUG - 当前位置: (8, 6)=('I', '7') 绘制棋子完成, 颜色: white
+2024-10-25 12:42:43 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 12:42:44 - DEBUG - 当前位置: (8, 7)=('I', '8') 绘制棋子完成, 颜色: black
+2024-10-25 12:42:44 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 12:42:44 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 12:42:44 - SUCCESS - AI move: (7, 5)
+2024-10-25 12:42:44 - DEBUG - 当前位置: (7, 5)=('H', '6') 绘制棋子完成, 颜色: white
+2024-10-25 12:42:44 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 12:42:45 - DEBUG - 当前位置: (6, 4)=('G', '5') 绘制棋子完成, 颜色: black
+2024-10-25 12:42:45 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 12:42:45 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 12:42:46 - SUCCESS - AI move: (9, 7)
+2024-10-25 12:42:46 - DEBUG - 当前位置: (9, 7)=('J', '8') 绘制棋子完成, 颜色: white
+2024-10-25 12:42:46 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 12:42:47 - DEBUG - 当前位置: (10, 8)=('K', '9') 绘制棋子完成, 颜色: black
+2024-10-25 12:42:47 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 12:42:47 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 12:42:48 - SUCCESS - AI move: (6, 6)
+2024-10-25 12:42:48 - DEBUG - 当前位置: (6, 6)=('G', '7') 绘制棋子完成, 颜色: white
+2024-10-25 12:42:48 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 12:42:49 - DEBUG - 当前位置: (5, 7)=('F', '8') 绘制棋子完成, 颜色: black
+2024-10-25 12:42:49 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 12:42:49 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 12:42:50 - SUCCESS - AI move: (7, 6)
+2024-10-25 12:42:50 - DEBUG - 当前位置: (7, 6)=('H', '7') 绘制棋子完成, 颜色: white
+2024-10-25 12:42:50 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 12:44:00 - WARNING - 当前位置: (6, 6)=('G', '7') 已经有棋子, 颜色: black
+2024-10-25 12:44:01 - DEBUG - 当前位置: (5, 6)=('F', '7') 绘制棋子完成, 颜色: black
+2024-10-25 12:44:01 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 12:44:01 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 12:44:02 - SUCCESS - AI move: (9, 6)
+2024-10-25 12:44:02 - DEBUG - 当前位置: (9, 6)=('J', '7') 绘制棋子完成, 颜色: white
+2024-10-25 12:44:02 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 12:44:03 - DEBUG - 当前位置: (10, 6)=('K', '7') 绘制棋子完成, 颜色: black
+2024-10-25 12:44:03 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 12:44:03 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 12:44:04 - SUCCESS - AI move: (7, 7)
+2024-10-25 12:44:04 - DEBUG - 当前位置: (7, 7)=('H', '8') 绘制棋子完成, 颜色: white
+2024-10-25 12:44:04 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 12:44:05 - DEBUG - 当前位置: (6, 8)=('G', '9') 绘制棋子完成, 颜色: black
+2024-10-25 12:44:05 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 12:44:05 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 12:44:06 - SUCCESS - AI move: (7, 4)
+2024-10-25 12:44:06 - DEBUG - 当前位置: (7, 4)=('H', '5') 绘制棋子完成, 颜色: white
+2024-10-25 12:44:07 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 12:44:08 - DEBUG - 当前位置: (7, 8)=('H', '9') 绘制棋子完成, 颜色: black
+2024-10-25 12:44:08 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 12:44:08 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 12:44:09 - SUCCESS - AI move: (7, 3)
+2024-10-25 12:44:09 - DEBUG - 当前位置: (7, 3)=('H', '4') 绘制棋子完成, 颜色: white
+2024-10-25 12:44:09 - INFO - Player(name='AI', color='white', type='ai') 胜利
+2024-10-25 12:44:11 - INFO - 棋盘已清空
+2024-10-25 12:44:11 - INFO - Current AI: AlphaBetaGomokuAI
+2024-10-25 12:44:11 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 12:46:16 - INFO - 初始化棋盘完成, 接下来请设置当前玩家
+2024-10-25 12:46:18 - INFO - 棋盘已清空
+2024-10-25 12:46:18 - INFO - Current AI: AlphaBetaGomokuAI
+2024-10-25 12:46:18 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 12:46:19 - DEBUG - 当前位置: (8, 6)=('I', '7') 绘制棋子完成, 颜色: black
+2024-10-25 12:46:19 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 12:46:19 - DEBUG - Enemy pieces less than 3, will choose center randomly
+2024-10-25 12:46:19 - SUCCESS - AI move: (5, 6)
+2024-10-25 12:46:19 - DEBUG - 当前位置: (5, 6)=('F', '7') 绘制棋子完成, 颜色: white
+2024-10-25 12:46:19 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 12:46:20 - DEBUG - 当前位置: (7, 6)=('H', '7') 绘制棋子完成, 颜色: black
+2024-10-25 12:46:20 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 12:46:20 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 12:46:21 - SUCCESS - AI move: (9, 6)
+2024-10-25 12:46:21 - DEBUG - 当前位置: (9, 6)=('J', '7') 绘制棋子完成, 颜色: white
+2024-10-25 12:46:21 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 12:46:22 - DEBUG - 当前位置: (10, 5)=('K', '6') 绘制棋子完成, 颜色: black
+2024-10-25 12:46:22 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 12:46:22 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 12:46:24 - SUCCESS - AI move: (8, 5)
+2024-10-25 12:46:24 - DEBUG - 当前位置: (8, 5)=('I', '6') 绘制棋子完成, 颜色: white
+2024-10-25 12:46:24 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 12:46:24 - DEBUG - 当前位置: (7, 4)=('H', '5') 绘制棋子完成, 颜色: black
+2024-10-25 12:46:24 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 12:46:24 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 12:46:26 - SUCCESS - AI move: (7, 5)
+2024-10-25 12:46:26 - DEBUG - 当前位置: (7, 5)=('H', '6') 绘制棋子完成, 颜色: white
+2024-10-25 12:46:26 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 12:46:27 - DEBUG - 当前位置: (6, 5)=('G', '6') 绘制棋子完成, 颜色: black
+2024-10-25 12:46:27 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 12:46:27 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 12:46:28 - SUCCESS - AI move: (5, 4)
+2024-10-25 12:46:28 - DEBUG - 当前位置: (5, 4)=('F', '5') 绘制棋子完成, 颜色: white
+2024-10-25 12:46:28 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 12:46:29 - DEBUG - 当前位置: (5, 5)=('F', '6') 绘制棋子完成, 颜色: black
+2024-10-25 12:46:29 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 12:46:29 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 12:46:30 - SUCCESS - AI move: (10, 7)
+2024-10-25 12:46:30 - DEBUG - 当前位置: (10, 7)=('K', '8') 绘制棋子完成, 颜色: white
+2024-10-25 12:46:30 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 12:46:32 - DEBUG - 当前位置: (11, 7)=('L', '8') 绘制棋子完成, 颜色: black
+2024-10-25 12:46:32 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 12:46:32 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 12:46:33 - SUCCESS - AI move: (11, 8)
+2024-10-25 12:46:33 - DEBUG - 当前位置: (11, 8)=('L', '9') 绘制棋子完成, 颜色: white
+2024-10-25 12:46:33 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 12:46:34 - DEBUG - 当前位置: (12, 9)=('M', '10') 绘制棋子完成, 颜色: black
+2024-10-25 12:46:34 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 12:46:34 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 12:46:36 - SUCCESS - AI move: (10, 9)
+2024-10-25 12:46:36 - DEBUG - 当前位置: (10, 9)=('K', '10') 绘制棋子完成, 颜色: white
+2024-10-25 12:46:36 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 12:47:24 - DEBUG - 当前位置: (9, 10)=('J', '11') 绘制棋子完成, 颜色: black
+2024-10-25 12:47:24 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 12:47:24 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 12:47:27 - SUCCESS - AI move: (11, 10)
+2024-10-25 12:47:27 - DEBUG - 当前位置: (11, 10)=('L', '11') 绘制棋子完成, 颜色: white
+2024-10-25 12:47:27 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 12:47:27 - DEBUG - 当前位置: (12, 11)=('M', '12') 绘制棋子完成, 颜色: black
+2024-10-25 12:47:27 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 12:47:27 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 12:47:41 - SUCCESS - AI move: (12, 10)
+2024-10-25 12:47:41 - DEBUG - 当前位置: (12, 10)=('M', '11') 绘制棋子完成, 颜色: white
+2024-10-25 12:47:41 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 13:31:30 - INFO - 初始化棋盘完成, 接下来请设置当前玩家
+2024-10-25 13:31:33 - INFO - 棋盘已清空
+2024-10-25 13:31:33 - INFO - Current AI: AlphaBetaGomokuAI
+2024-10-25 13:31:33 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 13:31:34 - DEBUG - 当前位置: (6, 4)=('G', '5') 绘制棋子完成, 颜色: black
+2024-10-25 13:31:34 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 13:31:34 - DEBUG - Enemy pieces less than 3, will choose center randomly
+2024-10-25 13:31:34 - SUCCESS - AI move: (7, 9)
+2024-10-25 13:31:34 - DEBUG - 当前位置: (7, 9)=('H', '10') 绘制棋子完成, 颜色: white
+2024-10-25 13:31:34 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 13:31:35 - DEBUG - 当前位置: (6, 5)=('G', '6') 绘制棋子完成, 颜色: black
+2024-10-25 13:31:35 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 13:31:35 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 13:31:36 - SUCCESS - AI move: (6, 3)
+2024-10-25 13:31:36 - DEBUG - 当前位置: (6, 3)=('G', '4') 绘制棋子完成, 颜色: white
+2024-10-25 13:31:36 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 13:31:37 - DEBUG - 当前位置: (6, 6)=('G', '7') 绘制棋子完成, 颜色: black
+2024-10-25 13:31:37 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 13:31:37 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 13:31:39 - SUCCESS - AI move: (6, 7)
+2024-10-25 13:31:39 - DEBUG - 当前位置: (6, 7)=('G', '8') 绘制棋子完成, 颜色: white
+2024-10-25 13:31:39 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 13:31:45 - DEBUG - 当前位置: (5, 7)=('F', '8') 绘制棋子完成, 颜色: black
+2024-10-25 13:31:45 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 13:31:45 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 13:31:47 - SUCCESS - AI move: (7, 5)
+2024-10-25 13:31:47 - DEBUG - 当前位置: (7, 5)=('H', '6') 绘制棋子完成, 颜色: white
+2024-10-25 13:31:47 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 13:31:50 - DEBUG - 当前位置: (7, 6)=('H', '7') 绘制棋子完成, 颜色: black
+2024-10-25 13:31:50 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 13:31:50 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 13:31:52 - SUCCESS - AI move: (6, 10)
+2024-10-25 13:31:52 - DEBUG - 当前位置: (6, 10)=('G', '11') 绘制棋子完成, 颜色: white
+2024-10-25 13:31:52 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 13:31:55 - DEBUG - 当前位置: (8, 6)=('I', '7') 绘制棋子完成, 颜色: black
+2024-10-25 13:31:55 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 13:31:55 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 13:31:57 - SUCCESS - AI move: (9, 6)
+2024-10-25 13:31:57 - DEBUG - 当前位置: (9, 6)=('J', '7') 绘制棋子完成, 颜色: white
+2024-10-25 13:31:57 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 13:32:04 - DEBUG - 当前位置: (8, 7)=('I', '8') 绘制棋子完成, 颜色: black
+2024-10-25 13:32:04 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 13:32:04 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 13:32:07 - SUCCESS - AI move: (9, 8)
+2024-10-25 13:32:07 - DEBUG - 当前位置: (9, 8)=('J', '9') 绘制棋子完成, 颜色: white
+2024-10-25 13:32:07 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 13:32:13 - DEBUG - 当前位置: (8, 8)=('I', '9') 绘制棋子完成, 颜色: black
+2024-10-25 13:32:13 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 13:32:13 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 13:32:17 - SUCCESS - AI move: (8, 5)
+2024-10-25 13:32:17 - DEBUG - 当前位置: (8, 5)=('I', '6') 绘制棋子完成, 颜色: white
+2024-10-25 13:32:17 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 13:32:22 - DEBUG - 当前位置: (5, 6)=('F', '7') 绘制棋子完成, 颜色: black
+2024-10-25 13:32:22 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 13:32:22 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 13:32:23 - SUCCESS - AI move: (4, 6)
+2024-10-25 13:32:23 - DEBUG - 当前位置: (4, 6)=('E', '7') 绘制棋子完成, 颜色: white
+2024-10-25 13:32:23 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 13:32:28 - DEBUG - 当前位置: (4, 7)=('E', '8') 绘制棋子完成, 颜色: black
+2024-10-25 13:32:28 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 13:32:28 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 13:32:30 - SUCCESS - AI move: (7, 4)
+2024-10-25 13:32:30 - DEBUG - 当前位置: (7, 4)=('H', '5') 绘制棋子完成, 颜色: white
+2024-10-25 13:32:30 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 13:32:32 - DEBUG - 当前位置: (10, 7)=('K', '8') 绘制棋子完成, 颜色: black
+2024-10-25 13:32:32 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 13:32:32 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 13:32:34 - SUCCESS - AI move: (5, 2)
+2024-10-25 13:32:34 - DEBUG - 当前位置: (5, 2)=('F', '3') 绘制棋子完成, 颜色: white
+2024-10-25 13:32:34 - INFO - Player(name='AI', color='white', type='ai') 胜利
+2024-10-25 13:32:39 - INFO - 棋盘已清空
+2024-10-25 13:32:39 - INFO - Current AI: AlphaBetaGomokuAI
+2024-10-25 13:32:39 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 13:35:39 - INFO - 初始化棋盘完成, 接下来请设置当前玩家
+2024-10-25 13:35:41 - INFO - 棋盘已清空
+2024-10-25 13:35:41 - INFO - Current AI: AlphaBetaGomokuAI
+2024-10-25 13:35:41 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 13:35:42 - DEBUG - 当前位置: (8, 3)=('I', '4') 绘制棋子完成, 颜色: black
+2024-10-25 13:35:42 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 13:35:42 - DEBUG - Enemy pieces less than 3, will choose center randomly
+2024-10-25 13:35:42 - SUCCESS - AI move: (5, 5)
+2024-10-25 13:35:42 - DEBUG - 当前位置: (5, 5)=('F', '6') 绘制棋子完成, 颜色: white
+2024-10-25 13:35:42 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 13:35:43 - DEBUG - 当前位置: (6, 4)=('G', '5') 绘制棋子完成, 颜色: black
+2024-10-25 13:35:43 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 13:35:43 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 13:35:44 - SUCCESS - AI move: (4, 4)
+2024-10-25 13:35:44 - DEBUG - 当前位置: (4, 4)=('E', '5') 绘制棋子完成, 颜色: white
+2024-10-25 13:35:44 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 13:35:44 - DEBUG - 当前位置: (6, 6)=('G', '7') 绘制棋子完成, 颜色: black
+2024-10-25 13:35:44 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 13:35:44 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 13:35:44 - SUCCESS - AI move: (2, 2)
+2024-10-25 13:35:44 - DEBUG - 当前位置: (2, 2)=('C', '3') 绘制棋子完成, 颜色: white
+2024-10-25 13:35:45 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 13:35:47 - DEBUG - 当前位置: (3, 3)=('D', '4') 绘制棋子完成, 颜色: black
+2024-10-25 13:35:47 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 13:35:47 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 13:35:52 - SUCCESS - AI move: (6, 3)
+2024-10-25 13:35:52 - DEBUG - 当前位置: (6, 3)=('G', '4') 绘制棋子完成, 颜色: white
+2024-10-25 13:35:53 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 13:35:56 - DEBUG - 当前位置: (7, 4)=('H', '5') 绘制棋子完成, 颜色: black
+2024-10-25 13:35:57 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 13:35:57 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 13:35:57 - SUCCESS - AI move: (6, 2)
+2024-10-25 13:35:57 - DEBUG - 当前位置: (6, 2)=('G', '3') 绘制棋子完成, 颜色: white
+2024-10-25 13:35:57 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 13:36:00 - DEBUG - 当前位置: (6, 5)=('G', '6') 绘制棋子完成, 颜色: black
+2024-10-25 13:36:00 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 13:36:00 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 13:36:06 - SUCCESS - AI move: (5, 6)
+2024-10-25 13:36:06 - DEBUG - 当前位置: (5, 6)=('F', '7') 绘制棋子完成, 颜色: white
+2024-10-25 13:36:07 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 13:36:10 - DEBUG - 当前位置: (7, 6)=('H', '7') 绘制棋子完成, 颜色: black
+2024-10-25 13:36:10 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 13:36:10 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 13:36:10 - SUCCESS - AI move: (5, 3)
+2024-10-25 13:36:10 - DEBUG - 当前位置: (5, 3)=('F', '4') 绘制棋子完成, 颜色: white
+2024-10-25 13:36:10 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 13:36:12 - DEBUG - 当前位置: (5, 4)=('F', '5') 绘制棋子完成, 颜色: black
+2024-10-25 13:36:12 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 13:36:12 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 13:36:15 - SUCCESS - AI move: (3, 5)
+2024-10-25 13:36:15 - DEBUG - 当前位置: (3, 5)=('D', '6') 绘制棋子完成, 颜色: white
+2024-10-25 13:36:15 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 13:36:17 - DEBUG - 当前位置: (7, 1)=('H', '2') 绘制棋子完成, 颜色: black
+2024-10-25 13:36:17 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 13:36:17 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 13:36:17 - SUCCESS - AI move: (3, 2)
+2024-10-25 13:36:17 - DEBUG - 当前位置: (3, 2)=('D', '3') 绘制棋子完成, 颜色: white
+2024-10-25 13:36:17 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 13:36:29 - DEBUG - 当前位置: (2, 6)=('C', '7') 绘制棋子完成, 颜色: black
+2024-10-25 13:36:29 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 13:36:29 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 13:36:38 - SUCCESS - AI move: (8, 7)
+2024-10-25 13:36:38 - DEBUG - 当前位置: (8, 7)=('I', '8') 绘制棋子完成, 颜色: white
+2024-10-25 13:36:38 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 13:36:42 - DEBUG - 当前位置: (7, 5)=('H', '6') 绘制棋子完成, 颜色: black
+2024-10-25 13:36:42 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 13:36:42 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 13:36:42 - SUCCESS - AI move: (4, 3)
+2024-10-25 13:36:42 - DEBUG - 当前位置: (4, 3)=('E', '4') 绘制棋子完成, 颜色: white
+2024-10-25 13:36:42 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 13:36:45 - DEBUG - 当前位置: (7, 7)=('H', '8') 绘制棋子完成, 颜色: black
+2024-10-25 13:36:45 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 13:36:45 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 13:36:56 - SUCCESS - AI move: (7, 3)
+2024-10-25 13:39:40 - INFO - 初始化棋盘完成, 接下来请设置当前玩家
+2024-10-25 13:39:43 - INFO - 棋盘已清空
+2024-10-25 13:39:43 - INFO - Current AI: AlphaBetaGomokuAI
+2024-10-25 13:39:43 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 13:39:43 - DEBUG - 当前位置: (7, 4)=('H', '5') 绘制棋子完成, 颜色: black
+2024-10-25 13:39:43 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 13:39:43 - DEBUG - Enemy pieces less than 3, will choose center randomly
+2024-10-25 13:39:43 - SUCCESS - AI move: (8, 7)
+2024-10-25 13:39:43 - DEBUG - 当前位置: (8, 7)=('I', '8') 绘制棋子完成, 颜色: white
+2024-10-25 13:39:44 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 13:39:44 - DEBUG - 当前位置: (7, 6)=('H', '7') 绘制棋子完成, 颜色: black
+2024-10-25 13:39:44 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 13:39:44 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 13:39:45 - SUCCESS - AI move: (7, 5)
+2024-10-25 13:39:45 - DEBUG - 当前位置: (7, 5)=('H', '6') 绘制棋子完成, 颜色: white
+2024-10-25 13:39:45 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 13:39:46 - DEBUG - 当前位置: (6, 6)=('G', '7') 绘制棋子完成, 颜色: black
+2024-10-25 13:39:46 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 13:39:46 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 13:39:46 - SUCCESS - AI move: (7, 3)
+2024-10-25 13:39:46 - DEBUG - 当前位置: (7, 3)=('H', '4') 绘制棋子完成, 颜色: white
+2024-10-25 13:39:47 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 13:39:53 - DEBUG - 当前位置: (5, 7)=('F', '8') 绘制棋子完成, 颜色: black
+2024-10-25 13:39:53 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 13:39:53 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 13:39:54 - SUCCESS - AI move: (8, 6)
+2024-10-25 13:39:54 - DEBUG - 当前位置: (8, 6)=('I', '7') 绘制棋子完成, 颜色: white
+2024-10-25 13:39:54 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 13:39:56 - DEBUG - 当前位置: (4, 8)=('E', '9') 绘制棋子完成, 颜色: black
+2024-10-25 13:39:56 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 13:39:56 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 13:39:56 - SUCCESS - AI move: (5, 6)
+2024-10-25 13:39:56 - DEBUG - 当前位置: (5, 6)=('F', '7') 绘制棋子完成, 颜色: white
+2024-10-25 13:39:56 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 13:39:58 - DEBUG - 当前位置: (3, 9)=('D', '10') 绘制棋子完成, 颜色: black
+2024-10-25 13:39:58 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 13:39:58 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 13:39:59 - SUCCESS - AI move: (2, 10)
+2024-10-25 13:39:59 - DEBUG - 当前位置: (2, 10)=('C', '11') 绘制棋子完成, 颜色: white
+2024-10-25 13:39:59 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 13:40:00 - DEBUG - 当前位置: (6, 7)=('G', '8') 绘制棋子完成, 颜色: black
+2024-10-25 13:40:00 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 13:40:00 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 13:40:04 - SUCCESS - AI move: (8, 5)
+2024-10-25 13:40:04 - DEBUG - 当前位置: (8, 5)=('I', '6') 绘制棋子完成, 颜色: white
+2024-10-25 13:40:04 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 13:40:06 - DEBUG - 当前位置: (8, 8)=('I', '9') 绘制棋子完成, 颜色: black
+2024-10-25 13:40:06 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 13:40:06 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 13:40:06 - SUCCESS - AI move: (6, 4)
+2024-10-25 13:40:06 - DEBUG - 当前位置: (6, 4)=('G', '5') 绘制棋子完成, 颜色: white
+2024-10-25 13:40:06 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 13:40:07 - DEBUG - 当前位置: (9, 7)=('J', '8') 绘制棋子完成, 颜色: black
+2024-10-25 13:40:07 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 13:40:07 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 13:40:12 - SUCCESS - AI move: (8, 4)
+2024-10-25 13:40:12 - DEBUG - 当前位置: (8, 4)=('I', '5') 绘制棋子完成, 颜色: white
+2024-10-25 13:40:12 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 13:40:13 - DEBUG - 当前位置: (8, 3)=('I', '4') 绘制棋子完成, 颜色: black
+2024-10-25 13:40:13 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 13:40:13 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 13:40:13 - SUCCESS - AI move: (5, 3)
+2024-10-25 13:40:13 - DEBUG - 当前位置: (5, 3)=('F', '4') 绘制棋子完成, 颜色: white
+2024-10-25 13:40:13 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 13:40:14 - DEBUG - 当前位置: (4, 2)=('E', '3') 绘制棋子完成, 颜色: black
+2024-10-25 13:40:14 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 13:40:14 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 13:40:23 - SUCCESS - AI move: (5, 5)
+2024-10-25 13:40:23 - DEBUG - 当前位置: (5, 5)=('F', '6') 绘制棋子完成, 颜色: white
+2024-10-25 13:40:23 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 13:40:27 - DEBUG - 当前位置: (5, 4)=('F', '5') 绘制棋子完成, 颜色: black
+2024-10-25 13:40:27 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 13:40:27 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 13:40:27 - SUCCESS - AI move: (6, 2)
+2024-10-25 13:40:27 - DEBUG - 当前位置: (6, 2)=('G', '3') 绘制棋子完成, 颜色: white
+2024-10-25 13:40:27 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 13:40:29 - DEBUG - 当前位置: (9, 5)=('J', '6') 绘制棋子完成, 颜色: black
+2024-10-25 13:40:29 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 13:40:29 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 13:40:37 - SUCCESS - AI move: (8, 2)
+2024-10-25 13:40:37 - DEBUG - 当前位置: (8, 2)=('I', '3') 绘制棋子完成, 颜色: white
+2024-10-25 13:40:37 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 13:40:38 - DEBUG - 当前位置: (3, 6)=('D', '7') 绘制棋子完成, 颜色: black
+2024-10-25 13:40:38 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 13:40:38 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 13:40:38 - SUCCESS - AI move: (6, 5)
+2024-10-25 13:40:38 - DEBUG - 当前位置: (6, 5)=('G', '6') 绘制棋子完成, 颜色: white
+2024-10-25 13:40:38 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 13:40:42 - DEBUG - 当前位置: (4, 6)=('E', '7') 绘制棋子完成, 颜色: black
+2024-10-25 13:40:42 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 13:40:42 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 13:51:28 - INFO - 初始化棋盘完成, 接下来请设置当前玩家
+2024-10-25 13:51:29 - INFO - 棋盘已清空
+2024-10-25 13:51:29 - INFO - Current AI: AlphaBetaGomokuAI
+2024-10-25 13:51:29 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 13:51:31 - DEBUG - 当前位置: (6, 4)=('G', '5') 绘制棋子完成, 颜色: black
+2024-10-25 13:51:31 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 13:51:31 - DEBUG - Enemy pieces less than 3, will choose center randomly
+2024-10-25 13:51:31 - SUCCESS - AI move: (5, 7)
+2024-10-25 13:51:31 - DEBUG - 当前位置: (5, 7)=('F', '8') 绘制棋子完成, 颜色: white
+2024-10-25 13:51:31 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 13:51:32 - DEBUG - 当前位置: (6, 6)=('G', '7') 绘制棋子完成, 颜色: black
+2024-10-25 13:51:32 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 13:51:32 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 13:51:32 - SUCCESS - AI move: (6, 5)
+2024-10-25 13:51:32 - DEBUG - 当前位置: (6, 5)=('G', '6') 绘制棋子完成, 颜色: white
+2024-10-25 13:51:33 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 13:51:33 - DEBUG - 当前位置: (7, 5)=('H', '6') 绘制棋子完成, 颜色: black
+2024-10-25 13:51:33 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 13:51:33 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 13:51:35 - SUCCESS - AI move: (5, 3)
+2024-10-25 13:51:35 - DEBUG - 当前位置: (5, 3)=('F', '4') 绘制棋子完成, 颜色: white
+2024-10-25 13:51:35 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 13:51:38 - DEBUG - 当前位置: (8, 4)=('I', '5') 绘制棋子完成, 颜色: black
+2024-10-25 13:51:38 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 13:51:38 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 13:51:41 - SUCCESS - AI move: (10, 2)
+2024-10-25 13:51:41 - DEBUG - 当前位置: (10, 2)=('K', '3') 绘制棋子完成, 颜色: white
+2024-10-25 13:51:42 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 13:51:43 - DEBUG - 当前位置: (9, 3)=('J', '4') 绘制棋子完成, 颜色: black
+2024-10-25 13:51:43 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 13:51:43 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 13:51:44 - SUCCESS - AI move: (5, 4)
+2024-10-25 13:51:44 - DEBUG - 当前位置: (5, 4)=('F', '5') 绘制棋子完成, 颜色: white
+2024-10-25 13:51:44 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 13:51:47 - DEBUG - 当前位置: (7, 6)=('H', '7') 绘制棋子完成, 颜色: black
+2024-10-25 13:51:47 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 13:51:47 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 13:51:50 - SUCCESS - AI move: (5, 6)
+2024-10-25 13:51:50 - DEBUG - 当前位置: (5, 6)=('F', '7') 绘制棋子完成, 颜色: white
+2024-10-25 13:51:50 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 13:51:51 - DEBUG - 当前位置: (5, 5)=('F', '6') 绘制棋子完成, 颜色: black
+2024-10-25 13:51:51 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 13:51:51 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 13:51:52 - SUCCESS - AI move: (7, 4)
+2024-10-25 13:51:52 - DEBUG - 当前位置: (7, 4)=('H', '5') 绘制棋子完成, 颜色: white
+2024-10-25 13:51:53 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 13:51:55 - DEBUG - 当前位置: (8, 3)=('I', '4') 绘制棋子完成, 颜色: black
+2024-10-25 13:51:55 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 13:51:55 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 13:51:57 - SUCCESS - AI move: (4, 7)
+2024-10-25 13:51:57 - DEBUG - 当前位置: (4, 7)=('E', '8') 绘制棋子完成, 颜色: white
+2024-10-25 13:51:57 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 13:51:57 - DEBUG - 当前位置: (3, 8)=('D', '9') 绘制棋子完成, 颜色: black
+2024-10-25 13:51:57 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 13:51:57 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 13:52:01 - SUCCESS - AI move: (3, 7)
+2024-10-25 13:52:01 - DEBUG - 当前位置: (3, 7)=('D', '8') 绘制棋子完成, 颜色: white
+2024-10-25 13:52:01 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 13:52:04 - DEBUG - 当前位置: (6, 7)=('G', '8') 绘制棋子完成, 颜色: black
+2024-10-25 13:52:04 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 13:52:04 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 13:52:05 - SUCCESS - AI move: (2, 7)
+2024-10-25 13:52:05 - DEBUG - 当前位置: (2, 7)=('C', '8') 绘制棋子完成, 颜色: white
+2024-10-25 13:52:05 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 13:52:06 - DEBUG - 当前位置: (1, 7)=('B', '8') 绘制棋子完成, 颜色: black
+2024-10-25 13:52:06 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 13:52:06 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 13:52:15 - SUCCESS - AI move: (8, 2)
+2024-10-25 13:52:15 - DEBUG - 当前位置: (8, 2)=('I', '3') 绘制棋子完成, 颜色: white
+2024-10-25 13:52:16 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 13:52:19 - DEBUG - 当前位置: (7, 7)=('H', '8') 绘制棋子完成, 颜色: black
+2024-10-25 13:52:19 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 13:52:19 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 13:52:26 - SUCCESS - AI move: (4, 4)
+2024-10-25 13:52:26 - DEBUG - 当前位置: (4, 4)=('E', '5') 绘制棋子完成, 颜色: white
+2024-10-25 13:52:26 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 13:52:34 - DEBUG - 当前位置: (5, 8)=('F', '9') 绘制棋子完成, 颜色: black
+2024-10-25 13:52:34 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 13:52:34 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 13:52:40 - SUCCESS - AI move: (4, 9)
+2024-10-25 13:52:40 - DEBUG - 当前位置: (4, 9)=('E', '10') 绘制棋子完成, 颜色: white
+2024-10-25 13:52:40 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 13:52:43 - DEBUG - 当前位置: (4, 8)=('E', '9') 绘制棋子完成, 颜色: black
+2024-10-25 13:52:43 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 13:52:43 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 13:52:46 - SUCCESS - AI move: (6, 8)
+2024-10-25 13:52:46 - DEBUG - 当前位置: (6, 8)=('G', '9') 绘制棋子完成, 颜色: white
+2024-10-25 13:52:46 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 13:52:58 - DEBUG - 当前位置: (7, 3)=('H', '4') 绘制棋子完成, 颜色: black
+2024-10-25 13:52:58 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 13:52:58 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 13:53:06 - SUCCESS - AI move: (10, 3)
+2024-10-25 13:53:06 - DEBUG - 当前位置: (10, 3)=('K', '4') 绘制棋子完成, 颜色: white
+2024-10-25 13:53:06 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 13:53:09 - DEBUG - 当前位置: (9, 5)=('J', '6') 绘制棋子完成, 颜色: black
+2024-10-25 13:53:09 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 13:53:09 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 13:53:15 - SUCCESS - AI move: (6, 2)
+2024-10-25 13:53:15 - DEBUG - 当前位置: (6, 2)=('G', '3') 绘制棋子完成, 颜色: white
+2024-10-25 13:53:15 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 13:53:23 - DEBUG - 当前位置: (3, 5)=('D', '6') 绘制棋子完成, 颜色: black
+2024-10-25 13:53:23 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 13:53:23 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 13:53:26 - SUCCESS - AI move: (7, 1)
+2024-10-25 13:53:26 - DEBUG - 当前位置: (7, 1)=('H', '2') 绘制棋子完成, 颜色: white
+2024-10-25 13:53:26 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 13:53:30 - DEBUG - 当前位置: (8, 0)=('I', '1') 绘制棋子完成, 颜色: black
+2024-10-25 13:53:30 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 13:53:30 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 13:53:35 - SUCCESS - AI move: (9, 2)
+2024-10-25 13:53:35 - DEBUG - 当前位置: (9, 2)=('J', '3') 绘制棋子完成, 颜色: white
+2024-10-25 13:53:35 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 13:53:38 - DEBUG - 当前位置: (7, 2)=('H', '3') 绘制棋子完成, 颜色: black
+2024-10-25 13:53:38 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 13:53:38 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 13:53:42 - SUCCESS - AI move: (11, 2)
+2024-10-25 13:53:42 - DEBUG - 当前位置: (11, 2)=('L', '3') 绘制棋子完成, 颜色: white
+2024-10-25 13:53:42 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 13:53:44 - DEBUG - 当前位置: (12, 2)=('M', '3') 绘制棋子完成, 颜色: black
+2024-10-25 13:53:44 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 13:53:44 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 13:53:51 - SUCCESS - AI move: (11, 4)
+2024-10-25 13:53:51 - DEBUG - 当前位置: (11, 4)=('L', '5') 绘制棋子完成, 颜色: white
+2024-10-25 13:53:51 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 13:53:59 - DEBUG - 当前位置: (12, 5)=('M', '6') 绘制棋子完成, 颜色: black
+2024-10-25 13:53:59 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 13:53:59 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 13:54:05 - SUCCESS - AI move: (8, 1)
+2024-10-25 13:54:05 - DEBUG - 当前位置: (8, 1)=('I', '2') 绘制棋子完成, 颜色: white
+2024-10-25 13:54:05 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 13:54:15 - DEBUG - 当前位置: (8, 6)=('I', '7') 绘制棋子完成, 颜色: black
+2024-10-25 13:54:15 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 13:54:15 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 13:54:24 - SUCCESS - AI move: (7, 0)
+2024-10-25 13:54:24 - DEBUG - 当前位置: (7, 0)=('H', '1') 绘制棋子完成, 颜色: white
+2024-10-25 13:54:24 - INFO - Player(name='AI', color='white', type='ai') 胜利
+2024-10-25 13:54:51 - INFO - 棋盘已清空
+2024-10-25 13:54:51 - INFO - Current AI: AlphaBetaGomokuAI
+2024-10-25 13:54:51 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 13:54:52 - DEBUG - 当前位置: (7, 6)=('H', '7') 绘制棋子完成, 颜色: black
+2024-10-25 13:54:52 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 13:54:52 - DEBUG - Enemy pieces less than 3, will choose center randomly
+2024-10-25 13:54:52 - SUCCESS - AI move: (9, 5)
+2024-10-25 13:54:52 - DEBUG - 当前位置: (9, 5)=('J', '6') 绘制棋子完成, 颜色: white
+2024-10-25 13:54:52 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 13:54:54 - INFO - 棋盘已清空
+2024-10-25 13:54:55 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 13:54:55 - INFO - 棋盘已清空
+2024-10-25 13:54:55 - INFO - Current AI: AlphaBetaGomokuAI
+2024-10-25 13:54:55 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 13:54:55 - DEBUG - No pieces , AI will choose center
+2024-10-25 13:54:55 - SUCCESS - AI move: (7, 7)
+2024-10-25 13:54:55 - DEBUG - 当前位置: (7, 7)=('H', '8') 绘制棋子完成, 颜色: white
+2024-10-25 13:54:55 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 13:54:56 - DEBUG - 当前位置: (8, 6)=('I', '7') 绘制棋子完成, 颜色: black
+2024-10-25 13:54:56 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 13:54:56 - DEBUG - Enemy pieces less than 3, will choose center randomly
+2024-10-25 13:54:56 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 13:54:56 - SUCCESS - AI move: (9, 6)
+2024-10-25 13:54:56 - DEBUG - 当前位置: (9, 6)=('J', '7') 绘制棋子完成, 颜色: black
+2024-10-25 13:54:56 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 13:54:56 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 13:54:57 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 13:54:57 - SUCCESS - AI move: (7, 6)
+2024-10-25 13:54:57 - DEBUG - 当前位置: (7, 6)=('H', '7') 绘制棋子完成, 颜色: black
+2024-10-25 13:54:57 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 13:54:57 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 13:54:57 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 13:54:57 - SUCCESS - AI move: (10, 6)
+2024-10-25 13:54:57 - DEBUG - 当前位置: (10, 6)=('K', '7') 绘制棋子完成, 颜色: black
+2024-10-25 13:54:57 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 13:54:57 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 13:54:58 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 13:54:58 - WARNING - No best action found in AlphaBeta , will use heuristic get a move
+2024-10-25 13:54:58 - SUCCESS - AI move: (6, 6)
+2024-10-25 13:54:58 - DEBUG - 当前位置: (6, 6)=('G', '7') 绘制棋子完成, 颜色: black
+2024-10-25 13:54:58 - INFO - Player(name='Player', color='black', type='human') 胜利
+2024-10-25 13:55:02 - INFO - 棋盘已清空
+2024-10-25 13:55:02 - INFO - Current AI: AlphaBetaGomokuAI
+2024-10-25 13:55:02 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 13:55:02 - DEBUG - No pieces , AI will choose center
+2024-10-25 13:55:02 - SUCCESS - AI move: (7, 7)
+2024-10-25 13:55:02 - DEBUG - 当前位置: (7, 7)=('H', '8') 绘制棋子完成, 颜色: white
+2024-10-25 13:55:02 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 13:55:04 - INFO - 棋盘已清空
+2024-10-25 13:55:04 - INFO - Current AI: AlphaBetaGomokuAI
+2024-10-25 13:55:04 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 13:55:04 - DEBUG - No pieces , AI will choose center
+2024-10-25 13:55:04 - SUCCESS - AI move: (7, 7)
+2024-10-25 13:55:04 - DEBUG - 当前位置: (7, 7)=('H', '8') 绘制棋子完成, 颜色: white
+2024-10-25 13:55:04 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 13:55:06 - INFO - 棋盘已清空
+2024-10-25 13:55:06 - INFO - Current AI: AlphaBetaGomokuAI
+2024-10-25 13:55:06 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 13:55:06 - DEBUG - No pieces , AI will choose center
+2024-10-25 13:55:06 - SUCCESS - AI move: (7, 7)
+2024-10-25 13:55:06 - DEBUG - 当前位置: (7, 7)=('H', '8') 绘制棋子完成, 颜色: white
+2024-10-25 13:55:06 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 13:55:07 - DEBUG - 当前位置: (8, 6)=('I', '7') 绘制棋子完成, 颜色: black
+2024-10-25 13:55:07 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 13:55:07 - DEBUG - Enemy pieces less than 3, will choose center randomly
+2024-10-25 13:55:07 - SUCCESS - AI move: (8, 7)
+2024-10-25 13:55:07 - DEBUG - 当前位置: (8, 7)=('I', '8') 绘制棋子完成, 颜色: white
+2024-10-25 13:55:07 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 13:55:09 - DEBUG - 当前位置: (9, 7)=('J', '8') 绘制棋子完成, 颜色: black
+2024-10-25 13:55:09 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 13:55:09 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 13:55:09 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 13:55:09 - SUCCESS - AI move: (7, 5)
+2024-10-25 13:55:09 - DEBUG - 当前位置: (7, 5)=('H', '6') 绘制棋子完成, 颜色: black
+2024-10-25 13:55:09 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 13:55:09 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 13:55:09 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 13:55:10 - SUCCESS - AI move: (10, 8)
+2024-10-25 13:55:10 - DEBUG - 当前位置: (10, 8)=('K', '9') 绘制棋子完成, 颜色: black
+2024-10-25 13:55:10 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 13:55:10 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 13:55:10 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 13:55:11 - WARNING - No best action found in AlphaBeta , will use heuristic get a move
+2024-10-25 13:55:11 - SUCCESS - AI move: (6, 4)
+2024-10-25 13:55:11 - DEBUG - 当前位置: (6, 4)=('G', '5') 绘制棋子完成, 颜色: black
+2024-10-25 13:55:11 - INFO - Player(name='Player', color='black', type='human') 胜利
+2024-10-25 13:56:22 - INFO - 初始化棋盘完成, 接下来请设置当前玩家
+2024-10-25 13:56:23 - INFO - 棋盘已清空
+2024-10-25 13:56:23 - INFO - Current AI: AlphaBetaGomokuAI
+2024-10-25 13:56:23 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 13:56:24 - DEBUG - 当前位置: (7, 6)=('H', '7') 绘制棋子完成, 颜色: black
+2024-10-25 13:56:24 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 13:56:24 - DEBUG - Enemy pieces less than 3, will choose center randomly
+2024-10-25 13:56:24 - SUCCESS - AI move: (5, 9)
+2024-10-25 13:56:24 - DEBUG - 当前位置: (5, 9)=('F', '10') 绘制棋子完成, 颜色: white
+2024-10-25 13:56:24 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 13:56:25 - DEBUG - 当前位置: (6, 7)=('G', '8') 绘制棋子完成, 颜色: black
+2024-10-25 13:56:25 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 13:56:25 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 13:56:25 - SUCCESS - AI move: (5, 8)
+2024-10-25 13:56:25 - DEBUG - 当前位置: (5, 8)=('F', '9') 绘制棋子完成, 颜色: white
+2024-10-25 13:56:26 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 13:56:27 - INFO - 棋盘已清空
+2024-10-25 13:56:28 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 13:56:28 - INFO - 棋盘已清空
+2024-10-25 13:56:28 - INFO - Current AI: AlphaBetaGomokuAI
+2024-10-25 13:56:28 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 13:56:28 - DEBUG - No pieces , AI will choose center
+2024-10-25 13:56:28 - SUCCESS - AI move: (7, 7)
+2024-10-25 13:56:28 - DEBUG - 当前位置: (7, 7)=('H', '8') 绘制棋子完成, 颜色: white
+2024-10-25 13:56:28 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 13:56:29 - DEBUG - 当前位置: (8, 6)=('I', '7') 绘制棋子完成, 颜色: black
+2024-10-25 13:56:29 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 13:56:29 - DEBUG - Enemy pieces less than 3, will choose center randomly
+2024-10-25 13:56:29 - SUCCESS - AI move: (5, 7)
+2024-10-25 13:56:29 - DEBUG - 当前位置: (5, 7)=('F', '8') 绘制棋子完成, 颜色: white
+2024-10-25 13:56:30 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 13:56:32 - DEBUG - 当前位置: (6, 7)=('G', '8') 绘制棋子完成, 颜色: black
+2024-10-25 13:56:32 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 13:56:32 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 13:56:32 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 13:56:33 - SUCCESS - AI move: (6, 6)
+2024-10-25 13:56:33 - DEBUG - 当前位置: (6, 6)=('G', '7') 绘制棋子完成, 颜色: black
+2024-10-25 13:56:33 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 13:56:33 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 13:56:33 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 13:56:34 - SUCCESS - AI move: (10, 7)
+2024-10-25 13:56:34 - DEBUG - 当前位置: (10, 7)=('K', '8') 绘制棋子完成, 颜色: black
+2024-10-25 13:56:34 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 13:56:34 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 13:56:34 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 13:56:35 - SUCCESS - AI move: (5, 6)
+2024-10-25 13:56:35 - DEBUG - 当前位置: (5, 6)=('F', '7') 绘制棋子完成, 颜色: black
+2024-10-25 13:56:35 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 13:56:35 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 13:56:35 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 13:56:36 - SUCCESS - AI move: (7, 6)
+2024-10-25 13:56:36 - DEBUG - 当前位置: (7, 6)=('H', '7') 绘制棋子完成, 颜色: black
+2024-10-25 13:56:36 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 13:56:36 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 13:56:36 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 13:56:37 - WARNING - No best action found in AlphaBeta , will use heuristic get a move
+2024-10-25 13:56:37 - SUCCESS - AI move: (4, 6)
+2024-10-25 13:56:37 - DEBUG - 当前位置: (4, 6)=('E', '7') 绘制棋子完成, 颜色: black
+2024-10-25 13:56:37 - INFO - Player(name='Player', color='black', type='human') 胜利
+2024-10-25 14:00:04 - INFO - 初始化棋盘完成, 接下来请设置当前玩家
+2024-10-25 14:00:06 - INFO - 棋盘已清空
+2024-10-25 14:00:06 - INFO - Current AI: AlphaBetaGomokuAI
+2024-10-25 14:00:06 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 14:00:07 - WARNING - 玩家Player(name='Player', color='black', type='human')不能连续下棋, 上一次下棋的玩家是Player(name='Player', color='black', type='human')
+2024-10-25 14:01:09 - INFO - 初始化棋盘完成, 接下来请设置当前玩家
+2024-10-25 14:01:11 - INFO - 棋盘已清空
+2024-10-25 14:01:11 - INFO - Current AI: AlphaBetaGomokuAI
+2024-10-25 14:01:11 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 14:01:11 - WARNING - 玩家Player(name='Player', color='black', type='human')不能连续下棋, 上一次下棋的玩家是Player(name='Player', color='black', type='human')
+2024-10-25 14:01:25 - WARNING - 玩家Player(name='Player', color='black', type='human')不能连续下棋, 上一次下棋的玩家是Player(name='Player', color='black', type='human')
+2024-10-25 14:01:31 - WARNING - 玩家Player(name='Player', color='black', type='human')不能连续下棋, 上一次下棋的玩家是Player(name='Player', color='black', type='human')
+2024-10-25 14:04:35 - INFO - 初始化棋盘完成, 接下来请设置当前玩家
+2024-10-25 14:04:37 - INFO - 棋盘已清空
+2024-10-25 14:04:37 - INFO - Current AI: AlphaBetaGomokuAI
+2024-10-25 14:04:37 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 14:04:38 - DEBUG - 当前位置: (8, 5)=('I', '6') 绘制棋子完成, 颜色: black
+2024-10-25 14:04:38 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 14:04:38 - DEBUG - Enemy pieces less than 3, will choose center randomly
+2024-10-25 14:04:38 - SUCCESS - AI move: (6, 9)
+2024-10-25 14:04:38 - DEBUG - 当前位置: (6, 9)=('G', '10') 绘制棋子完成, 颜色: white
+2024-10-25 14:04:38 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 14:04:39 - DEBUG - 当前位置: (7, 6)=('H', '7') 绘制棋子完成, 颜色: black
+2024-10-25 14:04:39 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 14:04:39 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 14:04:40 - SUCCESS - AI move: (6, 7)
+2024-10-25 14:04:40 - DEBUG - 当前位置: (6, 7)=('G', '8') 绘制棋子完成, 颜色: white
+2024-10-25 14:04:40 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 14:04:41 - DEBUG - 当前位置: (6, 6)=('G', '7') 绘制棋子完成, 颜色: black
+2024-10-25 14:04:41 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 14:04:41 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 14:04:41 - SUCCESS - AI move: (5, 6)
+2024-10-25 14:04:41 - DEBUG - 当前位置: (5, 6)=('F', '7') 绘制棋子完成, 颜色: white
+2024-10-25 14:04:41 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 14:04:42 - DEBUG - 当前位置: (7, 8)=('H', '9') 绘制棋子完成, 颜色: black
+2024-10-25 14:04:42 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 14:04:42 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 14:04:44 - SUCCESS - AI move: (7, 7)
+2024-10-25 14:04:44 - DEBUG - 当前位置: (7, 7)=('H', '8') 绘制棋子完成, 颜色: white
+2024-10-25 14:04:44 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 14:04:45 - DEBUG - 当前位置: (8, 7)=('I', '8') 绘制棋子完成, 颜色: black
+2024-10-25 14:04:45 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 14:04:45 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 14:04:47 - SUCCESS - AI move: (4, 7)
+2024-10-25 14:04:47 - DEBUG - 当前位置: (4, 7)=('E', '8') 绘制棋子完成, 颜色: white
+2024-10-25 14:04:47 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 14:04:48 - DEBUG - 当前位置: (5, 7)=('F', '8') 绘制棋子完成, 颜色: black
+2024-10-25 14:04:48 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 14:04:48 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 14:04:49 - SUCCESS - AI move: (6, 5)
+2024-10-25 14:04:49 - DEBUG - 当前位置: (6, 5)=('G', '6') 绘制棋子完成, 颜色: white
+2024-10-25 14:04:49 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 14:04:50 - DEBUG - 当前位置: (7, 4)=('H', '5') 绘制棋子完成, 颜色: black
+2024-10-25 14:04:50 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 14:04:50 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 14:04:51 - SUCCESS - AI move: (3, 8)
+2024-10-25 14:04:51 - DEBUG - 当前位置: (3, 8)=('D', '9') 绘制棋子完成, 颜色: white
+2024-10-25 14:04:51 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 14:04:52 - DEBUG - 当前位置: (2, 9)=('C', '10') 绘制棋子完成, 颜色: black
+2024-10-25 14:04:52 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 14:04:52 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 14:04:56 - SUCCESS - AI move: (5, 8)
+2024-10-25 14:04:56 - DEBUG - 当前位置: (5, 8)=('F', '9') 绘制棋子完成, 颜色: white
+2024-10-25 14:04:57 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 14:04:58 - DEBUG - 当前位置: (7, 10)=('H', '11') 绘制棋子完成, 颜色: black
+2024-10-25 14:04:58 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 14:04:58 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 14:05:00 - SUCCESS - AI move: (3, 6)
+2024-10-25 14:05:00 - DEBUG - 当前位置: (3, 6)=('D', '7') 绘制棋子完成, 颜色: white
+2024-10-25 14:05:00 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 14:05:01 - DEBUG - 当前位置: (2, 5)=('C', '6') 绘制棋子完成, 颜色: black
+2024-10-25 14:05:01 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 14:05:01 - DEBUG - AI is thinking ... AI is max player
+2024-10-25 14:05:08 - SUCCESS - AI move: (4, 8)
+2024-10-25 14:05:08 - DEBUG - 当前位置: (4, 8)=('E', '9') 绘制棋子完成, 颜色: white
+2024-10-25 14:05:08 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 14:05:10 - INFO - 棋盘已清空
+2024-10-25 14:05:11 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
+2024-10-25 14:05:13 - INFO - 棋盘已清空
+2024-10-25 14:05:13 - INFO - Current AI: AlphaBetaGomokuAI
+2024-10-25 14:05:13 - INFO - 当前玩家: Player(name='AI', color='white', type='ai')AI 玩家, 请等待AI下棋
+2024-10-25 14:05:13 - DEBUG - No pieces , AI will choose center
+2024-10-25 14:05:13 - SUCCESS - AI move: (7, 7)
+2024-10-25 14:05:13 - WARNING - 玩家Player(name='AI', color='white', type='ai')不能连续下棋, 你的颜色是: white, 上一步棋子颜色是: white
+2024-10-25 14:05:13 - INFO - 当前玩家: Player(name='Player', color='black', type='human')人类玩家, 请点击棋盘下棋
