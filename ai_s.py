@@ -76,8 +76,7 @@ class AlphaBetaGomokuAI:
         if is_max_player:
             max_val = -np.inf
             for action in get_near_actions_with_noempty_generator(board_tuple, 2):
-                if action in self.move_history:
-                    continue
+
                 temp = board_state[action[0]][action[1]]
                 board_state[action[0]][action[1]] = self.maxvalue  # 极大玩家落子
                 if is_gameover(self.board_to_tuple(board_state)):
@@ -100,8 +99,7 @@ class AlphaBetaGomokuAI:
         else:
             min_val = np.inf
             for action in get_near_actions_with_noempty_generator(board_tuple, 2):
-                if action in self.move_history:
-                    continue
+
                 temp = board_state[action[0]][action[1]]
                 board_state[action[0]][action[1]] = self.minvalue  # 极小玩家落子
                 if is_gameover(self.board_to_tuple(board_state)):
@@ -135,23 +133,6 @@ class AlphaBetaGomokuAI:
             logger.warning("Game over")
             return (-1, -1)
 
-        # diff_actions = self.diff_board_state(board_state, self.last_board_state)
-
-        # if len(diff_actions) == 1:
-        #     # 对手落了一子
-        #     diff_action = diff_actions[0]
-        #     assert (
-        #         board_state[diff_action[0]][diff_action[1]] == self.enemy_value
-        #     ), "AI detected invalid move by opponent"
-        #     # self.update_rolling_hash(diff_action[0], diff_action[1], 1)
-        #     self.enemy_history.append(diff_action)
-        #     print(f"Player move: {diff_action}")
-        # elif len(diff_actions) > 1:
-        #     print(f"Player moves: {diff_actions}")
-        #     logger.warning("A sequence of chess moves by the opponent")
-        # else:
-        #     logger.info("AI is first")
-
         self.best_move = None
         num_pieces = np.count_nonzero(board_state)
         enemy_num_pieces = np.count_nonzero(board_state == self.enemy_value)
@@ -172,7 +153,7 @@ class AlphaBetaGomokuAI:
                         and j >= 0
                         and j < 15
                         and board_state[i][j] == 0  # 位置为空
-                        and (i, j) not in self.move_history  # 位置不在历史记录中
+                        # and (i, j) not in self.move_history  # 位置不在历史记录中
                     ):
                         near_center_positions.append((i, j))
             best_action = (
@@ -222,19 +203,11 @@ class AlphaBetaGomokuAI:
             )
             best_action = available_actions[0]
 
-        if self.move_history:
-            assert len(self.move_history) == len(
-                set(self.move_history)
-            ), "AI move error: duplicate move"
-            assert best_action not in self.move_history, "AI move error: duplicate move"
         assert board_state[best_action[0]][best_action[1]] == 0, (
             "AI move error: invalid move"
             + f"{board_state[best_action[0]][best_action[1]]}"
         )
         self.move_history.append(best_action)
-        # board_state_copy = board_state.copy()
-        # board_state_copy[best_action[0]][best_action[1]] = self.value
-        # self.last_board_state = board_state_copy
         logger.success(f"AI move: {best_action}")
         return best_action
 

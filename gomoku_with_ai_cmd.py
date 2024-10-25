@@ -149,27 +149,21 @@ def run_gbd(is_priority):
 def process_turn_queue():
     global turn_last_name_global
     global is_continue_queue_global
-    is_continue_queue_global_copy = is_continue_queue_global
     print("process_turn_queue start")
+    process_winner_task_executed = False
     while True:
         while gbd_global and not gbd_global.winner and is_continue_queue_global:
-            turn = turn_queue_global.get()
-            if turn.__name__ != turn_last_name_global:
-                print(f"process_turn_queue {turn.__name__}")
-                turn()
-                turn_last_name_global = turn.__name__  # 记录上一次的函数名
-            else:
-                print(f"process_turn_queue {turn.__name__} is same as last")
-            if turn_queue_global.empty():
-                print("turn_queue is empty")
-                time.sleep(0.1)
-        print("process_turn_queue exit")
-        if gbd_global.winner and (
-            is_continue_queue_global_copy == is_continue_queue_global
-        ):
-            print("process_turn_queue winner")
+            if not turn_queue_global.empty():
+                turn = turn_queue_global.get()
+                if turn.__name__ != turn_last_name_global:
+                    print(f"process_turn_queue {turn.__name__}")
+                    turn()
+                    turn_last_name_global = turn.__name__
+            time.sleep(0.2)
+            process_winner_task_executed = False  # 重置任务执行状态,新的一轮
+        if gbd_global.winner and not process_winner_task_executed:
             process_winner()
-            is_continue_queue_global_copy ^= is_continue_queue_global
+            process_winner_task_executed = True  # 任务已执行
 
 
 def free_run_gbd_queue():
