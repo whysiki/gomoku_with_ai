@@ -11,3 +11,9 @@
 **/*.rar
 /gomoku_rl/__pycache__
 **/*.log
+**/*.pkg
+**/*.toc
+**/*.zip
+**/*.html
+**/*.pyz
+build/gomoku_with_ai/warn-gomoku_with_ai.txt
