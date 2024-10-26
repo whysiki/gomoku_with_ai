@@ -258,34 +258,24 @@ def Form_1_onLoad(uiName, threadings=0):
     threading.Thread(
         target=process_turn_queue_main_loop, daemon=True
     ).start()  # 下子线程
-
-
 # 开始游戏按钮
 def Button_2_onCommand(uiName, widgetName, threadings=0):
     start_game_handler()
-
-
 # 重新开始按钮
 def Button_1_onCommand(uiName, widgetName, threadings=0):
     start_game_handler()
     Fun.SetVisible(uiName, "Button_1", False)
-
-
 # 是否先手开关
 def SwitchButton_1_onSwitch(uiName, widgetName, value, threadings=0):
     global is_priority_global
     is_priority_global = value
     refresh_gime("请重新点击开始游戏")
-
-
 # 是否换色
 def SwitchButton_2_onSwitch(uiName, widgetName, value, threadings=0):
     refresh_gime("请重新点击开始游戏")
     temp_color = CompetitorsGlobal.player1.color
     CompetitorsGlobal.player1.color = CompetitorsGlobal.player2.color
     CompetitorsGlobal.player2.color = temp_color
-
-
 # 选择AI等级
 def switch_ai_level(player, level):
     if level == 0:
@@ -307,14 +297,10 @@ def switch_ai_level(player, level):
 def Label_9_onButton1(event, uiName, widgetName, threadings=0):
     switch_ai_level(CompetitorsGlobal.player2, 0)
     refresh_gime("已切换到FoolishAI,请重新点击开始游戏")
-
-
 # AlphaBeta按钮
 def Label_10_onButton1(event, uiName, widgetName, threadings=0):
     switch_ai_level(CompetitorsGlobal.player2, 1)
     refresh_gime("已切换到AlphaBeta,请重新点击开始游戏")
-
-
 # TorchDeep按钮
 def Label_11_onButton1(event, uiName, widgetName, threadings=0):
     switch_ai_level(CompetitorsGlobal.player2, 2)
