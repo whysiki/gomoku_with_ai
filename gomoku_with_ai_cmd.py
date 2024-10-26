@@ -42,6 +42,26 @@ turn_last_name_global = None
 is_continue_queue_global = False
 
 
+class Competitors:
+
+    def __init__(self):
+        self.player1 = Player(
+            name="Player",
+            color=PlayerColor.WHITE,
+            type=PlayerType.HUMAN,
+        )
+
+        self.player2 = Player(
+            name="AI",
+            color=PlayerColor.BLACK,
+            type=PlayerType.AI,
+            airank=2,
+        )
+
+
+CompetitorsGlobal = Competitors()
+
+
 def update_time_labels():
     total_time = time_counter_global.get_total_time()
     ai_time = time_counter_global.get_ai_time()
@@ -139,20 +159,9 @@ def play_click_sound():
 
 def run_gbd(is_priority):
     gbd_global.current_player = None
-    player = Player(
-        name="Player",
-        color=PlayerColor.WHITE,
-        type=PlayerType.HUMAN,
-    )
-    ai_player = Player(
-        name="AI",
-        color=PlayerColor.BLACK,
-        type=PlayerType.AI,
-        airank=2,
-    )
 
     def player_turn():
-        gbd_global.set_current_player(player)
+        gbd_global.set_current_player(CompetitorsGlobal.player1)
         if not gbd_global.action_done:
             gbd_global.canvas.after(100, player_turn)
         else:
@@ -160,12 +169,19 @@ def run_gbd(is_priority):
             turn_queue_global.put(ai_turn)
 
     def ai_turn():
-        gbd_global.set_current_player(ai_player)
+        gbd_global.set_current_player(CompetitorsGlobal.player2)
         if not gbd_global.action_done:
-            if ai_player.airank == 1 or ai_player.airank == 2:
-                ai_action = ai_player.test_ai_get_action(gbd_global.status_matrix.T)
-            if ai_player.airank == 0:
-                ai_action = ai_player.test_ai_get_action(gbd_global.status_matrix)
+            if (
+                CompetitorsGlobal.player2.airank == 1
+                or CompetitorsGlobal.player2.airank == 2
+            ):
+                ai_action = CompetitorsGlobal.player2.test_ai_get_action(
+                    gbd_global.status_matrix.T
+                )
+            if CompetitorsGlobal.player2.airank == 0:
+                ai_action = CompetitorsGlobal.player2.test_ai_get_action(
+                    gbd_global.status_matrix
+                )
             gbd_global.action(*ai_action)
             gbd_global.canvas.after(100, lambda: turn_queue_global.put(player_turn))
 
@@ -200,6 +216,17 @@ def start_game_handler(is_run_gbd=True):
             run_gbd(is_priority_work)  # 开始交互队列
 
 
+def refresh_gime(tip: str, type="info"):
+    if gbd_global is not None:
+        gbd_global.clear_board()
+        time_counter_global.reset()
+        reset_time_labels()
+        free_run_gbd_queue()
+        gbd_global.clear_board()  # 清空棋盘
+        Fun.MessageBox(tip, type=type)
+    Fun.SetVisible(uiName, "Button_1", False)
+
+
 # 开始游戏加载事件
 def Form_1_onLoad(uiName, threadings=0):
     global gbd_global
@@ -215,6 +242,7 @@ def Form_1_onLoad(uiName, threadings=0):
     Fun.SetText(uiName, "Label_5", "0")  # 总用时
     Fun.SetText(uiName, "Label_6", "0")  # AI用时
     Fun.SetText(uiName, "Label_7", "0")  # 玩家用时
+    Fun.SetBGColor(uiName, "Label_11", "#5D9CEC")  # TorchDeep
     gbd_global.canvas.create_text(
         width // 2,
         height // 2,
@@ -247,11 +275,47 @@ def Button_1_onCommand(uiName, widgetName, threadings=0):
 def SwitchButton_1_onSwitch(uiName, widgetName, value, threadings=0):
     global is_priority_global
     is_priority_global = value
-    if gbd_global is not None:
-        gbd_global.clear_board()
-        time_counter_global.reset()
-        reset_time_labels()
-        free_run_gbd_queue()
-        gbd_global.clear_board()  # 清空棋盘
-        Fun.MessageBox("请重新点击开始游戏", type="info")
-    Fun.SetVisible(uiName, "Button_1", False)
+    refresh_gime("请重新点击开始游戏")
+
+
+# 是否换色
+def SwitchButton_2_onSwitch(uiName, widgetName, value, threadings=0):
+    refresh_gime("请重新点击开始游戏")
+    temp_color = CompetitorsGlobal.player1.color
+    CompetitorsGlobal.player1.color = CompetitorsGlobal.player2.color
+    CompetitorsGlobal.player2.color = temp_color
+
+
+# 选择AI等级
+def switch_ai_level(player, level):
+    if level == 0:
+        Fun.SetBGColor(uiName, "Label_9", "#5D9CEC")  # FoolishAI
+        Fun.SetBGColor(uiName, "Label_10", "#EC87C0")  # AlphaBeta
+        Fun.SetBGColor(uiName, "Label_11", "#EC87C0")  # TorchDeep
+    elif level == 1:
+        Fun.SetBGColor(uiName, "Label_9", "#EC87C0")  # FoolishAI
+        Fun.SetBGColor(uiName, "Label_10", "#5D9CEC")  # AlphaBeta
+        Fun.SetBGColor(uiName, "Label_11", "#EC87C0")  # TorchDeep
+    elif level == 2:
+        Fun.SetBGColor(uiName, "Label_9", "#EC87C0")  # FoolishAI
+        Fun.SetBGColor(uiName, "Label_10", "#EC87C0")  # AlphaBeta
+        Fun.SetBGColor(uiName, "Label_11", "#5D9CEC")  # TorchDeep
+    player.airank = level
+
+
+# FoolishAI按钮
+def Label_9_onButton1(event, uiName, widgetName, threadings=0):
+    switch_ai_level(CompetitorsGlobal.player2, 0)
+    refresh_gime("已切换到FoolishAI,请重新点击开始游戏")
+
+
+# AlphaBeta按钮
+def Label_10_onButton1(event, uiName, widgetName, threadings=0):
+    switch_ai_level(CompetitorsGlobal.player2, 1)
+    refresh_gime("已切换到AlphaBeta,请重新点击开始游戏")
+
+
+# TorchDeep按钮
+def Label_11_onButton1(event, uiName, widgetName, threadings=0):
+    switch_ai_level(CompetitorsGlobal.player2, 2)
+    refresh_gime("已切换到TorchDeep,请重新点击开始游戏")

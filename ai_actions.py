@@ -1,6 +1,7 @@
 import numpy as np
 import random
 import numpy as np
+from loguru import logger
 
 
 class FoolishGomokuAI:
@@ -68,6 +69,7 @@ class FoolishGomokuAI:
         return score
 
     def get_best_action(self, board: np.ndarray) -> tuple[int, int]:
+        logger.debug("Foolish AI is thinking...")
         best_score = -float("inf")
         best_move = None
         for x in range(board.shape[0]):

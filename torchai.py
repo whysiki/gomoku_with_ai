@@ -11,6 +11,8 @@ from omegaconf import DictConfig
 from torchrl.data.tensor_specs import TensorSpec
 from tensordict import TensorDict
 from typing import Dict
+import Fun
+from loguru import logger
 
 
 class TorchGomokuAI:
@@ -37,7 +39,7 @@ class TorchGomokuAI:
                         "num_residual_blocks": 4,
                     },
                     "board_size": 15,
-                    "checkpoint": "model/0.pt",
+                    "checkpoint": f"{Fun.G_ExeDir}/model/0.pt",
                     "device": "cpu",
                     "human_black": True,
                     "grid_size": 56,
@@ -122,6 +124,7 @@ class TorchGomokuAI:
         return observation, action_mask
 
     def get_best_action(self, board_state: np.ndarray, play_value: int = -1) -> tuple:
+        logger.debug("Torch Model is thinking...")
         turn = 0 if play_value == 1 else -1
         observation, action_mask = self._generate_observation_and_action_mask(
             board_state, turn

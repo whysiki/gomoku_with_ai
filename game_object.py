@@ -27,6 +27,7 @@ class Player:
     name: str
     color: str
     type: str
+    airank: int
 
     def __init__(self, name: str, color: str, type: str, airank: int = 0):
         if color.strip() not in (PlayerColor.BLACK, PlayerColor.WHITE):
@@ -36,19 +37,21 @@ class Player:
         if type.strip() not in (PlayerType.AI, PlayerType.HUMAN):
             raise ValueError("Invalid type: {}, must be ai or human".format(type))
         self.type = type
-        self.ai = None
+        # self.ai = None
         self.airank = airank
+
+    @property
+    def ai(self):
         if self.type == PlayerType.AI:
-            if airank == 0:
-                self.ai = FoolishGomokuAI(PlayerColor.COLOR_NUM_DICT[self.color])
-            elif airank == 1:
-                self.ai = AlphaBetaGomokuAI(
-                    PlayerColor.COLOR_NUM_DICT[self.color], depth=2
-                )
-            elif airank == 2:
-                self.ai = TorchGomokuAI()
+            if self.airank == 0:
+                ai = FoolishGomokuAI(PlayerColor.COLOR_NUM_DICT[self.color])
+            elif self.airank == 1:
+                ai = AlphaBetaGomokuAI(PlayerColor.COLOR_NUM_DICT[self.color], depth=2)
+            elif self.airank == 2:
+                ai = TorchGomokuAI()
             else:
-                raise ValueError("Invalid airank: {}, must be 0 or 1".format(airank))
+                raise ValueError("Invalid airank: {}".format(self.airank))
+            return ai
 
     def test_ai_get_action(self, status_matrix: np.ndarray) -> tuple[int, int]:
         if self.type == PlayerType.AI:

@@ -182,12 +182,12 @@ class AlphaBetaGomokuAI:
 
         else:
             if self.maxvalue == self.value:
-                logger.debug("AI is thinking ... AI is max player")
+                logger.debug("Alpahbeta is thinking ... Alpahbeta is max player")
                 self.alphabeta(
                     board_state, self.depth, -np.inf, np.inf, True  # 最大化玩家
                 )
             else:
-                logger.debug("AI is thinking ... AI is min player")
+                logger.debug("Alpahbeta is thinking ... Alpahbeta is min player")
                 self.alphabeta(
                     board_state, self.depth, -np.inf, np.inf, False  # 最小化玩家
                 )
@@ -219,7 +219,7 @@ class AlphaBetaGomokuAI:
             + f"{board_state[best_action[0]][best_action[1]]}"
         )
         self.move_history.append(best_action)
-        logger.success(f"AI move: {best_action}")
+        logger.success(f"Alpahbeta move: {best_action}")
         return best_action
 
 
