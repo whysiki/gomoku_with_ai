@@ -1,0 +1,10 @@
+rich
+torch
+torchrl
+scipy
+omegaconf
+hydra-core
+tqdm
+wandb
+matplotlib
+loguru

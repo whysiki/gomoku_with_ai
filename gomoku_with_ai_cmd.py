@@ -141,14 +141,14 @@ def run_gbd(is_priority):
     gbd_global.current_player = None
     player = Player(
         name="Player",
-        color=PlayerColor.BLACK,
+        color=PlayerColor.WHITE,
         type=PlayerType.HUMAN,
     )
     ai_player = Player(
         name="AI",
-        color=PlayerColor.WHITE,
+        color=PlayerColor.BLACK,
         type=PlayerType.AI,
-        airank=1,
+        airank=2,
     )
 
     def player_turn():
@@ -162,7 +162,10 @@ def run_gbd(is_priority):
     def ai_turn():
         gbd_global.set_current_player(ai_player)
         if not gbd_global.action_done:
-            ai_action = ai_player.test_ai_get_action(gbd_global.status_matrix.T)
+            if ai_player.airank == 1 or ai_player.airank == 2:
+                ai_action = ai_player.test_ai_get_action(gbd_global.status_matrix.T)
+            if ai_player.airank == 0:
+                ai_action = ai_player.test_ai_get_action(gbd_global.status_matrix)
             gbd_global.action(*ai_action)
             gbd_global.canvas.after(100, lambda: turn_queue_global.put(player_turn))
 

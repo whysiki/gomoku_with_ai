@@ -7,6 +7,7 @@ from tools import (
     get_near_actions,
     get_near_actions_with_noempty,
     get_near_actions_with_noempty_generator,
+    is_gameover_with_state,
 )
 import sys
 from loguru import logger
@@ -32,7 +33,7 @@ class AlphaBetaGomokuAI:
         self.minvalue = min(self.value, self.enemy_value)
         self.is_max_player = self.value > self.enemy_value
         self.depth = depth
-        self.patternDict = create_pattern_dict(self.value)
+        self.patternDict = create_pattern_dict()
         self.move_history = []
         self.enemy_history = []
         self.best_move = None
@@ -52,6 +53,9 @@ class AlphaBetaGomokuAI:
     def board_to_tuple(self, board: np.ndarray) -> tuple:
         return tuple(map(tuple, board))
 
+    # def check_boradis_maxplayer_Win(self, board_state: np.ndarray) -> bool:
+    # return is_gameover(self.board_to_tuple(board_state)) and self.is_max_player
+
     def alphabeta(
         self,
         board_state: np.ndarray,
@@ -63,9 +67,9 @@ class AlphaBetaGomokuAI:
         board_tuple = self.board_to_tuple(board_state)  # 转换为元组
         hash_key = hash_tuple_md5(board_tuple)  # 计算哈希值
         if hash_key in self.cache and depth != self.depth:  # 非根节点直接返回缓存的分数
-            print(
-                f"[bold red]Cache hit eval_ {self.cache[hash_key]},depth:{depth}[/bold red]"
-            )
+            # print(
+            #     f"[bold red]Cache hit eval_ {self.cache[hash_key]},depth:{depth}[/bold red]"
+            # )
             return self.cache[hash_key]
         # 终止条件：到达最大深度或游戏结束
         if depth <= 0 or is_gameover(board_tuple):
@@ -79,7 +83,15 @@ class AlphaBetaGomokuAI:
 
                 temp = board_state[action[0]][action[1]]
                 board_state[action[0]][action[1]] = self.maxvalue  # 极大玩家落子
-                if is_gameover(self.board_to_tuple(board_state)):
+                check_over_tuple = is_gameover_with_state(
+                    self.board_to_tuple(board_state)
+                )
+                if (
+                    check_over_tuple[0] and check_over_tuple[1] > 0
+                ):  # 如果下了之后就赢了，直接返回最大值, 极大玩家赢
+                    print(
+                        f"[bold red]极大玩家赢,action: {action},depth :{depth}[/bold red]"
+                    )
                     eval_ = np.inf  # 如果下了之后就赢了，直接返回最大值
                 else:
                     eval_ = self.alphabeta(
@@ -102,12 +114,18 @@ class AlphaBetaGomokuAI:
 
                 temp = board_state[action[0]][action[1]]
                 board_state[action[0]][action[1]] = self.minvalue  # 极小玩家落子
-                if is_gameover(self.board_to_tuple(board_state)):
+                check_over_tuple = is_gameover_with_state(
+                    self.board_to_tuple(board_state)
+                )
+                if check_over_tuple[0] and check_over_tuple[1] < 0:  # 极小玩家赢
+                    print(
+                        f"[bold red]极小玩家赢,action: {action},depth :{depth}[/bold red]"
+                    )
                     eval_ = -np.inf  # 如果下了之后就输了，直接返回最小值
                 else:
                     eval_ = self.alphabeta(board_state, depth - 1, alpha, beta, True)
                 board_state[action[0]][action[1]] = temp  # 撤销落子
-                if eval_ < min_val:
+                if eval_ <= min_val:
                     min_val = eval_
                     if depth == self.depth:  # 只在最外层记录最佳落子
                         # print(f"Update best move: {action}, min_val: {min_val}")
@@ -166,20 +184,12 @@ class AlphaBetaGomokuAI:
             if self.maxvalue == self.value:
                 logger.debug("AI is thinking ... AI is max player")
                 self.alphabeta(
-                    board_state,
-                    self.depth,
-                    -np.inf,
-                    np.inf,
-                    self.value > self.enemy_value,
+                    board_state, self.depth, -np.inf, np.inf, True  # 最大化玩家
                 )
             else:
-                logger.debug("AI is thinking ...AI is min player")
+                logger.debug("AI is thinking ... AI is min player")
                 self.alphabeta(
-                    board_state,
-                    self.depth,
-                    -np.inf,
-                    np.inf,
-                    self.value < self.enemy_value,
+                    board_state, self.depth, -np.inf, np.inf, False  # 最小化玩家
                 )
             best_action = self.best_move
 
@@ -187,6 +197,7 @@ class AlphaBetaGomokuAI:
         if best_action is None:
             logger.warning(
                 "No best action found in AlphaBeta , will use heuristic get a move"
+                + f"| Current Player is {"MaxPlayer" if self.is_max_player else "MinPlayer"}"
             )
             available_actions = get_near_actions(
                 self.board_to_tuple(board_state),
@@ -197,7 +208,7 @@ class AlphaBetaGomokuAI:
                 key=lambda action: self.heuristic(
                     self.board_to_tuple(board_state),
                     action,
-                    self.value > self.enemy_value,
+                    self.is_max_player,
                 ),
                 reverse=self.is_max_player,
             )
@@ -353,9 +364,56 @@ if __name__ == "__main__" and True:
 
         print(init_board)
 
-    ai = AlphaBetaGomokuAI(1, depth=2)
-    # test_ai_on_generated_boards_continuously(ai, 1, -1, first_turn="AI")
-    test_ai_on_generated_boards_continuously(ai, 1, -1, first_turn="Player")
+    #
+    def test_ai_vs_ai(
+        ai1: AlphaBetaGomokuAI, ai2: AlphaBetaGomokuAI, ai1_value: int, ai2_value: int
+    ):
+        init_board = np.zeros((15, 15), dtype=int)
+        ai1_move_history = set()
+        ai2_move_history = set()
+
+        for i in range(225):
+            print(f"Round {i}")
+
+            if i % 2 == 0:
+                print("AI1's turn")
+                action = ai1.get_best_action(
+                    init_board.copy()
+                )  # 传入副本,因为AI内部会修改棋盘
+                assert (
+                    init_board[action[0]][action[1]] == 0
+                ), "AI1 move error: invalid move"
+                assert action not in ai1_move_history, "AI1 move error: duplicate move"
+                assert action not in ai1_move_history | ai2_move_history, "Invalid move"
+                init_board[action[0]][action[1]] = ai1_value
+                ai1_move_history.add(action)
+                print(f"AI1's action: {tuple(map(int, action))}")
+                if is_gameover(ai1.board_to_tuple(init_board)):
+                    print("AI1 wins")
+                    break
+            else:
+                print("AI2's turn")
+                action = ai2.get_best_action(init_board.copy())
+                assert (
+                    init_board[action[0]][action[1]] == 0
+                ), "AI2 move error: invalid move"
+                assert action not in ai2_move_history, "AI2 move error: duplicate move"
+                assert action not in ai1_move_history | ai2_move_history, "Invalid move"
+                init_board[action[0]][action[1]] = ai2_value
+                ai2_move_history.add(action)
+                print(f"AI2's action: {tuple(map(int, action))}")
+                if is_gameover(ai2.board_to_tuple(init_board)):
+                    print("AI2 wins")
+                    break
+            print(f"Current board score: {evaluate_board(init_board, ai1.patternDict)}")
+        print(init_board)
+
+    ai1, ai2 = [AlphaBetaGomokuAI(1, depth=3), AlphaBetaGomokuAI(-1, depth=2)]
+    test_ai_vs_ai(ai1, ai2, ai1.value, ai2.value)
+
+    # ai = AlphaBetaGomokuAI(-1, depth=2)
+    # test_ai_on_generated_boards_continuously(ai, -1, 1, first_turn="AI")
+    # test_ai_on_generated_boards_continuously(ai, -1, 1, first_turn="Player")
     # ai = AlphaBetaGomokuAI(1, depth=2)
     # test_ai_on_generated_boards(ai, 1, -1)
 

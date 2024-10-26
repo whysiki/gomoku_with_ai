@@ -3,6 +3,9 @@ import numpy as np
 from loguru import logger
 from ai_actions import *
 from ai_s import AlphaBetaGomokuAI
+from torchai import TorchGomokuAI
+
+# from test.train_ import GomokuModel
 
 
 @dataclass
@@ -34,6 +37,7 @@ class Player:
             raise ValueError("Invalid type: {}, must be ai or human".format(type))
         self.type = type
         self.ai = None
+        self.airank = airank
         if self.type == PlayerType.AI:
             if airank == 0:
                 self.ai = FoolishGomokuAI(PlayerColor.COLOR_NUM_DICT[self.color])
@@ -41,6 +45,8 @@ class Player:
                 self.ai = AlphaBetaGomokuAI(
                     PlayerColor.COLOR_NUM_DICT[self.color], depth=2
                 )
+            elif airank == 2:
+                self.ai = TorchGomokuAI()
             else:
                 raise ValueError("Invalid airank: {}, must be 0 or 1".format(airank))
 
@@ -67,6 +73,7 @@ class GomokuBoard:
         self.last_player: Player = None
         self.action_done = False
         self.last_piece_color = None
+        self.ai_self_battle = False
         logger.info("初始化棋盘完成, 接下来请设置当前玩家")
 
     @property

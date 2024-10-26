@@ -2,14 +2,16 @@ import numpy as np
 from functools import lru_cache
 
 
-def create_pattern_dict(your_value: int) -> dict:
+def create_pattern_dict(isto_normalization: bool = False) -> dict:
     # 初始化模式分数字典
     patternDict = {}
     # x 为 -1 表示对手，x 为 1 表示己方
     for x in [-1, 1]:
         y = -x  # y为对手棋子的表示
-        patternDict[(x, x, x, x, x)] = 100000 * 99999 * x  # 连五
-        patternDict[(0, x, x, x, x, 0)] = 500000 * x  # 活四
+        # patternDict[(x, x, x, x, x)] = 100000 * 99999 * x  # 连五
+        # patternDict[(0, x, x, x, x, 0)] = 100 * 100000 * x  # 活四
+        patternDict[(x, x, x, x, x)] = 100000 * 100 * x  # 连五
+        patternDict[(0, x, x, x, x, 0)] = 10 * 100000 * x  # 活四
         patternDict[(0, x, x, x, 0, x, 0)] = 100000 * x  # 跳四
         patternDict[(0, x, 0, x, x, x, 0)] = 100000 * x  # 跳四
         patternDict[(0, x, x, 0, x, x, 0)] = 100000 * x  # 跳四
@@ -52,8 +54,18 @@ def create_pattern_dict(your_value: int) -> dict:
         patternDict[(0, x, 0, x, 0, x, 0)] = 500 * x  # 跳三
         patternDict[(0, x, 0, 0, x, 0, x, 0)] = 500 * x  # 跳三
 
-    # 返回玩家对应的分数，如果是对手就反转
-    return patternDict if your_value == 1 else {k: -v for k, v in patternDict.items()}
+    if isto_normalization:
+        # 计算最大值和最小值
+        max_value = max(patternDict.values())
+        min_value = min(patternDict.values())
+        # 归一化
+        # -1到1的归一化
+        for key in patternDict.keys():
+            patternDict[key] = (patternDict[key] - min_value) / (
+                max_value - min_value
+            ) * 2 - 1
+
+    return patternDict
 
 
 def evaluate_board(board: np.ndarray, patternDict: dict) -> int:
@@ -77,12 +89,6 @@ def evaluate_board(board: np.ndarray, patternDict: dict) -> int:
             # 直接查找子字符串的位置
             if pattern_str in line_str:
                 score += pattern_score
-                # 优先自己连五
-                # if pattern_score >= 100000:  # 如果是连五，直接返回
-                #     return 100000 * 10000
-                # if pattern_score <= -100000:  # 如果是对手连五，直接返回
-                #     # print("对手即将连五")
-                #     return -100000 * 1000
         return score
 
     @lru_cache(maxsize=None)
@@ -115,6 +121,7 @@ def evaluate_board(board: np.ndarray, patternDict: dict) -> int:
 
 @lru_cache(maxsize=None)
 def is_gameover(board: tuple) -> bool:
+
     board = np.array(board)
     # 检查行、列是否有赢家
     for i in range(board.shape[0]):
@@ -130,6 +137,45 @@ def is_gameover(board: tuple) -> bool:
 
     # 检查是否无空位
     return not np.any(board == 0)
+
+
+def check_winning_line(line: np.ndarray) -> bool:
+    count = 1
+    if len(line) < 5:
+        return False
+    for i in range(1, len(line)):
+        if line[i] == line[i - 1] and line[i] != 0:
+            count += 1
+            if count == 5:
+                return True
+        else:
+            count = 1
+    return False
+
+
+@lru_cache(maxsize=None)
+def is_gameover_with_state(board: tuple) -> tuple[bool, int]:
+    "检查游戏是否结束，并返回胜利方或者平局， 0 为平局, 1 为极大方，-1 为极小方"
+    board = np.array(board)
+
+    # 检查行、列是否有赢家
+    for i in range(board.shape[0]):
+        if check_winning_line(board[i, :]):
+            return True, board[i, 0]  # 返回行的赢家
+        if check_winning_line(board[:, i]):
+            return True, board[0, i]  # 返回列的赢家
+
+    ## 检查对角线
+    for i in range(-board.shape[0] + 1, board.shape[0]):  # 注意范围调整
+        if check_winning_line(board.diagonal(i)):
+            return True, board[0, 0]  # 返回对角线的赢家
+        if check_winning_line(np.fliplr(board).diagonal(i)):
+            return True, board[0, board.shape[0] - 1]  # 返回反对角线的赢家
+
+    # 检查是否无空位
+    if not np.any(board == 0):
+        return True, 0  # 平局
+    return False, None  # 游戏未结束
 
 
 def get_actions(board: np.ndarray) -> list[tuple]:
@@ -202,19 +248,25 @@ def get_near_actions_with_noempty_generator(board: tuple, search_radius: int = 2
                     yield (x, y)
 
 
-def check_winning_line(line: np.ndarray) -> bool:
-    count = 1
-    for i in range(1, len(line)):
-        if line[i] == line[i - 1] and line[i] != 0:
-            count += 1
-            if count == 5:
-                return True
-        else:
-            count = 1
-    return False
-
-
 if __name__ == "__main__" and False:
+
+    def test_():
+
+        test_board = np.zeros((15, 15), dtype=int)
+        test_board[0:5, 0] = 1
+        print(is_gameover_with_state(tuple(map(tuple, test_board))))
+
+        test_board2 = np.zeros((15, 15), dtype=int)
+        test_board2[0:5, 0] = -1
+        print(is_gameover_with_state(tuple(map(tuple, test_board2))))
+
+        test_board3 = np.ones((15, 15), dtype=int)
+        # 全-1数组
+        test_board4 = -1 * np.ones((15, 15), dtype=int)
+        print(is_gameover_with_state(tuple(map(tuple, test_board3))))
+        print(is_gameover_with_state(tuple(map(tuple, test_board4))))
+
+    # test_()
 
     def is_gameover(board: np.ndarray) -> bool:
         # 检查行、列是否有赢家
