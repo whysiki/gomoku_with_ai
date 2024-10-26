@@ -10,6 +10,5 @@
 
 ```shell
 # 最好先创建虚拟环境
-
 python -m PyInstaller --onefile --console --add-data "model;model" --add-data "static;static" gomoku_with_ai.py
 ```
