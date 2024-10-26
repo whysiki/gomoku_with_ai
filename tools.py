@@ -248,350 +248,350 @@ def get_near_actions_with_noempty_generator(board: tuple, search_radius: int = 2
                     yield (x, y)
 
 
-if __name__ == "__main__" and False:
+# if __name__ == "__main__" and False:
 
-    def test_():
+#     def test_():
 
-        test_board = np.zeros((15, 15), dtype=int)
-        test_board[0:5, 0] = 1
-        print(is_gameover_with_state(tuple(map(tuple, test_board))))
+#         test_board = np.zeros((15, 15), dtype=int)
+#         test_board[0:5, 0] = 1
+#         print(is_gameover_with_state(tuple(map(tuple, test_board))))
 
-        test_board2 = np.zeros((15, 15), dtype=int)
-        test_board2[0:5, 0] = -1
-        print(is_gameover_with_state(tuple(map(tuple, test_board2))))
+#         test_board2 = np.zeros((15, 15), dtype=int)
+#         test_board2[0:5, 0] = -1
+#         print(is_gameover_with_state(tuple(map(tuple, test_board2))))
 
-        test_board3 = np.ones((15, 15), dtype=int)
-        # 全-1数组
-        test_board4 = -1 * np.ones((15, 15), dtype=int)
-        print(is_gameover_with_state(tuple(map(tuple, test_board3))))
-        print(is_gameover_with_state(tuple(map(tuple, test_board4))))
+#         test_board3 = np.ones((15, 15), dtype=int)
+#         # 全-1数组
+#         test_board4 = -1 * np.ones((15, 15), dtype=int)
+#         print(is_gameover_with_state(tuple(map(tuple, test_board3))))
+#         print(is_gameover_with_state(tuple(map(tuple, test_board4))))
 
-    # test_()
+#     # test_()
 
-    def is_gameover(board: np.ndarray) -> bool:
-        # 检查行、列是否有赢家
-        for i in range(board.shape[0]):
-            if check_winning_line(board[i, :]) or check_winning_line(board[:, i]):
-                return True
+#     def is_gameover(board: np.ndarray) -> bool:
+#         # 检查行、列是否有赢家
+#         for i in range(board.shape[0]):
+#             if check_winning_line(board[i, :]) or check_winning_line(board[:, i]):
+#                 return True
 
-        # 检查对角线
-        for i in range(-board.shape[0] + 5, board.shape[0] - 4):
-            if check_winning_line(board.diagonal(i)) or check_winning_line(
-                np.fliplr(board).diagonal(i)
-            ):
-                return True
+#         # 检查对角线
+#         for i in range(-board.shape[0] + 5, board.shape[0] - 4):
+#             if check_winning_line(board.diagonal(i)) or check_winning_line(
+#                 np.fliplr(board).diagonal(i)
+#             ):
+#                 return True
 
-        # 检查是否无空位
-        return not np.any(board == 0)
+#         # 检查是否无空位
+#         return not np.any(board == 0)
 
-    def generate_disadvantage_board(
-        direction: str, board_size=15, player_value=1, opponent_value=-1
-    ) -> np.ndarray:
-        """
-        "horizontal", "vertical", "diagonal"
-        """
+#     def generate_disadvantage_board(
+#         direction: str, board_size=15, player_value=1, opponent_value=-1
+#     ) -> np.ndarray:
+#         """
+#         "horizontal", "vertical", "diagonal"
+#         """
 
-        # 初始化棋盘
-        board = np.zeros((board_size, board_size), dtype=int)
+#         # 初始化棋盘
+#         board = np.zeros((board_size, board_size), dtype=int)
 
-        # 放置随机的对手四连子，制造劣势
-        for _ in range(3):  # 放置3组对手连子
-            while True:
-                # 随机选择一个方向（水平、垂直、对角线）
-                # direction = np.random.choice(["horizontal", "vertical", "diagonal"])
-                if direction == "horizontal":
-                    row = np.random.randint(0, board_size)
-                    col = np.random.randint(0, board_size - 4)
-                    if np.all(board[row, col : col + 4] == 0):
-                        board[row, col : col + 4] = opponent_value
-                        break
-                elif direction == "vertical":
-                    row = np.random.randint(0, board_size - 4)
-                    col = np.random.randint(0, board_size)
-                    if np.all(board[row : row + 4, col] == 0):
-                        board[row : row + 4, col] = opponent_value
-                        break
-                elif direction == "diagonal":
-                    row = np.random.randint(0, board_size - 4)
-                    col = np.random.randint(0, board_size - 4)
-                    if np.all([board[row + i, col + i] == 0 for i in range(4)]):
-                        for i in range(4):
-                            board[row + i, col + i] = opponent_value
-                        break
-                else:
-                    raise ValueError("Invalid direction")
+#         # 放置随机的对手四连子，制造劣势
+#         for _ in range(3):  # 放置3组对手连子
+#             while True:
+#                 # 随机选择一个方向（水平、垂直、对角线）
+#                 # direction = np.random.choice(["horizontal", "vertical", "diagonal"])
+#                 if direction == "horizontal":
+#                     row = np.random.randint(0, board_size)
+#                     col = np.random.randint(0, board_size - 4)
+#                     if np.all(board[row, col : col + 4] == 0):
+#                         board[row, col : col + 4] = opponent_value
+#                         break
+#                 elif direction == "vertical":
+#                     row = np.random.randint(0, board_size - 4)
+#                     col = np.random.randint(0, board_size)
+#                     if np.all(board[row : row + 4, col] == 0):
+#                         board[row : row + 4, col] = opponent_value
+#                         break
+#                 elif direction == "diagonal":
+#                     row = np.random.randint(0, board_size - 4)
+#                     col = np.random.randint(0, board_size - 4)
+#                     if np.all([board[row + i, col + i] == 0 for i in range(4)]):
+#                         for i in range(4):
+#                             board[row + i, col + i] = opponent_value
+#                         break
+#                 else:
+#                     raise ValueError("Invalid direction")
 
-        # 随机放置AI的棋子，构建防守局面
-        for _ in range(8):
-            x, y = np.random.randint(0, board_size, size=2)
-            if board[x, y] == 0:
-                board[x, y] = player_value
+#         # 随机放置AI的棋子，构建防守局面
+#         for _ in range(8):
+#             x, y = np.random.randint(0, board_size, size=2)
+#             if board[x, y] == 0:
+#                 board[x, y] = player_value
 
-        return board
+#         return board
 
-    def generate_advantage_board(
-        direction: str, board_size=15, player_value=1, opponent_value=-1
-    ) -> np.ndarray:
-        """
-        "horizontal", "vertical", "diagonal"
-        """
-        # 初始化棋盘
-        board = np.zeros((board_size, board_size), dtype=int)
+#     def generate_advantage_board(
+#         direction: str, board_size=15, player_value=1, opponent_value=-1
+#     ) -> np.ndarray:
+#         """
+#         "horizontal", "vertical", "diagonal"
+#         """
+#         # 初始化棋盘
+#         board = np.zeros((board_size, board_size), dtype=int)
 
-        # 放置AI即将五连子的情况
-        for _ in range(3):  # 放置3组AI四连子
-            while True:
-                direction = np.random.choice(["horizontal", "vertical", "diagonal"])
-                if direction == "horizontal":
-                    row = np.random.randint(0, board_size)
-                    col = np.random.randint(0, board_size - 4)
-                    if np.all(board[row, col : col + 4] == 0):
-                        board[row, col : col + 4] = player_value
-                        break
-                elif direction == "vertical":
-                    row = np.random.randint(0, board_size - 4)
-                    col = np.random.randint(0, board_size)
-                    if np.all(board[row : row + 4, col] == 0):
-                        board[row : row + 4, col] = player_value
-                        break
-                elif direction == "diagonal":
-                    row = np.random.randint(0, board_size - 4)
-                    col = np.random.randint(0, board_size - 4)
-                    if np.all([board[row + i, col + i] == 0 for i in range(4)]):
-                        for i in range(4):
-                            board[row + i, col + i] = player_value
-                        break
-                else:
-                    raise ValueError("Invalid direction")
+#         # 放置AI即将五连子的情况
+#         for _ in range(3):  # 放置3组AI四连子
+#             while True:
+#                 direction = np.random.choice(["horizontal", "vertical", "diagonal"])
+#                 if direction == "horizontal":
+#                     row = np.random.randint(0, board_size)
+#                     col = np.random.randint(0, board_size - 4)
+#                     if np.all(board[row, col : col + 4] == 0):
+#                         board[row, col : col + 4] = player_value
+#                         break
+#                 elif direction == "vertical":
+#                     row = np.random.randint(0, board_size - 4)
+#                     col = np.random.randint(0, board_size)
+#                     if np.all(board[row : row + 4, col] == 0):
+#                         board[row : row + 4, col] = player_value
+#                         break
+#                 elif direction == "diagonal":
+#                     row = np.random.randint(0, board_size - 4)
+#                     col = np.random.randint(0, board_size - 4)
+#                     if np.all([board[row + i, col + i] == 0 for i in range(4)]):
+#                         for i in range(4):
+#                             board[row + i, col + i] = player_value
+#                         break
+#                 else:
+#                     raise ValueError("Invalid direction")
 
-        # 放置随机的对手棋子，构建防守局面
-        for _ in range(8):
-            x, y = np.random.randint(0, board_size, size=2)
-            if board[x, y] == 0:
-                board[x, y] = opponent_value
+#         # 放置随机的对手棋子，构建防守局面
+#         for _ in range(8):
+#             x, y = np.random.randint(0, board_size, size=2)
+#             if board[x, y] == 0:
+#                 board[x, y] = opponent_value
 
-        return board
+#         return board
 
-    def test_win():
-        board = np.zeros((15, 15), dtype=int)
-        board[0, 0] = 1
-        board[1, 1] = 1
-        board[2, 2] = 1
-        board[3, 3] = 1
-        board[4, 4] = 1
-        assert is_gameover(board)
-        board[0, 0] = 0
-        board[1, 1] = 0
-        board[2, 2] = 0
-        board[3, 3] = 0
-        board[4, 4] = 0
-        assert not is_gameover(board)
-        print("胜利测试通过")
-        del board
+#     def test_win():
+#         board = np.zeros((15, 15), dtype=int)
+#         board[0, 0] = 1
+#         board[1, 1] = 1
+#         board[2, 2] = 1
+#         board[3, 3] = 1
+#         board[4, 4] = 1
+#         assert is_gameover(board)
+#         board[0, 0] = 0
+#         board[1, 1] = 0
+#         board[2, 2] = 0
+#         board[3, 3] = 0
+#         board[4, 4] = 0
+#         assert not is_gameover(board)
+#         print("胜利测试通过")
+#         del board
 
-    def test_actions():
-        board = np.zeros((15, 15), dtype=int)
-        board[0, 0] = 1
-        board[1, 1] = 1
-        board[2, 2] = 1
-        board[3, 3] = 1
-        board[4, 4] = 1
-        assert len(get_actions(board)) == 225 - 5
-        await_actions = get_near_actions(tuple(map(tuple, board)), (0, 0))
-        # print(await_actions)
-        assert (
-            len(await_actions) == 8 - 2
-            and (1, 1) not in await_actions
-            and (2, 2) not in await_actions
-        )
-        del board
-        # print("行动测试通过")
+#     def test_actions():
+#         board = np.zeros((15, 15), dtype=int)
+#         board[0, 0] = 1
+#         board[1, 1] = 1
+#         board[2, 2] = 1
+#         board[3, 3] = 1
+#         board[4, 4] = 1
+#         assert len(get_actions(board)) == 225 - 5
+#         await_actions = get_near_actions(tuple(map(tuple, board)), (0, 0))
+#         # print(await_actions)
+#         assert (
+#             len(await_actions) == 8 - 2
+#             and (1, 1) not in await_actions
+#             and (2, 2) not in await_actions
+#         )
+#         del board
+#         # print("行动测试通过")
 
-    def test_score():
-        board1 = np.zeros((15, 15), dtype=int)
-        predictDict = create_pattern_dict(1)
-        board1[0, 0] = 1
-        board1[1, 1] = 1
-        board1[2, 2] = 1
-        board1[3, 3] = 1
-        board1[4, 4] = 1
-        print(evaluate_board(board1, predictDict))
-        board2 = np.zeros((15, 15), dtype=int)
-        # 测试死局
-        board2[0, 0] = -1
-        board2[1, 1] = -1
-        board2[2, 2] = -1
-        board2[3, 3] = -1
-        board2[4, 4] = -1
-        print(evaluate_board(board2, predictDict))
-        # 测试活三
-        board3 = np.zeros((15, 15), dtype=int)
-        board3[0, 0] = 1
-        board3[1, 1] = 1
-        board3[2, 2] = 1
-        board3[3, 3] = 0
-        board3[4, 4] = 1
-        print(evaluate_board(board3, predictDict))
-        del board1, board2, board3
+#     def test_score():
+#         board1 = np.zeros((15, 15), dtype=int)
+#         predictDict = create_pattern_dict(1)
+#         board1[0, 0] = 1
+#         board1[1, 1] = 1
+#         board1[2, 2] = 1
+#         board1[3, 3] = 1
+#         board1[4, 4] = 1
+#         print(evaluate_board(board1, predictDict))
+#         board2 = np.zeros((15, 15), dtype=int)
+#         # 测试死局
+#         board2[0, 0] = -1
+#         board2[1, 1] = -1
+#         board2[2, 2] = -1
+#         board2[3, 3] = -1
+#         board2[4, 4] = -1
+#         print(evaluate_board(board2, predictDict))
+#         # 测试活三
+#         board3 = np.zeros((15, 15), dtype=int)
+#         board3[0, 0] = 1
+#         board3[1, 1] = 1
+#         board3[2, 2] = 1
+#         board3[3, 3] = 0
+#         board3[4, 4] = 1
+#         print(evaluate_board(board3, predictDict))
+#         del board1, board2, board3
 
-    # 测试平局
-    def test_both_win():
-        board = np.random.randint(-1, 2, (15, 15))
-        # print(board)
-        assert is_gameover(board), "平局测试未通过"
-        print("平局测试通过")
-        print(evaluate_board(board, create_pattern_dict(1)))
-        del board
+#     # 测试平局
+#     def test_both_win():
+#         board = np.random.randint(-1, 2, (15, 15))
+#         # print(board)
+#         assert is_gameover(board), "平局测试未通过"
+#         print("平局测试通过")
+#         print(evaluate_board(board, create_pattern_dict(1)))
+#         del board
 
-    def test_advantage_board():
-        for _ in range(100):
-            board = generate_advantage_board("horizontal")
-            score = evaluate_board(board, create_pattern_dict(1))
-            print(f"Test advantage board: {score}")
-            try:
-                assert score > 0, "优势局面测试未通过"
-            except AssertionError as e:
+#     def test_advantage_board():
+#         for _ in range(100):
+#             board = generate_advantage_board("horizontal")
+#             score = evaluate_board(board, create_pattern_dict(1))
+#             print(f"Test advantage board: {score}")
+#             try:
+#                 assert score > 0, "优势局面测试未通过"
+#             except AssertionError as e:
 
-                print(board)
-                raise e
-        for _ in range(100):
-            board = generate_advantage_board("vertical")
-            score = evaluate_board(board, create_pattern_dict(1))
-            print(f"Test advantage board: {score}")
-            try:
-                assert score > 0, "优势局面测试未通过"
-            except AssertionError as e:
+#                 print(board)
+#                 raise e
+#         for _ in range(100):
+#             board = generate_advantage_board("vertical")
+#             score = evaluate_board(board, create_pattern_dict(1))
+#             print(f"Test advantage board: {score}")
+#             try:
+#                 assert score > 0, "优势局面测试未通过"
+#             except AssertionError as e:
 
-                print(board)
-                raise e
-        for _ in range(100):
-            board = generate_advantage_board("diagonal")
-            score = evaluate_board(board, create_pattern_dict(1))
-            print(f"Test advantage board: {score}")
-            try:
-                assert score > 0, "优势局面测试未通过"
-            except AssertionError as e:
+#                 print(board)
+#                 raise e
+#         for _ in range(100):
+#             board = generate_advantage_board("diagonal")
+#             score = evaluate_board(board, create_pattern_dict(1))
+#             print(f"Test advantage board: {score}")
+#             try:
+#                 assert score > 0, "优势局面测试未通过"
+#             except AssertionError as e:
 
-                print(board)
-                raise e
-        print("优势局面测试通过")
+#                 print(board)
+#                 raise e
+#         print("优势局面测试通过")
 
-    def test_disadvantage_board():
-        for _ in range(100):
-            board = generate_disadvantage_board("horizontal")
-            score = evaluate_board(board, create_pattern_dict(1))
-            print(f"Test advantage board: {score}")
-            try:
-                assert score < 0, "劣势局面测试通过"
-            except AssertionError as e:
+#     def test_disadvantage_board():
+#         for _ in range(100):
+#             board = generate_disadvantage_board("horizontal")
+#             score = evaluate_board(board, create_pattern_dict(1))
+#             print(f"Test advantage board: {score}")
+#             try:
+#                 assert score < 0, "劣势局面测试通过"
+#             except AssertionError as e:
 
-                print(board)
-                raise e
-        for _ in range(100):
-            board = generate_disadvantage_board("vertical")
-            score = evaluate_board(board, create_pattern_dict(1))
-            print(f"Test advantage board: {score}")
-            try:
-                assert score < 0, "劣势局面测试通过"
-            except AssertionError as e:
+#                 print(board)
+#                 raise e
+#         for _ in range(100):
+#             board = generate_disadvantage_board("vertical")
+#             score = evaluate_board(board, create_pattern_dict(1))
+#             print(f"Test advantage board: {score}")
+#             try:
+#                 assert score < 0, "劣势局面测试通过"
+#             except AssertionError as e:
 
-                print(board)
-                raise e
-        for _ in range(100):
-            board = generate_disadvantage_board("diagonal")
-            score = evaluate_board(board, create_pattern_dict(1))
-            print(f"Test advantage board: {score}")
-            try:
-                assert score < 0, "劣势局面测试通过"
-            except AssertionError as e:
+#                 print(board)
+#                 raise e
+#         for _ in range(100):
+#             board = generate_disadvantage_board("diagonal")
+#             score = evaluate_board(board, create_pattern_dict(1))
+#             print(f"Test advantage board: {score}")
+#             try:
+#                 assert score < 0, "劣势局面测试通过"
+#             except AssertionError as e:
 
-                print(board)
-                raise e
-        print("劣势局面测试通过")
+#                 print(board)
+#                 raise e
+#         print("劣势局面测试通过")
 
-    def test_get_near_actions():
-        # 测试用例 1: 空棋盘
-        board = np.zeros((15, 15), dtype=int)
-        actions = get_near_actions(tuple(map(tuple, board)), None)
-        try:
-            assert (
-                len(actions) == 15 * 15
-            ), "Test 1 failed: Should return all empty positions"
-        except AssertionError as e:
-            print(actions, len(actions))
-            raise e
+#     def test_get_near_actions():
+#         # 测试用例 1: 空棋盘
+#         board = np.zeros((15, 15), dtype=int)
+#         actions = get_near_actions(tuple(map(tuple, board)), None)
+#         try:
+#             assert (
+#                 len(actions) == 15 * 15
+#             ), "Test 1 failed: Should return all empty positions"
+#         except AssertionError as e:
+#             print(actions, len(actions))
+#             raise e
 
-        # 测试用例 2: 有最后一步的情况下
-        last_move = (7, 7)
-        actions = get_near_actions(tuple(map(tuple, board)), last_move, search_radius=2)
-        expected_actions_count = (5 * 5) - 1  # 5x5 grid minus the last move position
-        try:
-            assert (
-                len(actions) == expected_actions_count
-            ), "Test 2 failed: Should return 24 near positions"
-        except AssertionError as e:
-            print(actions, len(actions))
-            raise e
+#         # 测试用例 2: 有最后一步的情况下
+#         last_move = (7, 7)
+#         actions = get_near_actions(tuple(map(tuple, board)), last_move, search_radius=2)
+#         expected_actions_count = (5 * 5) - 1  # 5x5 grid minus the last move position
+#         try:
+#             assert (
+#                 len(actions) == expected_actions_count
+#             ), "Test 2 failed: Should return 24 near positions"
+#         except AssertionError as e:
+#             print(actions, len(actions))
+#             raise e
 
-        # 测试用例 3: 边缘情况
-        last_move = (0, 0)
-        actions = get_near_actions(tuple(map(tuple, board)), last_move, search_radius=1)
-        assert len(actions) == 3, "Test 3 failed: Should return 3 near positions"
+#         # 测试用例 3: 边缘情况
+#         last_move = (0, 0)
+#         actions = get_near_actions(tuple(map(tuple, board)), last_move, search_radius=1)
+#         assert len(actions) == 3, "Test 3 failed: Should return 3 near positions"
 
-        last_move = (14, 14)
-        actions = get_near_actions(tuple(map(tuple, board)), last_move, search_radius=1)
-        assert len(actions) == 3, "Test 4 failed: Should return 3 near positions"
+#         last_move = (14, 14)
+#         actions = get_near_actions(tuple(map(tuple, board)), last_move, search_radius=1)
+#         assert len(actions) == 3, "Test 4 failed: Should return 3 near positions"
 
-        # 测试用例 4: 棋盘上有棋子
-        board = np.zeros((15, 15), dtype=int)
-        board[6, 6] = 1
-        board[7, 6] = -1
-        board[7, 8] = 1
-        last_move = (7, 7)
-        actions = get_near_actions(tuple(map(tuple, board)), last_move, search_radius=2)
-        expected_actions_count = 21  # 25 - 4 occupied positions
-        try:
-            assert (
-                len(actions) == expected_actions_count
-            ), "Test 5 failed: Should return available positions correctly"
-        except AssertionError as e:
-            print(actions, len(actions))
-            raise e
+#         # 测试用例 4: 棋盘上有棋子
+#         board = np.zeros((15, 15), dtype=int)
+#         board[6, 6] = 1
+#         board[7, 6] = -1
+#         board[7, 8] = 1
+#         last_move = (7, 7)
+#         actions = get_near_actions(tuple(map(tuple, board)), last_move, search_radius=2)
+#         expected_actions_count = 21  # 25 - 4 occupied positions
+#         try:
+#             assert (
+#                 len(actions) == expected_actions_count
+#             ), "Test 5 failed: Should return available positions correctly"
+#         except AssertionError as e:
+#             print(actions, len(actions))
+#             raise e
 
-        # 测试用例 5: 没有最后一步
-        actions = get_near_actions(tuple(map(tuple, board)), None)
-        assert (
-            len(actions) == 15 * 15 - 3
-        ), "Test 6 failed: Should return all empty positions minus occupied ones"
+#         # 测试用例 5: 没有最后一步
+#         actions = get_near_actions(tuple(map(tuple, board)), None)
+#         assert (
+#             len(actions) == 15 * 15 - 3
+#         ), "Test 6 failed: Should return all empty positions minus occupied ones"
 
-        print("All tests passed!")
+#         print("All tests passed!")
 
-    def test_get_near_actions_with_noempty():
-        board = np.zeros((15, 15), dtype=int)
-        board[0, 0] = 1
-        board[1, 1] = 1
-        board[2, 2] = 1
-        board[3, 3] = 1
-        board[4, 4] = 1
-        print("Empty positions:")
-        print(len(np.argwhere(board == 0)))
-        # print(board)
-        actions = get_near_actions_with_noempty(tuple(map(tuple, board)), 1)
-        assert any(
-            [board[x, y] == 0 for x, y in actions]
-        ), "Test 1 failed: Should return 24 near positions"
-        print(actions, len(actions))
-        # print(board)
-        # print([tuple(x) for x in np.argwhere(board != 0)])
-        # assert len(actions) == 24, "Test 1 failed: Should return 24 near positions"
-        del board
+#     def test_get_near_actions_with_noempty():
+#         board = np.zeros((15, 15), dtype=int)
+#         board[0, 0] = 1
+#         board[1, 1] = 1
+#         board[2, 2] = 1
+#         board[3, 3] = 1
+#         board[4, 4] = 1
+#         print("Empty positions:")
+#         print(len(np.argwhere(board == 0)))
+#         # print(board)
+#         actions = get_near_actions_with_noempty(tuple(map(tuple, board)), 1)
+#         assert any(
+#             [board[x, y] == 0 for x, y in actions]
+#         ), "Test 1 failed: Should return 24 near positions"
+#         print(actions, len(actions))
+#         # print(board)
+#         # print([tuple(x) for x in np.argwhere(board != 0)])
+#         # assert len(actions) == 24, "Test 1 failed: Should return 24 near positions"
+#         del board
 
-    test_win()
-    test_actions()
-    test_score()
-    test_both_win()
-    test_advantage_board()
-    test_disadvantage_board()
-    # test_get_near_actions()
-    # print(init_board)
-    test_get_near_actions_with_noempty()
+#     test_win()
+#     test_actions()
+#     test_score()
+#     test_both_win()
+#     test_advantage_board()
+#     test_disadvantage_board()
+#     # test_get_near_actions()
+#     # print(init_board)
+#     test_get_near_actions_with_noempty()
