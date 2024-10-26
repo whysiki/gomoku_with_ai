@@ -9,3 +9,4 @@
 **/*.pyc
 **/*.exe
 **/*.rar
+/gomoku_rl/__pycache__
