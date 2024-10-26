@@ -10,3 +10,4 @@
 **/*.exe
 **/*.rar
 /gomoku_rl/__pycache__
+**/*.log
