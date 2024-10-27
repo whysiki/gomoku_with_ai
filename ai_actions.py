@@ -83,7 +83,7 @@ class FoolishGomokuAI:
         return score
 
     def get_best_action(self, board: np.ndarray) -> tuple[int, int]:
-        logger.debug("Improved AI is thinking...")
+        logger.debug("Foolish AI is thinking...")
         best_score = -float("inf")
         best_move = None
         for x in range(board.shape[0]):
