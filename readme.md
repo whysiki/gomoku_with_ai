@@ -1,3 +1,8 @@
+## Respository URL
+
+- [GomokuAI](https://github.com/whysiki/gomoku_with_ai.git)
+
+
 ## 开发框架
 
 - PyME [pyme](https://www.py-me.com/)
