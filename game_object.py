@@ -208,7 +208,7 @@ class GomokuBoard:
         """
         # 检查是否越界
         if not (0 <= index_x < self.board_size and 0 <= index_y < self.board_size):
-            logger.error("当前位置: {}={} 超出棋盘范围".format((index_x, index_y)))
+            logger.error("当前位置: {} 超出棋盘范围".format((index_x, index_y)))
             return
         text_x, text_y = self.get_coordinate_text_for_index(index_x, index_y)
         fill: str = self.current_player.color
