@@ -1,7 +1,7 @@
 import numpy as np
 import random
-import numpy as np
 from loguru import logger
+from functools import lru_cache
 
 
 class FoolishGomokuAI:
@@ -19,7 +19,9 @@ class FoolishGomokuAI:
             (0, 3): -100,
             (0, 4): -1000,
         }
+        self.center_weight = 5
 
+    # @lru_cache(maxsize=None)
     def evaluate_board(self, board: np.ndarray) -> int:
         score = 0
         for row in board:
@@ -27,6 +29,18 @@ class FoolishGomokuAI:
         for col in board.T:
             score += self._evaluate_line(col, self.value, self.enemy_value)
         score += self._evaluate_intersectLines(board, self.value, self.enemy_value)
+
+        center = board.shape[0] // 2
+        for x in range(board.shape[0]):
+            for y in range(board.shape[1]):
+                if board[y, x] == self.value:
+                    score += self.center_weight / (
+                        abs(center - x) + abs(center - y) + 1
+                    )
+                elif board[y, x] == self.enemy_value:
+                    score -= self.center_weight / (
+                        abs(center - x) + abs(center - y) + 1
+                    )
 
         return score
 
@@ -69,7 +83,7 @@ class FoolishGomokuAI:
         return score
 
     def get_best_action(self, board: np.ndarray) -> tuple[int, int]:
-        logger.debug("Foolish AI is thinking...")
+        logger.debug("Improved AI is thinking...")
         best_score = -float("inf")
         best_move = None
         for x in range(board.shape[0]):
