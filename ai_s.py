@@ -92,7 +92,7 @@ class AlphaBetaGomokuAI:
                     print(
                         f"[bold red]极大玩家赢,action: {action},depth :{depth}[/bold red]"
                     )
-                    eval_ = np.inf  # 如果下了之后就赢了，直接返回最大值
+                    eval_ = 100000 * 9999  # 如果下了之后就赢了，直接返回最大值
                 else:
                     eval_ = self.alphabeta(
                         board_state, depth - 1, alpha, beta, False
@@ -121,7 +121,7 @@ class AlphaBetaGomokuAI:
                     print(
                         f"[bold red]极小玩家赢,action: {action},depth :{depth}[/bold red]"
                     )
-                    eval_ = -np.inf  # 如果下了之后就输了，直接返回最小值
+                    eval_ = -100000 * 9999  # 如果下了之后就输了，直接返回最小值
                 else:
                     eval_ = self.alphabeta(board_state, depth - 1, alpha, beta, True)
                 board_state[action[0]][action[1]] = temp  # 撤销落子
