@@ -166,7 +166,7 @@ def is_gameover_with_state(board: tuple) -> tuple[bool, int]:
             return True, board[0, i]  # 返回列的赢家
 
     ## 检查对角线
-    for i in range(-board.shape[0] + 1, board.shape[0]):  # 注意范围调整
+    for i in range(-board.shape[0] + 5, board.shape[0] - 4):
         if check_winning_line(board.diagonal(i)):
             return True, board[0, 0]  # 返回对角线的赢家
         if check_winning_line(np.fliplr(board).diagonal(i)):

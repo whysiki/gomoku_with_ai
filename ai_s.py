@@ -89,9 +89,9 @@ class AlphaBetaGomokuAI:
                 if check_over_tuple[
                     0
                 ]:  # and check_over_tuple[1] > 0  # 如果下了之后就赢了，直接返回最大值, 极大玩家赢
-                    print(
-                        f"[bold red]极大玩家赢,action: {action},depth :{depth}[/bold red]"
-                    )
+                    # print(
+                    #     f"[bold red]极大玩家赢,action: {action},depth :{depth}[/bold red]"
+                    # )
                     eval_ = np.inf  # 如果下了之后就赢了，直接返回最大值
                 else:
                     eval_ = self.alphabeta(
@@ -101,7 +101,7 @@ class AlphaBetaGomokuAI:
                 if eval_ > max_val:
                     max_val = eval_
                     if depth == self.depth:  # 只在最外层记录最佳落子
-                        print(f"Update best move: {action}, max_val: {max_val}")
+                        # print(f"Update best move: {action}, max_val: {max_val}")
                         self.best_move = action
                 alpha = max(alpha, max_val)
                 if beta <= alpha:
@@ -118,9 +118,9 @@ class AlphaBetaGomokuAI:
                     self.board_to_tuple(board_state)
                 )
                 if check_over_tuple[0]:  # and check_over_tuple[1] < 0:  # 极小玩家赢
-                    print(
-                        f"[bold red]极小玩家赢,action: {action},depth :{depth}[/bold red]"
-                    )
+                    # print(
+                    #     f"[bold red]极小玩家赢,action: {action},depth :{depth}[/bold red]"
+                    # )
                     eval_ = -np.inf  # 如果下了之后就输了，直接返回最小值
                 else:
                     eval_ = self.alphabeta(board_state, depth - 1, alpha, beta, True)
@@ -128,7 +128,7 @@ class AlphaBetaGomokuAI:
                 if eval_ <= min_val:
                     min_val = eval_
                     if depth == self.depth:  # 只在最外层记录最佳落子
-                        print(f"Update best move: {action}, min_val: {min_val}")
+                        # print(f"Update best move: {action}, min_val: {min_val}")
                         self.best_move = action
                 beta = min(beta, min_val)
                 if beta <= alpha:
