@@ -127,6 +127,8 @@ class GomokuBoard:
         self.current_player = None
         self.last_player = None
         self.last_piece_color = None
+        # 取消绑定事件
+        self.__canvas.unbind("<Button-1>")
         logger.info("棋盘已清空")
 
     def reset_status_matrix(self):
