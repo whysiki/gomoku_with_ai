@@ -1,7 +1,6 @@
 import numpy as np
 import random
 from loguru import logger
-from functools import lru_cache
 
 
 class FoolishGomokuAI:
@@ -21,7 +20,6 @@ class FoolishGomokuAI:
         }
         self.center_weight = 5
 
-    # @lru_cache(maxsize=None)
     def evaluate_board(self, board: np.ndarray) -> int:
         score = 0
         for row in board:

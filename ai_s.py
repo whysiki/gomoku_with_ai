@@ -5,13 +5,14 @@ from tools import (
     evaluate_board,
     is_gameover,
     get_near_actions,
-    get_near_actions_with_noempty,
+    # get_near_actions_with_noempty,
     get_near_actions_with_noempty_generator,
     is_gameover_with_state,
 )
 import sys
 from loguru import logger
-from rich import print
+
+# from rich import print
 from functools import lru_cache
 import hashlib
 
