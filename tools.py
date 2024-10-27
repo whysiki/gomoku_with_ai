@@ -8,10 +8,10 @@ def create_pattern_dict(isto_normalization: bool = False) -> dict:
     # x 为 -1 表示对手，x 为 1 表示己方
     for x in [-1, 1]:
         y = -x  # y为对手棋子的表示
-        patternDict[(x, x, x, x, x)] = 100000 * 99999 * x  # 连五
-        patternDict[(0, x, x, x, x, 0)] = 100 * 100000 * x  # 活四
-        # patternDict[(x, x, x, x, x)] = 100000 * 100 * x  # 连五
-        # patternDict[(0, x, x, x, x, 0)] = 10 * 100000 * x  # 活四
+        # patternDict[(x, x, x, x, x)] = 100000 * 99999 * x  # 连五
+        # patternDict[(0, x, x, x, x, 0)] = 100 * 100000 * x  # 活四
+        patternDict[(x, x, x, x, x)] = 100000 * 100 * x  # 连五
+        patternDict[(0, x, x, x, x, 0)] = 10 * 100000 * x  # 活四
         patternDict[(0, x, x, x, 0, x, 0)] = 100000 * x  # 跳四
         patternDict[(0, x, 0, x, x, x, 0)] = 100000 * x  # 跳四
         patternDict[(0, x, x, 0, x, x, 0)] = 100000 * x  # 跳四
